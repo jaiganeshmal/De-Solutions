@@ -1,0 +1,128 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaLinkedinIn,
+  FaInstagram,
+} from "react-icons/fa";
+
+const Footer = () => {
+  return (
+    <footer className="relative bg-gradient-to-r from-[#141414] via-[#1f1f1f] to-[#141414] text-gray-300 pt-16 pb-8">
+      <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
+        {/* Logo & About */}
+        <div>
+          <h2 className="text-3xl font-extrabold text-white mb-5 tracking-wide">
+            De Solutions
+          </h2>
+          <p className="text-sm leading-relaxed text-gray-400 max-w-xs">
+            Empowering businesses with next-gen digital transformation.  
+            Let’s build innovation together 🚀
+          </p>
+        </div>
+
+        {/* Quick Links */}
+        <div>
+          <h3 className="text-lg font-semibold text-white mb-5 relative after:content-[''] after:block after:w-12 after:h-1 after:bg-[#A92570] after:mt-2">
+            Quick Links
+          </h3>
+          <ul className="space-y-3 text-sm">
+            <li>
+              <Link
+                to="/"
+                className="hover:text-[#A92570] transition duration-300"
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/about"
+                className="hover:text-[#A92570] transition duration-300"
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/services"
+                className="hover:text-[#A92570] transition duration-300"
+              >
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/industries"
+                className="hover:text-[#A92570] transition duration-300"
+              >
+                Industries
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/career"
+                className="hover:text-[#A92570] transition duration-300"
+              >
+                Career
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/contact"
+                className="hover:text-[#A92570] transition duration-300"
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        {/* Contact Info */}
+        <div>
+          <h3 className="text-lg font-semibold text-white mb-5 relative after:content-[''] after:block after:w-12 after:h-1 after:bg-[#A92570] after:mt-2">
+            Contact
+          </h3>
+          <ul className="space-y-2 text-sm text-gray-400">
+            <li>📍 Karachi, Pakistan</li>
+            <li>📞 +92 3088005965</li>
+            <li>📞 UAN: +92-21-111-282-692</li>
+            <li>✉️ sales@de2solutions.com</li>
+          </ul>
+        </div>
+
+        {/* Social Media */}
+        <div>
+          <h3 className="text-lg font-semibold text-white mb-5 relative after:content-[''] after:block after:w-12 after:h-1 after:bg-[#A92570] after:mt-2">
+            Follow Us
+          </h3>
+          <div className="flex gap-4">
+            {[
+              { Icon: FaFacebookF, link: "#" },
+              { Icon: FaTwitter, link: "#" },
+              { Icon: FaLinkedinIn, link: "#" },
+              { Icon: FaInstagram, link: "#" },
+            ].map(({ Icon, link }, idx) => (
+              <a
+                key={idx}
+                href={link}
+                className="w-11 h-11 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-gray-300 hover:text-white hover:bg-[#A92570] hover:border-[#A92570] transition duration-300 transform hover:scale-110 shadow-md"
+              >
+                <Icon />
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom Bar */}
+      <div className="border-t border-gray-700 mt-12 pt-6 text-center text-sm text-gray-500">
+        © {new Date().getFullYear()}{" "}
+        <span className="text-white font-semibold">De Solutions</span>. All Rights Reserved.
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
