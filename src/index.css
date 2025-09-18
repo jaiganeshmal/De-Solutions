@@ -5,3 +5,22 @@
 *{
       font-family: "Roboto", sans-serif;
 }
+
+/* Dots default */
+.slick-dots li button:before {
+  color: white !important;      /* White color */
+  opacity: 1;        /* Fully visible */
+  font-size: 16px;   /* Size bada kiya */
+}
+
+/* Active dot */
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  opacity: 1;
+  font-size: 16px;
+}
+
+/* Dots container spacing */
+.slick-dots {
+  bottom: -25px; /* Slider ke neeche thoda gap */
+}

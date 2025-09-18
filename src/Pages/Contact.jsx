@@ -1,9 +1,26 @@
-import React from 'react'
+// src/pages/Contact.jsx
+import React from "react";
+import { assets } from "../assets/global";
+import HeroSection from "../Custom Component/HeroSection";
+import ContactInfo from "../Components/ContactInfo";
+import ContactForm from "../Components/ContactForm";
+import Locations from "../Components/Locations";
 
 const Contact = () => {
   return (
-    <div className='bg-black/60 h-screen'>Contact</div>
-  )
-}
+    <div className="w-full">
+      {/* Hero Section */}
+      <HeroSection
+        heading="Contact Us"
+        text="Contact our tech professionals, and together let's lead the world towards digital disruption."
+        backgroundImage={assets.image40}
+      />
 
-export default Contact
+      <ContactInfo />
+      <ContactForm />
+      <Locations />
+    </div>
+  );
+};
+
+export default Contact;
