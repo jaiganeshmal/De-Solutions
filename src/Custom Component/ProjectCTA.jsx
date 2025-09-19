@@ -13,7 +13,7 @@ const ProjectCTA = ({
       <div className="container mx-auto px-12 flex flex-col lg:flex-row justify-around items-center gap-6">
         
         {/* Left Text */}
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-center lg:text-left">
+        <h2 className="text-5xl md:text-5xl lg:text-5xl font-extrabold text-center lg:text-left">
           {heading.split(highlight)[0]}
           <span className="text-[#0DACAF]">{highlight}</span>
           {heading.split(highlight)[1]}

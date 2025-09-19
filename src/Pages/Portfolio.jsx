@@ -1,9 +1,23 @@
-import React from 'react'
+// src/pages/PortfolioPage.jsx
+import React from "react";
+import HeroSection from "../Custom Component/HeroSection";
+import { assets } from "../assets/global";
+import PortfolioProjects from "../Components/PortfolioProjects";
 
 const Portfolio = () => {
   return (
-    <div className='bg-black/60 h-screen'>Portfolio</div>
-  )
-}
+    <>
+      {/* Hero Section */}
+      <HeroSection
+        heading="Our Portfolio"
+        text="Discover the innovative projects we have delivered to transform businesses across industries."
+        backgroundImage={assets.image30} // background image tum apne hisaab se change kar sakte ho
+      />
+      <PortfolioProjects />
 
-export default Portfolio
+
+    </>
+  );
+};
+
+export default Portfolio;
