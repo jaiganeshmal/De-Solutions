@@ -7,7 +7,6 @@ import {
   FaFacebook,
   FaInstagram,
   FaLinkedin,
-  FaTwitter,
 } from "react-icons/fa";
 
 const ContactInfo = () => {
@@ -86,15 +85,6 @@ const ContactInfo = () => {
                 <span className="text-lg font-medium">LinkedIn</span>
               </a>
 
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 bg-[#EAFFFD] px-6 py-5 rounded-lg hover:bg-[#d5f7f4] transition"
-              >
-                <FaTwitter className="text-sky-500 w-7 h-7" />
-                <span className="text-lg font-medium">Twitter</span>
-              </a>
             </div>
           </div>
         </div>

@@ -53,7 +53,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 `${
                   isActive
-                    ? "underline decoration-2 decoration-red-600 underline-offset-4"
+                    ? "underline decoration-2 decoration-[#0DACAF] underline-offset-4"
                     : ""
                 } cursor-pointer text-lg font-semibold text-white`
               }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HeroSection from "../Custom Component/HeroSection";
 import { assets } from "../assets/global";
 import AboutContent from "../Components/AboutContent";
@@ -8,6 +8,12 @@ import ExploreProducts from "../Components/ExploreProducts";
 import ContactUs from "../Components/ContactUs";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }, [])
   return (
     <>
       <HeroSection
@@ -18,7 +24,7 @@ const About = () => {
               to deliver platforms that empower industries and create value for customers."
       />
       <AboutContent />
-      <AtAGlance /> 
+      <AtAGlance />
       <CeoMessage />
       <ExploreProducts />
       <ContactUs />

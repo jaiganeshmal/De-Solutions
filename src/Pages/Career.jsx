@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { assets } from "../assets/global";
 import HeroSection from "../Custom Component/HeroSection";
 import RecruitmentProcess from "../Components/RecruitmentProcess";
 import CareerApplication from "../Components/CareerApplication";
+import HireDevelopers from "../Components/HireDevelopers";
+import OurPerks from "../Components/OurPerks";
+import WhyChoose from "../Components/WhyChoose";
+import FeaturesSection from "../Components/FeaturesSection";
 
 const Career = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }, [])
   return (
     <>
       <HeroSection
@@ -19,6 +29,10 @@ const Career = () => {
       />
       <RecruitmentProcess />
       <CareerApplication />
+      <HireDevelopers />
+      <OurPerks />
+      <WhyChoose />
+      <FeaturesSection />
     </>
   );
 };

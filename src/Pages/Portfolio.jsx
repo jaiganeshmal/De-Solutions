@@ -1,10 +1,16 @@
 // src/pages/PortfolioPage.jsx
-import React from "react";
+import React, { useEffect } from "react";
 import HeroSection from "../Custom Component/HeroSection";
 import { assets } from "../assets/global";
 import PortfolioProjects from "../Components/PortfolioProjects";
 
 const Portfolio = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }, [])
   return (
     <>
       {/* Hero Section */}

@@ -9,9 +9,12 @@ import ContactUs from "../Components/ContactUs";
 
 const Home = () => {
 
-  useEffect(()=>{
-    
-  },[])
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }, [])
   return (
     <>
       <Header />

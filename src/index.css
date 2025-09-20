@@ -4,6 +4,7 @@
 
 *{
       font-family: "Roboto", sans-serif;
+      scroll-behavior: smooth;
 }
 
 /* Dots default */
@@ -23,4 +24,68 @@
 /* Dots container spacing */
 .slick-dots {
   bottom: -25px; /* Slider ke neeche thoda gap */
+}
+
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px; /* slim scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* track transparent */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #0DACAF; /* teal color */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none; /* hide top/bottom arrows */
+}
+
+/* For Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #0DACAF transparent;
+}
+
+/* Hover Border Animation (Top -> Right -> Bottom -> Left) */
+.perk-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2px solid transparent;
+  pointer-events: none;
+  border-radius: 12px; /* same as rounded-xl */
+}
+
+.perk-box:hover::before {
+  border-color: #0DACAF;
+  animation: border-draw 0.8s linear forwards;
+}
+
+@keyframes border-draw {
+  0% {
+    border-top-color: #0DACAF;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  25% {
+    border-top-color: #0DACAF;
+    border-right-color: #0DACAF;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  50% {
+    border-top-color: #0DACAF;
+    border-right-color: #0DACAF;
+    border-bottom-color: #0DACAF;
+    border-left-color: transparent;
+  }
+  100% {
+    border-color: #0DACAF;
+  }
 }

@@ -1,5 +1,5 @@
 // src/pages/Contact.jsx
-import React from "react";
+import React, { useEffect } from "react";
 import { assets } from "../assets/global";
 import HeroSection from "../Custom Component/HeroSection";
 import ContactInfo from "../Components/ContactInfo";
@@ -7,6 +7,12 @@ import ContactForm from "../Components/ContactForm";
 import Locations from "../Components/Locations";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }, [])
   return (
     <div className="w-full">
       {/* Hero Section */}

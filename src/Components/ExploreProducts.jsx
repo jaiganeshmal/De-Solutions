@@ -21,7 +21,7 @@ const ExploreProducts = () => {
         <div className="md:w-1/3 flex justify-start md:justify-end">
           <Link
             to="/products"
-            className="bg-[#A92570] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#8b1f5a] transition"
+            className="bg-[#0DACAF] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#0DACAF] transition"
           >
             Explore More
           </Link>

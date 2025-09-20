@@ -88,6 +88,30 @@ import image85 from "./img/img84.webp"
 import image86 from "./img/img85.svg"
 import image87 from "./img/img86.svg"
 import image88 from "./img/img87.svg"
+import image89 from "./img/img88.webp"
+import image90 from "./img/img89.webp"
+import image91 from "./img/img90.webp"
+import image92 from "./img/img91.webp"
+import image93 from "./img/img92.webp"
+import image94 from "./img/img93.webp"
+import image95 from "./img/img94.webp"
+import image96 from "./img/img95.webp"
+import image97 from "./img/img96.webp"
+import image98 from "./img/img97.webp"
+import image99 from "./img/img98.webp"
+import image100 from "./img/img99.webp"
+import image101 from "./img/img100.svg"
+import image102 from "./img/img101.svg"
+import image103 from "./img/img102.svg"
+import image104 from "./img/img103.svg"
+import image105 from "./img/img104.svg"
+import image106 from "./img/img105.svg"
+import image107 from "./img/img106.webp"
+import image108 from "./img/img107.webp"
+import image109 from "./img/img108.webp"
+import image110 from "./img/img109.webp"
+import image111 from "./img/img110.webp"
+
 
 export let assets = {
     // logo,
@@ -180,4 +204,27 @@ export let assets = {
     image86,
     image87,
     image88,
+    image89,
+    image90,
+    image91,
+    image92,
+    image93,
+    image94,
+    image95,
+    image96,
+    image97,
+    image98,
+    image99,
+    image100,
+    image101,
+    image102,
+    image103,
+    image104,
+    image105,
+    image106,
+    image107,
+    image108,
+    image109,
+    image110,
+    image111,
 }

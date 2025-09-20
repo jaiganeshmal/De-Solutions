@@ -21,7 +21,7 @@ const DigitalTransformation = () => {
 
         {/* Right Side: Button */}
         <div className="flex-shrink-0">
-          <button className="bg-[#A92570] text-white font-semibold text-lg md:text-xl px-8 py-4 rounded-xl shadow-md hover:bg-[#8b1f5a] transition-all duration-300">
+          <button className="bg-[#0DACAF] text-white font-semibold text-lg md:text-xl px-8 py-4 rounded-xl shadow-md hover:bg-[#8b1f5a] transition-all duration-300">
             Learn More
           </button>
         </div>

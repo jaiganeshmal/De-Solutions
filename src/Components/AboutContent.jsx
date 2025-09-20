@@ -9,7 +9,7 @@ const AboutContent = () => {
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight inline-block relative">
           Digitalizing Businesses for 2 Decades
-          <span className="block w-24 h-1 bg-[#A92570] mx-auto mt-4 rounded-full"></span>
+          <span className="block w-24 h-1 bg-[#0DACAF] mx-auto mt-4 rounded-full"></span>
         </h2>
 
         {/* Paragraphs */}
