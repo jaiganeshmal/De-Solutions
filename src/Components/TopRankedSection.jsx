@@ -41,7 +41,7 @@ const TopRankedSection = () => {
 
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-extrabold text-center">
-          ranked as #1 <span className="text-[#0DACAF]">android app</span> development company
+          Ranked As #1 <span className="text-[#0DACAF]">Android App</span> Development Company
         </h2>
 
         {/* Slider */}
