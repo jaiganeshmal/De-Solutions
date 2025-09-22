@@ -10,28 +10,28 @@ const SocialLinks = () => {
       label: "Message",
       to: "/contact", // <-- navigate to contact page
       type: "internal",
-      bg: "bg-[#0084FF] hover:bg-[#006FD6]",
+      bg: "bg-[#0DACAF] hover:bg-[#006FD6]",
     },
     {
       icon: <FaPhoneAlt size={20} />,
       label: "Call",
       href: "tel:+923001234567",
       type: "external",
-      bg: "bg-[#4A4A4A] hover:bg-black",
+      bg: "bg-[#0DACAF] hover:bg-black",
     },
     {
       icon: <FaLinkedinIn size={20} />,
       label: "LinkedIn",
       href: "https://linkedin.com/",
       type: "external",
-      bg: "bg-[#0A66C2] hover:bg-[#004182]",
+      bg: "bg-[#0DACAF] hover:bg-[#004182]",
     },
     {
       icon: <FaWhatsapp size={20} />,
       label: "WhatsApp",
       href: "https://wa.me/923001234567",
       type: "external",
-      bg: "bg-[#25D366] hover:bg-[#1DA851]",
+      bg: "bg-[#0DACAF] hover:bg-[#1DA851]",
     },
   ];
 
