@@ -20,7 +20,7 @@ const Header = () => {
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col   h-full text-white px-4 sm:px-8 md:px-16 pb-16 md:pb-24 pt-24">
+      <div className="relative z-10 flex flex-col md:justify-start justify-end h-full text-white px-4 sm:px-8 md:px-16 pb-16 md:pb-24 pt-24">
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-snug md:leading-[1.2] text-left sm:text-center md:text-left">
           Top Rated <br />
           <span className="text-[#0DACAF]">
