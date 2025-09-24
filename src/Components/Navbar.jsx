@@ -11,8 +11,8 @@ const Navbar = () => {
     { to: "/about", label: "About" },
     { to: "/services", label: "Services" },
     { to: "/industries", label: "Industries" },
-    { to: "/career", label: "Career" },
     { to: "/portfolio", label: "Portfolio" },
+    { to: "/career", label: "Career" },
     { to: "/contact", label: "Contact" },
   ];
 
@@ -39,7 +39,7 @@ const Navbar = () => {
       <nav className="flex items-center justify-between mx-auto max-w-7xl py-3 px-6">
         {/* Logo */}
         <Link to="/">
-          <h1 className="text-2xl md:text-3xl font-bold text-white">
+          <h1 className="text-3xl font-bold text-[#0fb5b8]">
             De Solutions
           </h1>
         </Link>

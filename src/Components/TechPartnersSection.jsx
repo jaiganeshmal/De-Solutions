@@ -45,6 +45,7 @@ const TechPartnersSection = () => {
                 src={partner.icon}
                 alt={partner.title}
                 className="w-44 h-44 mb-4 object-contain"
+                loading="lazy"
               />
               <h3 className="text-lg font-semibold">{partner.title}</h3>
             </div>

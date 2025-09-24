@@ -111,6 +111,29 @@ import image108 from "./img/img107.webp"
 import image109 from "./img/img108.webp"
 import image110 from "./img/img109.webp"
 import image111 from "./img/img110.webp"
+import image112 from "./img/img112.jpg"
+import image113 from "./img/img113.jpg"
+import image114 from "./img/img114.jpg"
+import image115 from "./img/img115.jpg"
+import image116 from "./img/img116.jpg"
+import image117 from "./img/img117.jpg"
+import image118 from "./img/img118.jpg"
+import image119 from "./img/img119.jpg"
+import image120 from "./img/img120.jpg"
+import image121 from "./img/img121.jpg"
+import image122 from "./img/img122.jpg"
+import image123 from "./img/img123.jpg"
+import image124 from "./img/img124.jpg"
+import image125 from "./img/img125.jpg"
+import image126 from "./img/img126.jpg"
+import image127 from "./img/img127.jpg"
+import image128 from "./img/img128.jpg"
+import image129 from "./img/img129.jpg"
+import image130 from "./img/img130.jpg"
+import image131 from "./img/img131.jpg"
+import image132 from "./img/img132.jpg"
+import image133 from "./img/img133.jpg"
+import image134 from "./img/img134.jpg"
 
 
 export let assets = {
@@ -227,4 +250,27 @@ export let assets = {
     image109,
     image110,
     image111,
+    image112,
+    image113,
+    image114,
+    image115,
+    image116,
+    image117,
+    image118,
+    image119,
+    image120,
+    image121,
+    image122,
+    image123,
+    image124,
+    image125,
+    image126,
+    image127,
+    image128,
+    image129,
+    image130,
+    image131,
+    image132,
+    image133,
+    image134,
 }

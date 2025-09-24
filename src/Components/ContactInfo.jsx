@@ -19,6 +19,7 @@ const ContactInfo = () => {
             src={assets.image34}
             alt="Contact"
             className="w-full max-w-lg aspect-[4/5] object-cover rounded-2xl shadow-xl"
+            loading="lazy"
           />
         </div>
 

@@ -1,9 +1,10 @@
 // src/components/TopRankedSection.jsx
 import React from "react";
-import Slider from "react-slick";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
 import { assets } from "../assets/global"; // image57 - image67
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "swiper/css";
+import "swiper/css/pagination";
 
 const sliderData = [
   { icon: assets.image57, title: "Top Mobile App Development Companies 2021", description: "Top mobile app development company in California" },
@@ -14,57 +15,54 @@ const sliderData = [
   { icon: assets.image62, title: "De Solutions named among top mobile app development companies", description: "Top app firm listed De Solutions in top mobile app development companies" },
   { icon: assets.image63, title: "Top iOS App Development Company in the US", description: "De Solutions among 30 top iOS app developers in USA 2021" },
   { icon: assets.image64, title: "De Solutions Named Among Top Software Companies", description: "A leading software company in Sept 2021" },
-  { icon: assets.image65, title: "De Solutions among top blockchain companies", description: "ITFirms top-rated AppsNation App developers" },
+  { icon: assets.image65, title: "De Solutions among top blockchain companies", description: "ITFirms top-rated De Solutions App developers" },
 ];
 
 const TopRankedSection = () => {
-  const settings = {
-    dots: true,       // Show dots
-    infinite: true,
-    speed: 800,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2500,
-    arrows: false,    // Remove arrows
-    arrows: false,          // arrows true karo agar use karna hai
-    pauseOnHover: false,   // ✅ hover par autoplay stop nahi hoga
-    responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 2 } },
-      { breakpoint: 640, settings: { slidesToShow: 1 } },
-    ],
-  };
-
   return (
     <section className="bg-[#1B1B1B] py-24 text-white">
       <div className="container mx-auto px-6 flex flex-col items-center space-y-12">
-
+        
         {/* Heading */}
-        <h2 className="text-4xl md:text-5xl font-extrabold text-center">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-center leading-snug">
           Ranked As #1 <span className="text-[#0DACAF]">Android App</span> Development Company
         </h2>
 
-        {/* Slider */}
-        <div className="w-4/5">
-          <Slider {...settings}>
+        {/* Swiper Slider */}
+        <div className="w-full md:w-4/5">
+          <Swiper
+            modules={[Autoplay, Pagination]}
+            spaceBetween={20}
+            slidesPerView={1}
+            autoplay={{ delay: 2500, disableOnInteraction: false }}
+            pagination={{ clickable: true }}
+            loop={true}
+            breakpoints={{
+              1280: { slidesPerView: 3 }, // desktop
+              1024: { slidesPerView: 3 }, // laptop
+              768: { slidesPerView: 2 },  // tablet & mobile
+              420: { slidesPerView: 1 },  // tablet & mobile
+            }}
+          >
             {sliderData.map((item, idx) => (
-              <div key={idx} className="px-3 flex h-full">
-                <div className="bg-white rounded-xl p-6 flex flex-col items-center text-center shadow-lg transition-all duration-300 cursor-pointer flex-1 h-[360px]">
+              <SwiperSlide key={idx}>
+                <div className="bg-white rounded-xl p-6 flex flex-col items-center text-center shadow-lg hover:shadow-2xl transition-all duration-300 h-[380px]">
                   <img
                     src={item.icon}
                     alt={item.title}
-                    className="w-28 h-28 mb-4 object-contain"
+                    className="w-24 h-24 md:w-28 md:h-28 mb-6 object-contain"
+                    loading="lazy"
                   />
-                  <h3 className="text-lg font-bold mb-2 text-gray-800">
+                  <h3 className="text-base md:text-lg font-bold mb-2 text-gray-800">
                     {item.title}
                   </h3>
-                  <p className="text-gray-600 text-sm md:text-base">
+                  <p className="text-gray-600 text-sm md:text-base leading-relaxed">
                     {item.description}
                   </p>
                 </div>
-              </div>
+              </SwiperSlide>
             ))}
-          </Slider>
+          </Swiper>
         </div>
       </div>
     </section>

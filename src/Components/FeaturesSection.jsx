@@ -43,6 +43,7 @@ const FeaturesSection = () => {
                 src={item.img}
                 alt={item.title}
                 className="w-40 h-40 md:w-48 md:h-48 mx-auto object-contain mb-6"
+                loading="lazy"
               />
 
               {/* Title */}

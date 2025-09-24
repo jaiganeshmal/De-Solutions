@@ -14,6 +14,7 @@ const CeoMessage = () => {
               src={assets.image33}
               alt="CEO"
               className="w-full h-full object-contain"
+              loading="lazy"
             />
           </div>
           <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-1">

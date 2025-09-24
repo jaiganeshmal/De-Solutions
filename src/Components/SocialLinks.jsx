@@ -4,6 +4,7 @@ import { FaFacebookMessenger } from "react-icons/fa6";
 import { FaPhoneAlt, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 const SocialLinks = () => {
+  
   const items = [
     {
       icon: <FaFacebookMessenger size={20} />,
@@ -36,7 +37,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="fixed right-4 top-1/2 -translate-y-1/2 flex flex-col gap-3 z-50">
+    <div className="fixed right-4 top-1/2 -translate-y-1/2 hidden md:flex flex-col gap-3 z-50">
       {items.map((item, index) =>
         item.type === "internal" ? (
           <Link

@@ -51,7 +51,7 @@ const ServiceHeroSection = () => {
         </div>
 
         {/* Right Section (Form) */}
-        <div className="lg:w-1/4 max-w-sm bg-white text-gray-900 rounded-xl shadow-lg p-5">
+        <div className="lg:w-1/3 max-w-sm bg-white text-gray-900 rounded-xl shadow-lg p-5">
           <h2 className="text-2xl md:text-4xl font-bold mb-4 ">
             Book a free <br />
             <span className="text-[#0DACAF]">Consultation</span>

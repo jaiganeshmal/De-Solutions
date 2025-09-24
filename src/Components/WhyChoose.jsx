@@ -35,6 +35,7 @@ const WhyChoose = () => {
             src={assets.image107}
             alt="Company Profile"
             className="w-full max-w-md rounded-2xl shadow-lg object-contain"
+            loading="lazy"
           />
         </div>
       </div>

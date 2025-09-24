@@ -58,6 +58,7 @@ const Locations = () => {
                   src={loc.image}
                   alt={loc.title}
                   className="w-full h-40 object-cover transform transition-transform duration-500 hover:scale-110"
+                  loading="lazy"
                 />
               </div>
 

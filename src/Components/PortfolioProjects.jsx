@@ -58,6 +58,7 @@ const PortfolioProjects = () => {
                                 src={project.logo}
                                 alt={project.title}
                                 className="w-32 h-32 object-contain"
+                                loading="lazy"
                             />
 
                             {/* Tags */}
@@ -108,6 +109,7 @@ const PortfolioProjects = () => {
                                 src={project.image}
                                 alt={project.title}
                                 className="rounded-xl shadow-lg w-full object-cover"
+                                loading="lazy"
                             />
                         </div>
                     </div>

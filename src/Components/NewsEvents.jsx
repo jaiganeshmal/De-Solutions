@@ -57,6 +57,7 @@ const NewsEvents = () => {
                   src={item.img}
                   alt={`news-${i}`}
                   className="w-full h-[40vh] lg:h-[39vh] object-cover transform transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
                 />
                 {/* Overlay Text */}
                 <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent p-3 text-left transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">

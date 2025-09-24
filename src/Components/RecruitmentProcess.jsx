@@ -72,6 +72,7 @@ const RecruitmentProcess = () => {
                 src={item.icon}
                 alt={item.title}
                 className="w-20 h-20 mx-auto object-contain mb-6"
+                loading="lazy"
               />
 
               {/* Title */}

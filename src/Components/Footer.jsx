@@ -17,7 +17,7 @@ const Footer = () => {
             De Solutions
           </h2>
           <p className="text-sm leading-relaxed text-gray-400 max-w-xs">
-            Empowering businesses with next-gen digital transformation.  
+            Empowering businesses with next-gen digital transformation.
             Let’s build innovation together 🚀
           </p>
         </div>
@@ -62,6 +62,14 @@ const Footer = () => {
             </li>
             <li>
               <Link
+                to="/portfolio"
+                className="hover:text-[#0DACAF] transition duration-300"
+              >
+                Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="/career"
                 className="hover:text-[#0DACAF] transition duration-300"
               >
@@ -85,9 +93,9 @@ const Footer = () => {
             Contact
           </h3>
           <ul className="space-y-2 text-sm text-gray-400">
-            <li>📍 Karachi, Pakistan</li>
-            <li>📞 +92 3088005965</li>
-            <li>📞 UAN: +92-21-111-282-692</li>
+            <li>📍  Office No:G-06 EOBI Building Awami markaz share-e-faisal Karachi</li>
+            <li>📞 +92 3009296413</li>
+            <li>📞 UAN: +92 21 34528723</li>
             <li>✉️ sales@de2solutions.com</li>
           </ul>
         </div>
@@ -99,9 +107,9 @@ const Footer = () => {
           </h3>
           <div className="flex gap-4">
             {[
-              { Icon: FaFacebookF, link: "#" },
+              { Icon: FaFacebookF, link: "https://www.facebook.com/de2solutions#" },
               { Icon: FaTwitter, link: "#" },
-              { Icon: FaLinkedinIn, link: "#" },
+              { Icon: FaLinkedinIn, link: "https://www.linkedin.com/company/de-solutions" },
               { Icon: FaInstagram, link: "#" },
             ].map(({ Icon, link }, idx) => (
               <a

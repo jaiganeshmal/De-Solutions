@@ -56,6 +56,7 @@ const HireDevelopers = () => {
                   src={icon}
                   alt={`icon-${idx}`}
                   className="w-16 h-16 object-contain"
+                  loading="lazy"
                 />
               </div>
             ))}

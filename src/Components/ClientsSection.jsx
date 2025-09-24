@@ -1,9 +1,15 @@
 // src/components/ClientsSection.jsx
-import React, { useEffect, useRef, useState } from "react";
-import Slider from "react-slick";
+import React from "react";
 import { FaQuoteRight } from "react-icons/fa";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import img from "../assets/img/logo.png"
+import img1 from "../assets/img/logo1.png"
+// Swiper imports
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+
+// Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
 
 const testimonials = [
     {
@@ -44,62 +50,47 @@ const testimonials = [
 ];
 
 const ClientsSection = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 800,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        arrows: false,          // arrows true karo agar use karna hai
-        pauseOnHover: false,   // ✅ hover par autoplay stop nahi hoga
-        responsive: [
-            { breakpoint: 1024, settings: { slidesToShow: 1 } },
-        ],
-    };
-
-    const [maxHeight, setMaxHeight] = useState(0);
-    const cardRefs = useRef([]);
-
-    // Calculate max height once all cards are rendered
-    useEffect(() => {
-        if (cardRefs.current.length) {
-            const heights = cardRefs.current.map((ref) =>
-                ref ? ref.offsetHeight : 0
-            );
-            setMaxHeight(Math.max(...heights));
-        }
-    }, []);
-
     return (
-        <section className="bg-[#1B1B1B] py-24 text-white">
-            <div className="container mx-auto px-6 flex flex-col items-center space-y-12">
-                {/* Heading */}
-                <h2 className="text-4xl md:text-5xl font-extrabold text-center leading-snug">
-                    What Our <span className="text-[#0DACAF]">Clients</span> Say About{" "}
-                    <span className="text-[#0DACAF]">De Solutions</span>
-                </h2>
+        <section className="bg-[#1B1B1B] py-20 md:py-24 text-white">
+            <div className="container mx-auto px-4 md:px-6 flex flex-col items-center space-y-10 md:space-y-12">
+                <div className="space-y-2">
+                    {/* Heading */}
+                    <h2 className="text-3xl md:text-5xl font-extrabold text-center leading-snug">
+                        What Our <span className="text-[#0DACAF]">Clients</span> Say About{" "}
+                        <span className="text-[#0DACAF]">De Solutions</span>
+                    </h2>
 
-                {/* Subheading */}
-                <p className="text-lg md:text-xl font-bold text-center">
-                    Over 1200+ Satisfied Clients and Growing
-                </p>
+                    {/* Subheading */}
+                    <p className="text-base md:text-xl font-bold text-center">
+                        Over 1200+ Satisfied Clients and Growing
+                    </p>
+                </div>
 
-                {/* Slider */}
-                <div className="w-11/12 md:w-4/5">
-                    <Slider {...settings}>
+                {/* Swiper Slider */}
+                <div className="w-full md:w-4/5 relative">
+                    <Swiper
+                        modules={[Autoplay, Pagination]}
+                        autoplay={{ delay: 3500, disableOnInteraction: false }}
+                        pagination={{ clickable: true }}
+                        spaceBetween={24}
+                        breakpoints={{
+                            320: { slidesPerView: 1 },
+                            1024: { slidesPerView: 2 },
+                            1536: { slidesPerView: 3 },
+                        }}
+                        loop={true}
+                        speed={600}
+                        className="pb-12" // ✅ dots ke liye neeche space
+                    >
                         {testimonials.map((item, idx) => (
-                            <div key={idx} className="px-4 flex mb-4">
+                            <SwiperSlide key={idx}>
                                 <div
-                                    ref={(el) => (cardRefs.current[idx] = el)}
-                                    style={{ height: maxHeight || "auto" }}
-                                    className="bg-white text-gray-800 rounded-xl p-8 shadow-lg 
+                                    className="bg-white text-gray-800 rounded-xl p-6 md:p-8 shadow-lg 
                              flex flex-col justify-between hover:shadow-2xl 
-                             transition-all duration-300 w-full"
+                             transition-all duration-300 h-full min-h-[380px] md:min-h-[420px]"
                                 >
                                     {/* Testimonial text */}
-                                    <p className="text-sm md:text-base leading-relaxed mb-6">
+                                    <p className="text-sm md:text-base leading-relaxed mb-6 overflow-hidden">
                                         {item.text}
                                     </p>
 
@@ -109,12 +100,12 @@ const ClientsSection = () => {
                                             <h4 className="font-bold text-gray-900">{item.name}</h4>
                                             <p className="text-sm text-gray-600">{item.location}</p>
                                         </div>
-                                        <FaQuoteRight className="text-[#0DACAF] text-2xl" />
+                                        <img src={img} alt="" className="w-20" />
                                     </div>
                                 </div>
-                            </div>
+                            </SwiperSlide>
                         ))}
-                    </Slider>
+                    </Swiper>
                 </div>
             </div>
         </section>

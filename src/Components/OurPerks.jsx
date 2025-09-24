@@ -57,6 +57,7 @@ const OurPerks = () => {
                 src={perk.icon}
                 alt={perk.title}
                 className="w-16 h-16 mx-auto mb-6 object-contain"
+                loading="lazy"
               />
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 {perk.title}

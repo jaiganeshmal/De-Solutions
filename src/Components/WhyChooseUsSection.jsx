@@ -61,6 +61,7 @@ const WhyChooseUsSection = () => {
                 src={feature.icon}
                 alt={feature.title}
                 className="w-16 h-16 mb-4"
+                loading="lazy"
               />
               <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
               <p className="text-sm md:text-base">{feature.description}</p>

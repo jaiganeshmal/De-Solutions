@@ -14,6 +14,7 @@ const ServiceInfoSection = () => {
               src={assets.image41}
               alt="Service Illustration"
               className="w-full h-full object-cover"
+              loading="lazy"
             />
           </div>
         </div>
@@ -39,11 +40,11 @@ const ServiceInfoSection = () => {
             </p>
 
             <p className="text-gray-700 font-medium text-sm md:text-base lg:text-base leading-relaxed">
-              Get this: Android owns a whopping 88% of the world's smartphone market, and Google's Android OS is the brains behind over 2 billion smart devices. AppsNation is riding this wave with a top-tier team of Android developers – think of them as Android sorcerers – dedicated to conjuring up your cutting-edge, one-of-a-kind Android app.
+              Get this: Android owns a whopping 88% of the world's smartphone market, and Google's Android OS is the brains behind over 2 billion smart devices. De Solutions is riding this wave with a top-tier team of Android developers – think of them as Android sorcerers – dedicated to conjuring up your cutting-edge, one-of-a-kind Android app.
             </p>
 
             <p className="text-gray-700 font-medium text-sm md:text-base lg:text-base leading-relaxed">
-              AppsNation is an Android app development company that uses data and analytics as its guiding principles to build high-quality applications. We help startups, SMBs, and large corporations succeed with exceptional Android apps. Our team ensures a seamless user experience across all devices.
+              De Solutions is an Android app development company that uses data and analytics as its guiding principles to build high-quality applications. We help startups, SMBs, and large corporations succeed with exceptional Android apps. Our team ensures a seamless user experience across all devices.
             </p>
           </div>
         </div>

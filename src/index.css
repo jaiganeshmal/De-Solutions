@@ -2,17 +2,45 @@
 @import "tailwindcss";
 
 
-*{
-      font-family: "Roboto", sans-serif;
-      scroll-behavior: smooth;
+* {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* Dots default */
 .slick-dots li button:before {
-  color: white !important;      /* White color */
-  opacity: 1;        /* Fully visible */
-  font-size: 16px;   /* Size bada kiya */
+  color: white !important;
+  /* White color */
+  opacity: 1;
+  /* Fully visible */
+  font-size: 16px;
+  /* Size bada kiya */
 }
+
+/* Swiper dots ko slider ke neeche fix */
+.swiper-pagination {
+  position: relative !important;
+  /* default absolute hatao */
+  margin-top: 16px;
+  /* slider ke niche gap */
+  text-align: center;
+}
+
+/* Swiper pagination bullets ko white karo */
+.swiper-pagination-bullet {
+  background-color: white !important;
+  /* inactive dots white */
+  opacity: 0.6;
+  /* halka white */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ffffff !important;
+  /* active dot pure white */
+  opacity: 1;
+}
+
+
 
 /* Active dot */
 .slick-dots li.slick-active button:before {
@@ -23,26 +51,31 @@
 
 /* Dots container spacing */
 .slick-dots {
-  bottom: -25px; /* Slider ke neeche thoda gap */
+  bottom: -25px;
+  /* Slider ke neeche thoda gap */
 }
 
 
 /* Custom Scrollbar */
 .custom-scrollbar::-webkit-scrollbar {
-  width: 8px; /* slim scrollbar */
+  width: 8px;
+  /* slim scrollbar */
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-  background: transparent; /* track transparent */
+  background: transparent;
+  /* track transparent */
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #0DACAF; /* teal color */
+  background-color: #0DACAF;
+  /* teal color */
   border-radius: 10px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-button {
-  display: none; /* hide top/bottom arrows */
+  display: none;
+  /* hide top/bottom arrows */
 }
 
 /* For Firefox */
@@ -58,7 +91,8 @@
   inset: 0;
   border: 2px solid transparent;
   pointer-events: none;
-  border-radius: 12px; /* same as rounded-xl */
+  border-radius: 12px;
+  /* same as rounded-xl */
 }
 
 .perk-box:hover::before {
@@ -73,18 +107,21 @@
     border-bottom-color: transparent;
     border-left-color: transparent;
   }
+
   25% {
     border-top-color: #0DACAF;
     border-right-color: #0DACAF;
     border-bottom-color: transparent;
     border-left-color: transparent;
   }
+
   50% {
     border-top-color: #0DACAF;
     border-right-color: #0DACAF;
     border-bottom-color: #0DACAF;
     border-left-color: transparent;
   }
+
   100% {
     border-color: #0DACAF;
   }

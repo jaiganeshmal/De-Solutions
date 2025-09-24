@@ -42,7 +42,7 @@ const OurServicesSection = () => {
           </h2>
           <p className="text-lg md:text-xl text-gray-700">
             <span className="text-[#0DACAF] font-semibold">
-              AppsNation Android App development services
+              De Solutions Android App development services
             </span>{" "}
             can be the beacon of hope you need to revitalize your business through increased digital engagement.
           </p>
@@ -59,6 +59,7 @@ const OurServicesSection = () => {
                 src={service.icon}
                 alt={service.title}
                 className="w-16 h-16 mb-4"
+                loading="lazy"
               />
               <h3 className="text-xl font-bold mb-2">{service.title}</h3>
               <p className="text-gray-700 hover:text-white text-sm md:text-base mb-4 max-w-xs">
