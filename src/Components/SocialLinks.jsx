@@ -23,7 +23,7 @@ const SocialLinks = () => {
     {
       icon: <FaLinkedinIn size={20} />,
       label: "LinkedIn",
-      href: "https://linkedin.com/",
+      href: "https://www.linkedin.com/company/de-solutions",
       type: "external",
       bg: "bg-[#0DACAF] hover:bg-[#004182]",
     },

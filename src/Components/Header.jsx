@@ -7,7 +7,7 @@ const Header = () => {
     <div className="relative h-screen w-full overflow-hidden">
       {/* Background Video */}
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover"
+        className="absolute top-0 left-0 w-full h-full object-cover "
         src={assets.header_img}
         preload="none"
         autoPlay
@@ -17,7 +17,7 @@ const Header = () => {
       />
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/25 to-transparent"></div>
 
       {/* Content */}
       <div className="relative z-10 flex flex-col md:justify-start justify-end h-full text-white px-4 sm:px-8 md:px-16 pb-16 md:pb-24 pt-24">
