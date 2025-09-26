@@ -1,21 +1,26 @@
-import React, { useEffect } from "react";
-import HeroSection from "../Custom Component/HeroSection";
+// src/pages/About.jsx
+import React, { useEffect, lazy, Suspense } from "react";
 import { assets } from "../assets/global";
-import AboutContent from "../Components/AboutContent";
-import AtAGlance from "../Components/AtAGlance";
-import CeoMessage from "../Components/CeoMessage";
-import ExploreProducts from "../Components/ExploreProducts";
-import ContactUs from "../Components/ContactUs";
+import Loader from "../Components/loader";
+
+// ✅ Lazy imports
+const HeroSection = lazy(() => import("../Custom Component/HeroSection"));
+const AboutContent = lazy(() => import("../Components/AboutContent"));
+const AtAGlance = lazy(() => import("../Components/AtAGlance"));
+const CeoMessage = lazy(() => import("../Components/CeoMessage"));
+const ExploreProducts = lazy(() => import("../Components/ExploreProducts"));
+const ContactUs = lazy(() => import("../Components/ContactUs"));
 
 const About = () => {
   useEffect(() => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
-    })
-  }, [])
+      behavior: "smooth",
+    });
+  }, []);
+
   return (
-    <>
+    <Suspense fallback={<Loader />}>
       <HeroSection
         backgroundImage={assets.image31} // koi bhi about related image
         heading="About De Solutions"
@@ -28,7 +33,7 @@ const About = () => {
       <CeoMessage />
       <ExploreProducts />
       <ContactUs />
-    </>
+    </Suspense>
   );
 };
 

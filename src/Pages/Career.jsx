@@ -1,22 +1,27 @@
-import React, { useEffect } from "react";
+// src/pages/Career.jsx
+import React, { useEffect, lazy, Suspense } from "react";
 import { assets } from "../assets/global";
-import HeroSection from "../Custom Component/HeroSection";
-import RecruitmentProcess from "../Components/RecruitmentProcess";
-import CareerApplication from "../Components/CareerApplication";
-import HireDevelopers from "../Components/HireDevelopers";
-import OurPerks from "../Components/OurPerks";
-import WhyChoose from "../Components/WhyChoose";
-import FeaturesSection from "../Components/FeaturesSection";
+import Loader from "../Components/loader";
+
+// ✅ Lazy imports
+const HeroSection = lazy(() => import("../Custom Component/HeroSection"));
+const RecruitmentProcess = lazy(() => import("../Components/RecruitmentProcess"));
+const CareerApplication = lazy(() => import("../Components/CareerApplication"));
+const HireDevelopers = lazy(() => import("../Components/HireDevelopers"));
+const OurPerks = lazy(() => import("../Components/OurPerks"));
+const WhyChoose = lazy(() => import("../Components/WhyChoose"));
+const FeaturesSection = lazy(() => import("../Components/FeaturesSection"));
 
 const Career = () => {
   useEffect(() => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
-    })
-  }, [])
+      behavior: "smooth",
+    });
+  }, []);
+
   return (
-    <>
+    <Suspense fallback={<Loader />}>
       <HeroSection
         heading={
           <>
@@ -33,7 +38,7 @@ const Career = () => {
       <OurPerks />
       <WhyChoose />
       <FeaturesSection />
-    </>
+    </Suspense>
   );
 };
 

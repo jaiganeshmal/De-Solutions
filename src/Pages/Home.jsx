@@ -1,22 +1,25 @@
-import React, { useEffect } from "react";
-import Header from "../Components/Header";
-import DigitalTransformation from "../Components/DigitalTransformation";
-import GlobalImpact from "../Components/GlobalImpact";
-import DigitalSuite from "../Components/DigitalSuite";
-import AlliancesCompliances from "../Components/AlliancesCompliances";
-import NewsEvents from "../Components/NewsEvents";
-import ContactUs from "../Components/ContactUs";
+import React, { useEffect, lazy, Suspense } from "react";
+import Loader from "../Components/loader";
+
+// Lazy load heavy components
+const Header = lazy(() => import("../Components/Header"));
+const DigitalTransformation = lazy(() => import("../Components/DigitalTransformation"));
+const GlobalImpact = lazy(() => import("../Components/GlobalImpact"));
+const DigitalSuite = lazy(() => import("../Components/DigitalSuite"));
+const AlliancesCompliances = lazy(() => import("../Components/AlliancesCompliances"));
+const NewsEvents = lazy(() => import("../Components/NewsEvents"));
+const ContactUs = lazy(() => import("../Components/ContactUs"));
+
+
 
 const Home = () => {
-
+  // Scroll to top on mount
   useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    })
-  }, [])
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }, []);
+
   return (
-    <>
+    <Suspense fallback={<Loader />}>
       <Header />
       <DigitalTransformation />
       <GlobalImpact />
@@ -24,7 +27,7 @@ const Home = () => {
       <AlliancesCompliances />
       <NewsEvents />
       <ContactUs />
-    </>
+    </Suspense>
   );
 };
 
