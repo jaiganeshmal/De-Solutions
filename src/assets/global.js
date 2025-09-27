@@ -138,7 +138,7 @@ import image134 from "./img/img134.jpg"
 
 export let assets = {
     // logo,
-    header_img,
+    header_img : 'https://res.cloudinary.com/dy2ddzcoq/video/upload/v1758955816/header_amjqd1.mp4',
     image1,
     image2,
     image3,
