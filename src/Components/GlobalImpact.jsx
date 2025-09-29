@@ -45,13 +45,13 @@ const GlobalImpact = () => {
       <div className="container mx-auto text-center relative z-10">
         {/* Heading */}
         <h1 className="text-3xl md:text-5xl font-bold mb-6">
-          Avanza Solutions Global Impact
+          De Solutions Global Impact
         </h1>
 
         {/* Paragraph */}
         <p className="text-lg md:text-xl leading-relaxed mb-12 max-w-3xl mx-auto">
-          For over 2 decades, Avanza Solutions has empowered organizations
-          globally to adopt digital transformation. Over this period, Avanza
+          For over 2 decades, De Solutions has empowered organizations
+          globally to adopt digital transformation. Over this period, De
           Solutions has evolved into an innovative technology powerhouse.
         </p>
 

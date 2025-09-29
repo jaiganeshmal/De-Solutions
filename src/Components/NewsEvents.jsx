@@ -16,8 +16,8 @@ const NewsEvents = () => {
     {
       img: assets.image29,
       title:
-        "Avanza Solutions Forms Strategic Partnership with Reem Finance to Elevate Fusion Banking",
-    },
+        "De Solutions Forms Strategic Partnership with Reem Finance to Elevate Fusion Banking",
+    }
   ];
 
   return (

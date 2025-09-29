@@ -15,10 +15,10 @@ const AboutContent = () => {
         {/* Paragraphs */}
         <div className="mt-10 flex flex-col gap-6 text-gray-700 text-lg md:text-xl leading-relaxed text-left md:text-center">
           <p className="md:px-8">
-            Since 2000, Avanza Solutions has been empowering organizations across 
+            Since 2000, De Solutions has been empowering organizations across 
             the globe to adopt digital transformation via next-gen and hi-tech 
             innovative digital platforms and services. Being supreme and 
-            ever-evolving, Avanza serves as a digital hub of innovation and 
+            ever-evolving, De Solutions serves as a digital hub of innovation and 
             digitalization where technologies like Customer Experience, Artificial 
             Intelligence, Blockchain, Channel Banking, Smart City applications, 
             Business Automation, and Cognitive platforms are developed, deployed, 
@@ -27,7 +27,7 @@ const AboutContent = () => {
 
           <p className="md:px-8">
             Carrying the vision of people-centric innovation and automation, 
-            Avanza has furnished multiple organizations worldwide with its 
+            De Solutions has furnished multiple organizations worldwide with its 
             digital solutions, including Banking, Finance, Telecommunication, 
             Insurance, Pharmaceuticals, Government sectors, and others.
           </p>

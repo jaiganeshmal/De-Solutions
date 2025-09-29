@@ -11,7 +11,7 @@ const DigitalTransformation = () => {
             Enabling Digital Transformation through Digital Platforms
           </h1>
           <p className="mt-6 text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed">
-            Avanza Solutions has been enabling Digital Transformation for more
+            De Solutions has been enabling Digital Transformation for more
             than two successful decades by providing digital platforms and
             services while facilitating the needs of banking, financial
             institutions, telecommunication, insurance, government, and other

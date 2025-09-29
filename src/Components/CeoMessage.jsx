@@ -30,7 +30,7 @@ const CeoMessage = () => {
           </h2>
 
           <p className="text-gray-700 text-lg mb-4">
-            Avanza Solutions, for more than two decades, has successfully pursued innovative strategies and cutting-edge approaches to enable an e-infrastructure, reshaping the core functions of the digital universe. The world is embracing the trends set by modernization expeditiously, influencing organizations globally; Avanza Solutions furnishes these organizations by powering their systems, operations, and processes via next-gen technologies, e-solutions, and digital platforms.
+            De Solutions, for more than two decades, has successfully pursued innovative strategies and cutting-edge approaches to enable an e-infrastructure, reshaping the core functions of the digital universe. The world is embracing the trends set by modernization expeditiously, influencing organizations globally; De Solutions furnishes these organizations by powering their systems, operations, and processes via next-gen technologies, e-solutions, and digital platforms.
           </p>
 
           <p className="text-gray-700 text-lg mb-4">
@@ -38,7 +38,7 @@ const CeoMessage = () => {
           </p>
 
           <p className="text-gray-700 text-lg mb-4">
-            Avanza Solutions' mission is to steer companies worldwide into the digital portal by developing and deploying an infinite number of hi-tech solutions using innovative and agile integration techniques.
+            De Solutions' mission is to steer companies worldwide into the digital portal by developing and deploying an infinite number of hi-tech solutions using innovative and agile integration techniques.
           </p>
 
           {/* Bold line */}
