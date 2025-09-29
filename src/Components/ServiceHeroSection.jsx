@@ -102,7 +102,7 @@ const ServiceHeroSection = () => {
             {/* Submit Button */}
             <button
               type="submit"
-              className="w-full bg-[#0DACAF] text-white font-medium py-2 rounded-md shadow hover:bg-[#0a9899] transition text-sm"
+              className="w-full bg-[#0DACAF] text-white font-medium py-2 rounded-md shadow hover:bg-[#0c9698] transition text-sm"
             >
               Submit
             </button>

@@ -87,7 +87,7 @@ const ContactForm = () => {
           <div className="md:col-span-2 flex justify-start">
             <button
               type="submit"
-              className="flex items-center gap-2 bg-[#0DACAF] text-white px-6 py-3 rounded-lg shadow hover:bg-[#0a9899] transition"
+              className="flex items-center gap-2 bg-[#0DACAF] text-white px-6 py-3 rounded-lg shadow hover:bg-[#0c9698] transition"
             >
               Submit <FaArrowRight />
             </button>

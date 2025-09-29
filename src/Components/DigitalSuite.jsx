@@ -90,7 +90,7 @@ const DigitalSuite = () => {
                 {/* Button */}
                 <Link
                   to={item.btnLink}
-                  className="mt-5 inline-block bg-[#0DACAF] text-white px-5 py-3 rounded-lg text-sm font-medium hover:bg-[#139ea0] transition"
+                  className="mt-5 inline-block bg-[#0DACAF] text-white px-5 py-3 rounded-lg text-sm font-medium hover:bg-[#0c9698] transition"
                   onClick={(e) => e.stopPropagation()}
                 >
                   Read More

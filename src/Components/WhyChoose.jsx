@@ -23,7 +23,7 @@ const WhyChoose = () => {
             the idea into reality.
           </p>
 
-          <button className="inline-flex items-center gap-3 bg-[#0DACAF] hover:bg-[#0a9798] text-white px-6 py-3 rounded-lg font-medium text-lg transition duration-300 shadow-md">
+          <button className="inline-flex items-center gap-3 bg-[#0DACAF] hover:bg-[#0c9698] text-white px-6 py-3 rounded-lg font-medium text-lg transition duration-300 shadow-md">
             Download Company Profile
             <FaDownload className="w-5 h-5" />
           </button>

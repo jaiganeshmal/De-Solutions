@@ -38,7 +38,7 @@ const HireDevelopers = () => {
             needs.
           </p>
 
-          <button className="inline-flex items-center gap-3 bg-[#0DACAF] hover:bg-[#0a9798] text-white px-6 py-3 rounded-lg font-medium text-lg transition duration-300">
+          <button className="inline-flex items-center gap-3 bg-[#0DACAF] hover:bg-[#0c9698] text-white px-6 py-3 rounded-lg font-medium text-lg transition duration-300">
             Get Consultation
             <FaArrowRight className="w-5 h-5" />
           </button>

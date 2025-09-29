@@ -22,7 +22,7 @@ const ProjectCTA = ({
         {/* Right Button */}
         <button
           style={{ backgroundColor: buttonColor }}
-          className="flex items-center gap-3 text-white font-semibold px-6 py-4 rounded-xl shadow-lg hover:bg-[#0a9899] transition cursor-pointer"
+          className="flex items-center gap-3 text-white font-semibold px-6 py-4 rounded-xl shadow-lg hover:bg-[#0c9698] transition cursor-pointer"
         >
           {buttonText}
           <FaArrowRight className="text-lg" />

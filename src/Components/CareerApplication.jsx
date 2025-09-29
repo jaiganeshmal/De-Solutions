@@ -100,7 +100,7 @@ const CareerApplication = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full bg-[#0DACAF] text-white py-3 rounded-lg font-medium text-lg hover:bg-[#0a9798] transition duration-300"
+            className="w-full bg-[#0DACAF] text-white py-3 rounded-lg font-medium text-lg hover:bg-[#0c9698] transition duration-300"
           >
             Submit Application
           </button>

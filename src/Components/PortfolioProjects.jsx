@@ -98,7 +98,7 @@ const PortfolioProjects = () => {
                             </ul>
 
                             {/* Button */}
-                            <button className="bg-[#1B1B1B] text-white px-6 py-2 rounded-md mt-4 font-medium hover:bg-[#0DAAAD] transition">
+                            <button className="bg-[#1B1B1B] text-white px-6 py-2 rounded-md mt-4 font-medium hover:bg-[#0c9698] transition">
                                 Learn More
                             </button>
                         </div>

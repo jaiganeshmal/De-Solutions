@@ -55,7 +55,7 @@ const WhyChooseUsSection = () => {
           {featuresData.map((feature, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl p-6 flex flex-col items-center text-center text-gray-900 transition-all duration-300 hover:bg-[#0DACAF] hover:text-white cursor-pointer"
+              className="bg-white rounded-xl p-6 flex flex-col items-center text-center text-gray-900 transition-all duration-300 hover:bg-[#0c9698] hover:text-white cursor-pointer"
             >
               <img
                 src={feature.icon}

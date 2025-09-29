@@ -65,7 +65,7 @@ const OurServicesSection = () => {
               <p className="text-gray-700 hover:text-white text-sm md:text-base mb-4 max-w-xs">
                 {service.description}
               </p>
-              <button className="flex items-center gap-2 bg-white text-[#0DACAF] font-semibold px-4 py-2 rounded-full transition-colors duration-300 hover:bg-[#0a9899] hover:text-white">
+              <button className="flex items-center gap-2 bg-white text-[#0DACAF] font-semibold px-4 py-2 rounded-full transition-colors duration-300 hover:bg-[#0c9698] hover:text-white">
                 Read More
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
