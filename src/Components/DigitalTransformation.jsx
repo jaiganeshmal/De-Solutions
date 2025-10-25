@@ -8,14 +8,10 @@ const DigitalTransformation = () => {
         {/* Left Side: Heading + Paragraph */}
         <div className="flex-1">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-            Enabling Digital Transformation through Digital Platforms
+            Driving Digital Transformation with Smart ERP & Digital Platforms
           </h1>
           <p className="mt-6 text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed">
-            De Solutions has been enabling Digital Transformation for more
-            than two successful decades by providing digital platforms and
-            services while facilitating the needs of banking, financial
-            institutions, telecommunication, insurance, government, and other
-            sectors all across the globe.
+            At De Solutions, we empower businesses through advanced ERP systems and digital platforms, tailored to meet the evolving needs of banking, finance, telecom, insurance, government, and more. With over two decades of experience, we deliver scalable, secure, and future-ready solutions worldwide.
           </p>
         </div>
 

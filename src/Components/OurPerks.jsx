@@ -8,25 +8,11 @@ const OurPerks = () => {
       title: "Bonuses",
       text: "Pay rise, promotions, and top opportunities for professional development.",
     },
-    {
-      icon: assets.image102,
-      title: "Vehicle",
-      text: "Company maintained car.",
-    },
-    {
-      icon: assets.image103,
-      title: "Health insurance",
-      text: "We ensure all your healthcare needs, we believe in human right.",
-    },
+  
     {
       icon: assets.image104,
       title: "Parental leaves",
       text: "When it comes to feelings, work isn’t the priority.",
-    },
-    {
-      icon: assets.image105,
-      title: "Gratuity funds",
-      text: "A company sponsored fund that enables you to maximize benefits.",
     },
     {
       icon: assets.image106,

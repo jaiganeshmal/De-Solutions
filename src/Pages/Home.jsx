@@ -7,7 +7,7 @@ const DigitalTransformation = lazy(() => import("../Components/DigitalTransforma
 const GlobalImpact = lazy(() => import("../Components/GlobalImpact"));
 const DigitalSuite = lazy(() => import("../Components/DigitalSuite"));
 const AlliancesCompliances = lazy(() => import("../Components/AlliancesCompliances"));
-const NewsEvents = lazy(() => import("../Components/NewsEvents"));
+// const NewsEvents = lazy(() => import("../Components/NewsEvents"));
 const ContactUs = lazy(() => import("../Components/ContactUs"));
 
 
@@ -25,7 +25,7 @@ const Home = () => {
       <GlobalImpact />
       <DigitalSuite />
       <AlliancesCompliances />
-      <NewsEvents />
+      {/* <NewsEvents /> */}
       <ContactUs />
     </Suspense>
   );

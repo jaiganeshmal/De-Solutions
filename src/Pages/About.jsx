@@ -24,9 +24,7 @@ const About = () => {
       <HeroSection
         backgroundImage={assets.image31} // koi bhi about related image
         heading="About De Solutions"
-        text="We are a team of passionate innovators, helping businesses grow with modern
-              digital solutions. Our expertise in technology, design, and strategy enables us
-              to deliver platforms that empower industries and create value for customers."
+        text="We are a team of forward-thinking innovators dedicated to helping businesses thrive through cutting-edge digital solutions. With deep expertise in technology, design, and strategy, we create powerful platforms that drive industry transformation and deliver meaningful value to our clients."
       />
       <AboutContent />
       <AtAGlance />

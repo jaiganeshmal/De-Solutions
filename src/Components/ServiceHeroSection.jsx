@@ -5,12 +5,12 @@ import { FaCheckCircle } from "react-icons/fa"; // react-icons ka use
 
 const ServiceHeroSection = () => {
   const services = [
-    "Android App Development",
-    "iOS App Development",
-    "Cross Platform App Development",
-    "E-Commerce App Development",
-    "Web App Development",
-    "Cross Platform App Development",
+    "ERP System Development",
+    "Custom Web Application Development",
+    "Android & iOS App Development",
+    "Cross-Platform & Hybrid App Solutions",
+    "E-Commerce Solutions",
+    "Business Process Automation",
   ];
 
   const handleCaptchaChange = (value) => {
@@ -22,19 +22,17 @@ const ServiceHeroSection = () => {
       <div className="container mx-auto px-6 flex flex-col lg:flex-row md:items-start items-center gap-12">
 
         {/* Left Section */}
-        <div className="lg:w-2/3 space-y-8">
+        <div className="lg:w-2/3 space-y-4">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
             Empower Your Business with <br />
-            <span className="text-[#0DACAF]">Next-Gen Digital Services</span>
+            <span className="text-[#0DACAF]">Next-Gen Digital Solutions</span>
           </h1>
 
           <p className="text-gray-300 leading-relaxed text-base md:text-lg max-w-2xl">
-            At <span className="font-semibold text-white">De Solutions</span>, we create powerful digital experiences
-            that drive real business growth. With innovation at the core, our mission
-            is to help you navigate challenges, unlock opportunities, and achieve
-            meaningful impact in the digital world.
+            At <strong> De Solutions </strong>, we deliver cutting-edge software solutions that drive real business transformation. Our expertise spans ERP systems, mobile apps, and web platforms — built to streamline operations, enhance productivity, and fuel growth.
+            <br /> With innovation and quality at our core, we help you overcome challenges, unlock opportunities, and achieve meaningful digital success.
           </p>
-
+         
           <ul className="space-y-3">
             {services.map((service, index) => (
               <li

@@ -3,11 +3,11 @@ import { assets } from "../assets/global";
 
 const GlobalImpact = () => {
   const stats = [
-    { icon: assets.image2, value: 350, label: "Customers", suffix: "+" },
-    { icon: assets.image3, value: 45, label: "Countries", suffix: "+" },
-    { icon: assets.image4, value: 500, label: "Product Deployments", suffix: "+" },
+    { icon: assets.image2, value: 150, label: "Customers", suffix: "+" },
+    { icon: assets.image3, value: 2, label: "Countries", suffix: "+" },
+    { icon: assets.image4, value: 50, label: "Product Deployments", suffix: "+" },
     { icon: assets.image5, value: 700, label: "Interactions Everyday", suffix: "M" },
-    { icon: assets.image6, value: 500, label: "Professionals", suffix: "+" },
+    { icon: assets.image6, value: 15, label: "Professionals", suffix: "+" },
   ];
 
   const [startCount, setStartCount] = useState(false);
@@ -50,9 +50,7 @@ const GlobalImpact = () => {
 
         {/* Paragraph */}
         <p className="text-lg md:text-xl leading-relaxed mb-12 max-w-3xl mx-auto">
-          For over 2 decades, De Solutions has empowered organizations
-          globally to adopt digital transformation. Over this period, De
-          Solutions has evolved into an innovative technology powerhouse.
+          For over 20 years, De Solutions has delivered smart ERP and digital solutions, helping global businesses streamline operations and drive innovation.
         </p>
 
         {/* Stats Boxes */}

@@ -3,20 +3,7 @@ import React from "react";
 import { assets } from "../assets/global";
 
 const locations = [
-  {
-    image: assets.image35,
-    title: "California, USA",
-    address: "3415 S Sepulveda Blvd, Los Angeles, CA, USA",
-    mapLink:
-      "https://www.google.com/maps/place/3415+S+Sepulveda+Blvd,+Los+Angeles,+CA",
-  },
-  {
-    image: assets.image36,
-    title: "Montana, USA",
-    address: "1001 S Main St, Kalispell, MT 59901, USA",
-    mapLink:
-      "https://www.google.com/maps/place/1001+S+Main+St,+Kalispell,+MT+59901",
-  },
+ 
   {
     image: assets.image37,
     title: "Riyadh, KSA",
@@ -46,11 +33,11 @@ const Locations = () => {
           Our Global Offices
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8  ">
           {locations.map((loc, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col"
+              className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col "
             >
               {/* Image with hover effect */}
               <div className="overflow-hidden">

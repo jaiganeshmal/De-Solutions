@@ -30,15 +30,16 @@ const CeoMessage = () => {
           </h2>
 
           <p className="text-gray-700 text-lg mb-4">
-            De Solutions, for more than two decades, has successfully pursued innovative strategies and cutting-edge approaches to enable an e-infrastructure, reshaping the core functions of the digital universe. The world is embracing the trends set by modernization expeditiously, influencing organizations globally; De Solutions furnishes these organizations by powering their systems, operations, and processes via next-gen technologies, e-solutions, and digital platforms.
+            <strong>For over two decades, De Solutions has championed innovation through strategic foresight and cutting-edge technologies, laying the foundation for a robust e-infrastructure that redefines the core of the digital landscape. </strong> <br />
+            As the world rapidly adapts to the accelerating pace of modernization, De Solutions empowers organizations globally by transforming their systems, operations, and processes through next-generation technologies, digital solutions, and intelligent platforms.
           </p>
 
           <p className="text-gray-700 text-lg mb-4">
-            Our collective focus on the vision to enrich everyday life with people-centric innovation gives us the ability to work in close collaboration across units and organizations to create synergies that ultimately develop exceptional products.
+            Driven by a shared vision to enhance everyday life through people-centric innovation, we foster deep collaboration across teams and partners — creating synergies that lead to the development of truly exceptional, forward-thinking products.
           </p>
 
           <p className="text-gray-700 text-lg mb-4">
-            De Solutions' mission is to steer companies worldwide into the digital portal by developing and deploying an infinite number of hi-tech solutions using innovative and agile integration techniques.
+            Our mission is clear: <strong> to guide businesses around the world into the digital future </strong> by engineering and deploying limitless high-tech solutions, powered by agile integration methodologies and cutting-edge innovation.
           </p>
 
           {/* Bold line */}

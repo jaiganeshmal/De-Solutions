@@ -17,8 +17,7 @@ const Footer = () => {
             De Solutions
           </h2>
           <p className="text-sm leading-relaxed text-gray-400 max-w-xs">
-            Empowering businesses with next-gen digital transformation.
-            Let’s build innovation together 🚀
+            Driving innovation through next-generation digital transformation. At De Solutions, we collaborate with businesses to create impactful, future-ready digital experiences. Let’s shape the future together.  🚀
           </p>
         </div>
 

@@ -26,6 +26,11 @@ const servicesData = [
   {
     icon: assets.image46,
     title: "Web App Development",
+    description: "All-in-one platform to manage HR, operations, and customer relationships — with an intuitive interface and powerful features designed for business efficiency.",
+  },
+  {
+    icon: assets.image46,
+    title: "ERP, CRM & HCM Software",
     description: "Our web app development team is here to help you with every step of creating online software, from the initial design to ongoing improvements. We're committed to building web apps that work well, are efficient, and are a breeze to use.",
   },
 ];

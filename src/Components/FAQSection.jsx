@@ -4,80 +4,64 @@ import { FaChevronDown } from "react-icons/fa";
 
 const faqs = [
   {
-    question: "How can I hire Android app developers from De Solutions?",
+    question: "How can I hire ERP and mobile app developers from De Solutions?",
     answer:
-      "Employing the best Android developers can help you create an exceptional app that stands out and brings in a good profit. Developers must know Android SDKs, APIs, databases, and business logic to deliver an app that meets your needs.",
+      "You can easily hire our expert developers through a quick consultation. We’ll understand your requirements and assign the right team for your ERP or app project.",
   },
   {
-    question: "Will you assist me to upload my Android app on the Play Store?",
+    question: "Will you assist in launching our mobile app or ERP system?",
     answer:
-      "We see getting your Android app onto Google Play as a key piece of our overall Android app development puzzle. At De Solutions, we've mastered the art of launching Android apps on the Play Store while following their rules.",
-  },
-  {
-    question:
-      "How De Solutions meet the current trends in native Android app development?",
-    answer:
-      "De Solutions boasts a team of tech enthusiasts always eager to expand their knowledge. This passion fuels their drive for constant improvement, ensuring they stay updated with the latest advancements in Android development.",
+      "Yes, we offer full deployment support — from server setup to Play Store uploads and ERP installation on your preferred environment.",
   },
   {
     question:
-      "What should I pay attention to while looking for Android application developers?",
+      "How does De Solutions stay updated with the latest ERP and app development trends?",
     answer:
-      "Developers need to be proficient in syntax, frameworks, concurrency, SDKs, APIs, Android Studio, and databases. They should also understand your business logic to deliver an app that fully meets your requirements.",
-  },
-  {
-    question: "Why your company might need Android application services?",
-    answer:
-      "Businesses favor Android apps as they help connect with a vast customer base, drive sales, enhance reputation, and build loyal customers. An Android app can transform how your business engages with clients.",
-  },
-  {
-    question: "How much does it cost to make an Android App?",
-    answer:
-      "The cost varies depending on app complexity, APIs, and screens. A basic app might cost around $5,000 or more, while advanced apps cost higher depending on features and integrations.",
-  },
-  {
-    question: "Will I be getting any support after project completion?",
-    answer:
-      "We offer free 3-month support and maintenance after delivery, ensuring your app runs smoothly by fixing issues based on user feedback.",
-  },
-  {
-    question: "Which tools and technologies do you use?",
-    answer: `At De Solutions, our developers utilize cutting-edge tools:
-
-Mobile Frontend
-- Native (Java/Kotlin), Xamarin, Ionic, React Native
-
-OS & SDKs
-- Android OS, Android Studio, Google Fit SDK, ARCore, Android Auto
-
-Platforms
-- AWS, Azure, GCP, Firebase, Kubernetes, AppCenter
-
-Others
-- Google Assistant, VR, ML Kit, Analytics`,
+      "Our team continuously adopts new technologies and frameworks to ensure every solution is modern, secure, and performance-driven..",
   },
   {
     question:
-      "How do you allocate the resources for my app development in Android?",
+      "Why should my company invest in ERP and mobile app services?",
     answer:
-      "We dive deep into your company, competitors, and audience to allocate resources effectively. This ensures your app does its job and gives you a competitive edge.",
+      "ERP systems and mobile apps streamline your business processes, improve productivity, and offer real-time data access for better decision-making.",
+  },
+  {
+    question: "How much does it cost to develop an ERP or mobile app?",
+    answer:
+      "Costs vary depending on features, integrations, and complexity. We provide flexible packages suited for startups to enterprise-level needs.",
+  },
+  {
+    question: "Will I receive ongoing support after project delivery?",
+    answer:
+      "Absolutely! De Solutions provides long-term maintenance, technical support, and version upgrades even after deployment.",
+  },
+  {
+    question: "Which tools and technologies do you use for ERP and mobile app development?",
+    answer:
+      "We use cutting-edge technologies like PHP, Laravel, Flutter, React Native, and MySQL to build reliable and scalable systems.",
   },
   {
     question:
-      "Will we sign an NDA to keep my Android app idea confidential?",
+      "How do you allocate resources for ERP and mobile app projects?",
     answer:
-      "Yes! A Non-Disclosure Agreement (NDA) safeguards your ideas and prevents them from being copied or disclosed to competitors.",
+      "We assign dedicated project managers and developers who focus exclusively on your project, ensuring timely delivery and quality results.",
   },
   {
     question:
-      "What process do you follow for Android app development?",
+      "Will my project details remain confidential?",
     answer:
-      "We use an agile approach: gather requirements → plan → design → build → test → launch → support. This ensures fast and transparent development.",
+      "Yes, we sign NDA agreements with every client to protect all confidential and business information shared with us.",
   },
   {
-    question: "Why choose De Solutions for Android app development?",
+    question:
+      "What process do you follow for ERP and app development?",
     answer:
-      "We offer free consultation, 50+ Android experts, flexible hiring, ongoing technical assistance, 100% transparency, and 3-month post-launch support.",
+      "Our process includes requirement analysis, design, development, testing, deployment, and continuous support for seamless delivery.",
+  },
+  {
+    question: "Why choose De Solutions for ERP and mobile app development?",
+    answer:
+      "Because we combine innovation, experience, and technology to deliver customized digital solutions that empower your business growth.",
   },
 ];
 

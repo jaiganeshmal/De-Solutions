@@ -20,20 +20,19 @@ const Header = () => {
       <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/25 to-transparent"></div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col md:justify-start justify-end h-full text-white px-4 sm:px-8 md:px-16 pb-16 md:pb-24 pt-24">
+      <div className="relative z-10 flex flex-col md:justify-start justify-end h-full text-white px-4 sm:px-8 md:px-16 pb-16 md:pb-24 pt-18">
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-snug md:leading-[1.2] text-left sm:text-center md:text-left">
-          Top Rated <br />
+          Top-Rated <br />
           <span className="text-[#0DACAF]">
-            App Cross Platform App Web
+            ERP & Mobile App Development 
           </span>
           <br />
-          Development <br />
-          Company
+          Company Smart Solutions. <br />
+          Scalable Results
         </h1>
 
         <p className="max-w-2xl mt-4 sm:mt-6 text-base sm:text-lg text-gray-200 text-left sm:text-center md:text-left">
-          Our app developers are glad to state that they are always accessible
-          to meet and discuss project requirements and progress.
+          We specialize in building scalable ERP systems and custom mobile applications that streamline your business operations and boost productivity. Let's create innovative solutions tailored to your goals.
         </p>
 
         <div className="mt-6 flex sm:justify-center md:justify-start">

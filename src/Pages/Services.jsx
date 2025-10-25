@@ -8,7 +8,7 @@ const OurServicesSection = lazy(() => import("../Components/OurServicesSection")
 const ProjectCTA = lazy(() => import("../Custom Component/ProjectCTA"));
 const WhyChooseUsSection = lazy(() => import("../Components/WhyChooseUsSection"));
 const AndroidProcessSection = lazy(() => import("../Components/AndroidProcessSection"));
-const TechPartnersSection = lazy(() => import("../Components/TechPartnersSection"));
+// const TechPartnersSection = lazy(() => import("../Components/TechPartnersSection"));
 const TopRankedSection = lazy(() => import("../Components/TopRankedSection"));
 const ClientsSection = lazy(() => import("../Components/ClientsSection"));
 const FAQSection = lazy(() => import("../Components/FAQSection"));
@@ -39,7 +39,7 @@ const Services = () => {
           highlight="Dedicated Developer"
           buttonText="Let's Work Together"
         />
-        <TechPartnersSection />
+        {/* <TechPartnersSection /> */}
         <TopRankedSection />
         <ProjectCTA
           heading="We Promise. We Deliver."

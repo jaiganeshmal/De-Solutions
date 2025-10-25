@@ -15,22 +15,15 @@ const AboutContent = () => {
         {/* Paragraphs */}
         <div className="mt-10 flex flex-col gap-6 text-gray-700 text-lg md:text-xl leading-relaxed text-left md:text-center">
           <p className="md:px-8">
-            Since 2000, De Solutions has been empowering organizations across 
-            the globe to adopt digital transformation via next-gen and hi-tech 
-            innovative digital platforms and services. Being supreme and 
-            ever-evolving, De Solutions serves as a digital hub of innovation and 
-            digitalization where technologies like Customer Experience, Artificial 
-            Intelligence, Blockchain, Channel Banking, Smart City applications, 
-            Business Automation, and Cognitive platforms are developed, deployed, 
-            and integrated daily.
+            Founded in 2018 by experienced consultants, DE Solutions brings over a decade of expertise in software development, project management, training, and support services. Our mission is to empower small and medium businesses through automation and innovative digital solutions.With hundreds of successful implementations, we help startups and established enterprises strengthen business processes using modern technologies like ERP systems, web and mobile apps, social media, and digital marketing.Our flexible, user-friendly solutions are designed to meet evolving business needs—enabling faster decisions, smarter controls, and sustainable growth. Backed by a dedicated team, we deliver high-quality, cost-effective services on time, while continuously improving through client feedback and technology upgrades.
           </p>
 
-          <p className="md:px-8">
+          {/* <p className="md:px-8">
             Carrying the vision of people-centric innovation and automation, 
             De Solutions has furnished multiple organizations worldwide with its 
             digital solutions, including Banking, Finance, Telecommunication, 
             Insurance, Pharmaceuticals, Government sectors, and others.
-          </p>
+          </p> */}
         </div>
       </div>
     </section>

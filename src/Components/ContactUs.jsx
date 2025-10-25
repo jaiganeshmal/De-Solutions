@@ -8,18 +8,18 @@ const ContactUs = () => {
       icon: <FaEnvelope className="text-3xl text-[#0DACAF]" />,
       title: "Contact Us",
       subtitle: "Reach out to us",
-      detail: "For more details",
+      detail: "For more information",
     },
     {
       icon: <FaPhoneAlt className="text-3xl text-[#0DACAF]" />,
       title: "Call Us",
-      subtitle: "+92 3088005965",
+      subtitle: "+92 3009296347",
       detail: "UAN: +92-21-111-282-692",
     },
     {
       icon: <FaHandshake className="text-3xl text-[#0DACAF]" />,
       title: "Partner with Us",
-      subtitle: "Let's innovate",
+      subtitle: "Let’s co-create the future",
       detail: "Together",
     },
   ];
@@ -36,9 +36,7 @@ const ContactUs = () => {
         {/* Heading */}
         <h1 className="text-3xl md:text-5xl font-bold mb-6">Contact Us</h1>
         <p className="max-w-3xl mx-auto text-lg md:text-xl mb-12 leading-relaxed">
-          Contact our tech professionals, and together let's lead the world
-          towards digital disruption via multiple digital modes of communication
-          and implementation techniques
+          Connect with our tech experts and let’s drive the world forward through digital innovation using diverse communication and implementation methods
         </p>
 
         {/* Contact Boxes */}
