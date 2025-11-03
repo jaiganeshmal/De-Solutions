@@ -30,7 +30,7 @@ const SocialLinks = () => {
     {
       icon: <FaWhatsapp size={20} />,
       label: "WhatsApp",
-      href: "https://wa.me/923001234567",
+      href: "https://wa.me/923009296413",
       type: "external",
       bg: "bg-[#0DACAF] hover:bg-[#1DA851]",
     },

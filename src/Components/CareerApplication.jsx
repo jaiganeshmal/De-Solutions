@@ -53,6 +53,7 @@ const CareerApplication = () => {
             </label>
             <select className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#0DACAF]">
               <option value="">Select a role</option>
+              <option>ERP Development</option>
               <option>Graphic Designer</option>
               <option>Content Writer</option>
               <option>Website Developer</option>
