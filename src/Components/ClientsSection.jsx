@@ -1,8 +1,7 @@
 // src/components/ClientsSection.jsx
 import React from "react";
 import { FaQuoteRight } from "react-icons/fa";
-import img from "../assets/img/logo.png"
-import img1 from "../assets/img/logo1.png"
+// import img1 from "../assets/img/logo1.png"
 // Swiper imports
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
@@ -280,7 +279,7 @@ const ClientsSection = () => {
                                             <h4 className="font-bold text-gray-900">{item.name}</h4>
                                             <p className="text-sm text-gray-600">{item.location}</p>
                                         </div>
-                                        <img src={img} alt="" className="w-20" />
+                                        <img src='https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248355/logo_zzuyxp.png' alt="" className="w-20" />
                                     </div>
                                 </div>
                             </SwiperSlide>
