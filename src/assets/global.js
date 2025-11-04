@@ -1,276 +1,139 @@
-// import logo from ""
-import header_img from "./header.mp4"
-import image1 from "./img/img1.webp"
-import image2 from "./img/img2.png"
-import image3 from "./img/img3.png"
-import image4 from "./img/img4.png"
-import image5 from "./img/img5.png"
-import image6 from "./img/img6.png"
-import image7 from "./img/img7.png"
-import image8 from "./img/img8.png"
-import image9 from "./img/img9.png"
-import image10 from "./img/img10.png"
-import image11 from "./img/img11.png"
-import image12 from "./img/img12.png"
-import image13 from "./img/img13.png"
-import image14 from "./img/img14.png"
-import image15 from "./img/img15.png"
-import image16 from "./img/img16.png"
-import image17 from "./img/img17.png"
-import image18 from "./img/img18.png"
-import image19 from "./img/img19.png"
-import image20 from "./img/img20.png"
-import image21 from "./img/img21.png"
-import image22 from "./img/img22.png"
-import image23 from "./img/img23.png"
-import image24 from "./img/img24.png"
-import image25 from "./img/img25.png"
-import image26 from "./img/img26.png"
-import image27 from "./img/img27.jpg"
-import image28 from "./img/img28.jpg"
-import image29 from "./img/img29.jpg"
-import image30 from "./img/img30.jpg"
-import image31 from "./img/img31.jpg"
-import image32 from "./img/img32.jpg"
-import image33 from "./img/img33.png"
-import image34 from "./img/img34.webp"
-import image35 from "./img/img35.webp"
-import image36 from "./img/img36.webp"
-import image37 from "./img/img37.webp"
-import image38 from "./img/img38.webp"
-import image39 from "./img/img39.webp"
-import image40 from "./img/img40.jpg"
-import image41 from "./img/img41.webp"
-import image42 from "./img/img42.svg"
-import image43 from "./img/img43.svg"
-import image44 from "./img/img44.svg"
-import image45 from "./img/img45.svg"
-import image46 from "./img/img46.svg"
-import image47 from "./img/img47.svg"
-import image48 from "./img/img48.svg"
-import image49 from "./img/img49.svg"
-import image50 from "./img/img50.svg"
-import image51 from "./img/img51.svg"
-import image52 from "./img/img52.svg"
-import image53 from "./img/img53.webp"
-import image54 from "./img/img54.webp"
-import image55 from "./img/img55.webp"
-import image56 from "./img/img56.webp"
-import image57 from "./img/img57.webp"
-import image58 from "./img/img58.webp"
-import image59 from "./img/img59.webp"
-import image60 from "./img/img60.webp"
-import image61 from "./img/img61.webp"
-import image62 from "./img/img62.webp"
-import image63 from "./img/img63.webp"
-import image64 from "./img/img64.webp"
-import image65 from "./img/img65.webp"
-import image66 from "./img/img66.webp"
-import image67 from "./img/img67.webp"
-import image68 from "./img/img68.webp"
-import image69 from "./img/img69.webp"
-import image70 from "./img/img70.webp"
-import image71 from "./img/img71.webp"
-import image72 from "./img/img72.webp"
-import image73 from "./img/img73.webp"
-import image74 from "./img/img74.webp"
-import image75 from "./img/img75.webp"
-import image76 from "./img/img76.webp"
-import image77 from "./img/img77.webp"
-import image78 from "./img/img78.webp"
-import image79 from "./img/img79.webp"
-import image80 from "./img/img80.webp"
-import image81 from "./img/img81.webp"
-import image82 from "./img/img81.webp"
-import image83 from "./img/img82.webp"
-import image84 from "./img/img83.webp"
-import image85 from "./img/img84.webp"
-import image86 from "./img/img85.svg"
-import image87 from "./img/img86.svg"
-import image88 from "./img/img87.svg"
-import image89 from "./img/img88.webp"
-import image90 from "./img/img89.webp"
-import image91 from "./img/img90.webp"
-import image92 from "./img/img91.webp"
-import image93 from "./img/img92.webp"
-import image94 from "./img/img93.webp"
-import image95 from "./img/img94.webp"
-import image96 from "./img/img95.webp"
-import image97 from "./img/img96.webp"
-import image98 from "./img/img97.webp"
-import image99 from "./img/img98.webp"
-import image100 from "./img/img99.webp"
-import image101 from "./img/img100.svg"
-import image102 from "./img/img101.svg"
-import image103 from "./img/img102.svg"
-import image104 from "./img/img103.svg"
-import image105 from "./img/img104.svg"
-import image106 from "./img/img105.svg"
-import image107 from "./img/img106.webp"
-import image108 from "./img/img107.webp"
-import image109 from "./img/img108.webp"
-import image110 from "./img/img109.webp"
-import image111 from "./img/img110.webp"
-import image112 from "./img/img112.jpg"
-import image113 from "./img/img113.jpg"
-import image114 from "./img/img114.jpg"
-import image115 from "./img/img115.jpg"
-import image116 from "./img/img116.jpg"
-import image117 from "./img/img117.jpg"
-import image118 from "./img/img118.jpg"
-import image119 from "./img/img119.jpg"
-import image120 from "./img/img120.jpg"
-import image121 from "./img/img121.jpg"
-import image122 from "./img/img122.jpg"
-import image123 from "./img/img123.jpg"
-import image124 from "./img/img124.jpg"
-import image125 from "./img/img125.jpg"
-import image126 from "./img/img126.jpg"
-import image127 from "./img/img127.jpg"
-import image128 from "./img/img128.jpg"
-import image129 from "./img/img129.jpg"
-import image130 from "./img/img130.jpg"
-import image131 from "./img/img131.jpg"
-import image132 from "./img/img132.jpg"
-import image133 from "./img/img133.jpg"
-import image134 from "./img/img134.jpg"
-
 
 export let assets = {
     // logo,
     header_img : 'https://res.cloudinary.com/dy2ddzcoq/video/upload/v1758955816/header_amjqd1.mp4',
-    image1,
-    image2,
-    image3,
-    image4,
-    image5,
-    image6,
-    image7,
-    image8,
-    image9,
-    image10,
-    image11,
-    image12,
-    image13,
-    image14,
-    image15,
-    image16,
-    image17,
-    image18,
-    image19,
-    image20,
-    image21,
-    image22,
-    image23,
-    image24,
-    image25,
-    image26,
-    image27,
-    image28,
-    image29,
-    image30,
-    image31,
-    image32,
-    image33,
-    image34,
-    image35,
-    image36,
-    image37,
-    image38,
-    image39,
-    image40,
-    image41,
-    image42,
-    image43,
-    image44,
-    image45,
-    image46,
-    image47,
-    image48,
-    image49,
-    image50,
-    image51,
-    image52,
-    image53,
-    image54,
-    image55,
-    image56,
-    image57,
-    image58,
-    image59,
-    image60,
-    image61,
-    image62,
-    image63,
-    image64,
-    image65,
-    image66,
-    image67,
-    image68,
-    image69,
-    image70,
-    image71,
-    image72,
-    image73,
-    image74,
-    image75,
-    image76,
-    image77,
-    image78,
-    image79,
-    image80,
-    image81,
-    image82,
-    image83,
-    image84,
-    image85,
-    image86,
-    image87,
-    image88,
-    image89,
-    image90,
-    image91,
-    image92,
-    image93,
-    image94,
-    image95,
-    image96,
-    image97,
-    image98,
-    image99,
-    image100,
-    image101,
-    image102,
-    image103,
-    image104,
-    image105,
-    image106,
-    image107,
-    image108,
-    image109,
-    image110,
-    image111,
-    image112,
-    image113,
-    image114,
-    image115,
-    image116,
-    image117,
-    image118,
-    image119,
-    image120,
-    image121,
-    image122,
-    image123,
-    image124,
-    image125,
-    image126,
-    image127,
-    image128,
-    image129,
-    image130,
-    image131,
-    image132,
-    image133,
-    image134,
+    image1 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img1_bmxbnn.webp',
+    image2 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248267/img2_gnywea.png',
+    image3 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img3_wayzwc.png',
+    image4 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img4_iiodit.png',
+    image5 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img5_yqth2c.png',
+    image6 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img6_hrmxsj.png',
+    image7 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img7_mvq1vh.png',
+    image8 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img8_ltpds6.png',
+    image9 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248267/img9_v3gjos.png',
+    image10 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img10_rxvjoc.png',
+    image11 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img11_cxhabb.png',
+    image12 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img12_uvpocv.png',
+    image13 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img13_jj5nlt.png',
+    image14 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img14_rx8krf.png',
+    image15 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img15_rjp7ra.png',
+    image16 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img16_vet1t9.png',
+    image17 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img17_izb9mb.png',
+    image18 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248271/img18_gpu84r.png',
+    image19 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248273/img19_ezrwbb.png',
+    image20 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248273/img20_v16du7.png',
+    image21 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248274/img21_pqgpjc.png',
+    image22 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248274/img22_jqrufc.png',
+    image23 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248276/img23_yyasxr.png',
+    image24 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248276/img24_ilejqe.png',
+    image25 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248276/img25_nbfapu.png',
+    image26 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248276/img26_r7vscp.png',
+    image27 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248277/img27_uciwix.jpg',
+    image28 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248277/img28_fwt25h.jpg',
+    image29 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248277/img29_stqq5p.jpg',
+    image30 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248278/img30_jghpas.jpg',
+    image31 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img31_mv9hvm.jpg',
+    image32 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img32_d67tpq.jpg',
+    image33 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img33_gauxfk.png',
+    image34 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img34_lef8hq.webp',
+    image35 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img35_buedet.webp',
+    image36 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img36_qqqiam.webp',
+    image37 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img37_ae2lsw.webp',
+    image38 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248282/img38_m3gfau.webp',
+    image39 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248282/img39_gema93.webp',
+    image40 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248282/img40_ly0sd1.jpg',
+    image41 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248282/img41_yjcwoc.webp',
+    image42 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248286/img42_wbs4p7.svg',
+    image43 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248286/img43_cedgbl.svg',
+    image44 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248287/img44_alteje.svg',
+    image45 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248287/img45_qqqrr2.svg',
+    image46 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248287/img46_axhzni.svg',
+    image47 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248287/img47_dlizgk.svg',
+    image48 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248288/img48_oihhzo.svg',
+    image49 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248288/img49_tqeapa.svg',
+    image50 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248288/img50_v68etg.svg',
+    image51 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248288/img51_m4novo.svg',
+    image52 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248289/img52_rs82s8.svg',
+    image53 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248289/img53_eiiynz.webp',
+    image54 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248290/img54_akboux.webp',
+    image55 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248294/img55_ghcrny.webp',
+    image56 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248294/img56_bhhilh.webp',
+    image57 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248294/img57_ra934b.webp',
+    image58 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248294/img58_d2ekes.webp',
+    image59 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248295/img59_icgbmy.webp',
+    image60 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248295/img60_onvfn6.webp',
+    image61 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248295/img61_yhg28b.webp',
+    image62 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248299/img62_k9fhza.webp',
+    image63 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248299/img63_yhxs4p.webp',
+    image64 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248299/img64_ht6qwy.webp',
+    image65 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248300/img65_i501tr.webp',
+    image66 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248300/img66_wugkhe.webp',
+    image67 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248300/img67_szemmk.webp',
+    image68 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248300/img68_emvclg.webp',
+    image69 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248301/img69_oz2exk.webp',
+    image70 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248305/img70_xlkwnd.webp',
+    image71 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248305/img71_oyttb8.webp',
+    image72 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248305/img72_dojeja.webp',
+    image73 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248305/img73_dgo8c1.webp',
+    image74 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img74_yuua5q.webp',
+    image75 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img75_aywqaq.webp',
+    image76 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img76_nidkm4.webp',
+    image77 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img77_ywfex7.webp',
+    image78 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img78_ay8q2r.webp',
+    image79 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img79_nalsje.webp',
+    image80 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img80_so2zx2.webp',
+    image81 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248307/img81_ucciff.webp',
+    image82 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248307/img81_ucciff.webp',
+    image83 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248313/img82_dbxkyb.webp',
+    image84 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248313/img83_qblrpk.webp',
+    image85 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img84_drxgvp.webp',
+    image86 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img85_kdlhdr.svg',
+    image87 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img86_c4i3bx.svg',
+    image88 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img87_aztjso.svg',
+    image89 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img88_uldzyz.webp',
+    image90 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img89_jlrk02.webp',
+    image91 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248319/img90_sjalvu.webp',
+    image92 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248319/img91_w5gmqu.webp',
+    image93 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248319/img92_rbbcux.webp',
+    image94 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248320/img93_sukvnr.webp',
+    image95 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248319/img94_khm3k7.webp',
+    image96 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248320/img95_r4qi02.webp',
+    image97 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248320/img96_liiele.webp',
+    image98 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248320/img97_kzsuae.webp',
+    image99 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248320/img98_iv35nx.webp',
+    image100 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248326/img99_hchhno.webp',
+    image101 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248327/img100_vjoe2g.svg',
+    image102 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248326/img101_flpbsm.svg',
+    image103 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248326/img102_ezbmmd.svg',
+    image104 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248326/img103_gpt36b.svg',
+    image105 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248326/img104_ciguth.svg',
+    image106 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248327/img105_iumgvt.svg',
+    image107 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248327/img106_kq3noa.webp',
+    image108 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248328/img107_qnk72h.webp',
+    image109 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248328/img108_zkfewn.webp',
+    image110 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248328/img109_nmkfig.webp',
+    image111 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248328/img110_u1s3iw.webp',
+    image112 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248335/img112_rqojk9.jpg',
+    image113 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248336/img113_j7ihf2.jpg',
+    image114 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248336/img114_mgo4zm.jpg',
+    image115 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248336/img115_euqhez.jpg',
+    image116 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248338/img116_dekeaw.jpg',
+    image117 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248341/img117_eva2ih.jpg',
+    image118 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248337/img118_c2bzf8.jpg',
+    image119 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248338/img119_rwrv3a.jpg',
+    image120 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248337/img120_n7fu6b.jpg',
+    image121 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248337/img121_j5jp0f.jpg',
+    image122 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248338/img122_dwdj2y.jpg',
+    image123 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248342/img123_wkillc.jpg',
+    image124 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248342/img124_rgzrqs.jpg',
+    image125 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248342/img125_hhslfh.jpg',
+    image126 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248342/img126_cqdmio.jpg',
+    image127 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248343/img127_m7ozt5.jpg',
+    image128 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248345/img128_qpv3kg.jpg',
+    image129 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248350/img129_wpjbq9.jpg',
+    image130 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248350/img130_wbjolw.jpg',
+    image131 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248350/img131_emp2yg.jpg',
+    image132 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248351/img132_oc3f2b.jpg',
+    image133 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248351/img133_clc5au.jpg',
+    image134 : 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248351/img134_wzfyyy.jpg',
 }
