@@ -2,16 +2,10 @@
 import React from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import { FaCheckCircle } from "react-icons/fa"; // react-icons ka use
+import { services } from "../assets/global";
 
 const ServiceHeroSection = () => {
-  const services = [
-    "ERP System Development",
-    "Custom Web Application Development",
-    "Android & iOS App Development",
-    "Cross-Platform & Hybrid App Solutions",
-    "E-Commerce Solutions",
-    "Business Process Automation",
-  ];
+ 
 
   const handleCaptchaChange = (value) => {
     console.log("Captcha value:", value);

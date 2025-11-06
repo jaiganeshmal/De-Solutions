@@ -1,26 +1,11 @@
 import React from "react";
-import { assets } from "../assets/global";
 import { FaArrowRight } from "react-icons/fa"; // react-icons se arrow
+import { devIcons } from "../assets/global";
 
 const HireDevelopers = () => {
-  // Images list (from global.js)
-  const devIcons = [
-    assets.image89,
-    assets.image90,
-    assets.image91,
-    assets.image92,
-    assets.image93,
-    assets.image94,
-    assets.image95,
-    assets.image96,
-    assets.image97,
-    assets.image98,
-    assets.image99,
-    assets.image100,
-  ];
-
+ 
   return (
-    <section className="bg-[#1B1B1B] py-20">
+    <section className="bg-[#1B1B1B] py-10">
       <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <div className="text-white">

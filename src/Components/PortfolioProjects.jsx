@@ -1,63 +1,25 @@
 // src/components/PortfolioProjects.jsx
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa"; // list icon
-import { assets } from "../assets/global";
-
-const projects = [
-    {
-        id: 1,
-        logo: assets.image80,
-        tags: ["UI/UX Design", "Mobile App Development"],
-        title: "Mover Web",
-        description:
-            "At Mover App, our mission is clear, revolutionize the moving experience. With a steadfast commitment to innovation, we've crafted a seamless platform that bridges the gap between customers and reliable moving professionals. Our dedication to excellence ensures that every interaction, from booking to the final move-in, is smooth, efficient, and stress-free. Join us as we transform the way people move, one seamless connection at a time.",
-        list: ["Riders Management", "Promotions", "Nearby Courier", "Track Order"],
-        image: assets.image83,
-    },
-    {
-        id: 2,
-        logo: assets.image81,
-        tags: ["UI/UX Design", "Mobile App Development"],
-        title: "Mover App",
-        description:
-            "Develop a comprehensive mobile application designed to optimize the moving experience by facilitating efficient order management and customer engagement. The app aims to provide seamless real-time tracking of movers, an intuitive interface for profile customization, and direct feedback channels to improve service quality. Additionally, it seeks to incorporate membership and subscription features to offer value-added services and promotions, thereby enhancing customer loyalty and operational transparency in the moving industry.",
-        list: ["Order Management", "Track Order", "Membership &", "Nearby Courier"],
-        image: assets.image84,
-    },
-    {
-        id: 3,
-        logo: assets.image82,
-        tags: ["UI/UX Design", "Mobile App Development"],
-        title: "Gym Web",
-        description:
-            "Gymnasium emerges as the definitive application dedicated to offering a comprehensive guide for enhancing physical health and overall well-being. This platform excels by integrating innovative tools and expert insights designed to empower users on their journey toward optimal fitness and wellness. Engage with Gymnasium to transform your health through structured guidance and supportive community features. Whether you're starting your fitness journey or aiming to reach new goals, Gymnasium provides the tools and support you need to succeed. From personalized workout plans to expert nutritional advice and real-time progress tracking, it's your all-in-one companion for achieving and maintaining a healthier lifestyle.",
-        list: [
-            "Content Management",
-            "User Management",
-            "Promotions",
-            "Bookings Management",
-        ],
-        image: assets.image85,
-    },
-];
+import { projects } from "../assets/global";
 
 const PortfolioProjects = () => {
     return (
-        <section className="bg-white py-20">
-            <div className="container mx-auto px-6 space-y-20">
+        <section className="bg-white py-10">
+            <div className="container mx-auto px-6 space-y-10">
                 {projects.map((project, index) => (
                     <div
                         key={project.id}
-                        className={`flex flex-col lg:flex-row items-center gap-10 ${index % 2 === 1 ? "lg:flex-row-reverse" : ""
+                        className={` flex flex-col lg:flex-row items-center gap-10 ${index % 2 === 1 ? "lg:flex-row-reverse" : ""
                             }`}
                     >
                         {/* Left Section */}
-                        <div className="lg:w-1/2 space-y-6">
+                        <div className="lg:w-1/2 space-y-4">
                             {/* Logo */}
                             <img
                                 src={project.logo}
                                 alt={project.title}
-                                className="w-32 h-32 object-contain"
+                                className="w-32 h-20 object-contain"
                                 loading="lazy"
                             />
 

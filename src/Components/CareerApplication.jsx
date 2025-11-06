@@ -2,7 +2,7 @@ import React from "react";
 
 const CareerApplication = () => {
   return (
-    <section className="bg-gradient-to-br from-[#0DACAF] via-[#10cfcf] to-[#0d6eaf] min-h-screen flex items-center justify-center py-12 px-4">
+    <section className="bg-gradient-to-br from-[#0DACAF] via-[#10cfcf] to-[#0d6eaf] min-h-screen flex items-center justify-center py-10 px-4">
       <div className="bg-white shadow-2xl rounded-2xl max-w-2xl w-full p-10">
         {/* Heading */}
         <h2 className="text-3xl font-bold text-gray-800 text-center mb-8">

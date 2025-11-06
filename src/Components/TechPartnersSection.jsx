@@ -1,30 +1,13 @@
 // src/components/TechPartnersSection.jsx
 import React from "react";
-import { assets } from "../assets/global"; // image53 - image56
+import { partnersData } from "../assets/global";
 
-const partnersData = [
-  {
-    icon: assets.image53,
-    title: "Google Developer Certified Agency",
-  },
-  {
-    icon: assets.image54,
-    title: "Adobe Solution Partner Program",
-  },
-  {
-    icon: assets.image55,
-    title: "Microsoft Certified Consulting Partner",
-  },
-  {
-    icon: assets.image56,
-    title: "Amazon Web Service Partner",
-  },
-];
+
 
 const TechPartnersSection = () => {
   return (
-    <section className="bg-[#1B1B1B] py-24">
-      <div className="container mx-auto px-6 flex flex-col space-y-12">
+    <section className="bg-[#1B1B1B] py-10">
+      <div className="container mx-auto px-6 flex flex-col space-y-8">
         
         {/* Heading */}
         <div className="text-center space-y-4">
@@ -35,7 +18,7 @@ const TechPartnersSection = () => {
         </div>
 
         {/* Partners Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {partnersData.map((partner, idx) => (
             <div
               key={idx}

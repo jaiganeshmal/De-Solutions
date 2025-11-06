@@ -1,54 +1,16 @@
 // src/components/AndroidProcessSection.jsx
 import React from "react";
-
-const processData = [
-  {
-    number: "01",
-    title: "Requirement Analysis",
-    description:
-      "Understanding how your app's UX/UI should be tailored to your target audience. This stage also involves selecting the technology stack and compiling a comprehensive business document.",
-  },
-  {
-    number: "02",
-    title: "App Development Strategies",
-    description:
-      "We dive deep into understanding your business, audience, and competition to create a results-oriented Android app development strategy.",
-  },
-  {
-    number: "03",
-    title: "Wireframing And Designing",
-    description:
-      "Our UI/UX designers create appealing designs and prototypes, ensuring scalable and dependable results.",
-  },
-  {
-    number: "04",
-    title: "Development Phase",
-    description:
-      "We build Android applications using best practices and latest technologies, addressing complex business challenges effectively.",
-  },
-  {
-    number: "05",
-    title: "App Testing",
-    description:
-      "Our QA team rigorously tests the app to ensure stability, security, and performance before launch.",
-  },
-  {
-    number: "06",
-    title: "App Deployment",
-    description:
-      "After testing and client approval, we launch the app on Google Play Store following all guidelines.",
-  },
-];
+import { processData } from "../assets/global";
 
 const AndroidProcessSection = () => {
   return (
-    <section className="bg-white py-24">
-      <div className="container mx-auto px-6 flex flex-col space-y-12">
+    <section className="bg-white py-10">
+      <div className="container mx-auto px-6 flex flex-col space-y-10">
         
         {/* Heading */}
         <div className="text-center space-y-4">
           <h2 className="text-4xl md:text-5xl font-extrabold">
-            our <span className="text-[#42BABC]">android</span> app development process
+            Our <span className="text-[#42BABC]">Android</span> App Development Process
           </h2>
           <p className="text-gray-700 text-lg md:text-xl max-w-3xl mx-auto">
             De Solutions provides clients with a simple, agile process for Android app development, guided by a results-focused approach
@@ -60,7 +22,7 @@ const AndroidProcessSection = () => {
           {processData.map((step, idx) => (
             <div
               key={idx}
-              className="relative bg-white rounded-xl p-6 shadow-lg overflow-hidden cursor-pointer group transform transition-all duration-500 hover:scale-105"
+              className="relative border border-gray-100 bg-white rounded-xl p-6 shadow-lg overflow-hidden cursor-pointer group transform transition-all duration-500 hover:scale-105"
             >
               {/* Animated Hover Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-[#42BABC] to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-500 z-0 rounded-xl"></div>

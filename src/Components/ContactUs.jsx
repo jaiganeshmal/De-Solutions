@@ -26,7 +26,7 @@ const ContactUs = () => {
 
   return (
     <section
-      className="w-full py-20 bg-cover bg-center relative"
+      className="w-full py-10 bg-cover bg-center relative"
       style={{ backgroundImage: `url(${assets.image30})` }}
     >
       {/* Overlay */}
@@ -34,8 +34,8 @@ const ContactUs = () => {
 
       <div className="container mx-auto px-4 relative z-10 text-center text-white">
         {/* Heading */}
-        <h1 className="text-3xl md:text-5xl font-bold mb-6">Contact Us</h1>
-        <p className="max-w-3xl mx-auto text-lg md:text-xl mb-12 leading-relaxed">
+        <h1 className="text-3xl md:text-5xl font-bold mb-3">Contact Us</h1>
+        <p className="max-w-3xl mx-auto text-lg md:text-xl mb-8 leading-relaxed">
           Connect with our tech experts and let’s drive the world forward through digital innovation using diverse communication and implementation methods
         </p>
 

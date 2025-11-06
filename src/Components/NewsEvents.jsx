@@ -19,6 +19,7 @@ const NewsEvents = () => {
         "De Solutions Forms Strategic Partnership with Reem Finance to Elevate Fusion Banking",
     }
   ];
+   scm,n fgvfdc
 
   return (
     <section className="w-full py-20 bg-white">

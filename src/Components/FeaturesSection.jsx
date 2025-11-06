@@ -1,36 +1,9 @@
 import React from "react";
-import { assets } from "../assets/global";
-
-const features = [
-  {
-    id: 1,
-    img: assets.image108,
-    title: "Team Scalability",
-    desc: "Boost your team with domain specialists whenever required",
-  },
-  {
-    id: 2,
-    img: assets.image109,
-    title: "Quick Time to Market",
-    desc: "Streamlined delivery is intended to achieve efficiency on time.",
-  },
-  {
-    id: 3,
-    img: assets.image110,
-    title: "Cost Saving",
-    desc: "Get experienced and competent developers at a reasonable price.",
-  },
-  {
-    id: 4,
-    img: assets.image111,
-    title: "Skilled Resources",
-    desc: "Get access to skilled mobile gaming experts with domain knowledge.",
-  },
-];
+import { features } from "../assets/global";
 
 const FeaturesSection = () => {
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-10">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((item) => (

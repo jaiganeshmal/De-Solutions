@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 const ExploreProducts = () => {
   return (
-    <section className="w-full py-16" style={{ backgroundColor: "#EEEEEE" }}>
+    <section className="w-full py-14" style={{ backgroundColor: "#EEEEEE" }}>
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         
         {/* Left Side - Heading & Paragraph */}
         <div className="md:w-2/3">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
             Explore Our Products
           </h2>
           <p className="text-gray-700 text-lg md:text-xl leading-relaxed">

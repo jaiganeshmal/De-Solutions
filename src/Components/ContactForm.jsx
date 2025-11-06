@@ -10,13 +10,13 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="bg-[#F9FAFB] py-16">
+    <section className="bg-[#F9FAFB] py-10">
       <div className="container mx-auto w-[90%] md:w-[80%] bg-white p-10 rounded-2xl shadow-lg">
         {/* Heading */}
         <h2 className="text-4xl font-extrabold text-gray-900 mb-2">
           Have Question? Write a Message
         </h2>
-        <p className="text-gray-600 mb-10 text-lg">
+        <p className="text-gray-600 mb-6 text-lg">
           We will catch you as early as we receive the message
         </p>
 
@@ -70,7 +70,7 @@ const ContactForm = () => {
 
           {/* Message (Full Width) */}
           <textarea
-            rows="5"
+            rows="4"
             placeholder="Enter your message"
             className="border-b border-gray-300 focus:border-[#0DACAF] focus:outline-none py-3 resize-none md:col-span-2"
           ></textarea>

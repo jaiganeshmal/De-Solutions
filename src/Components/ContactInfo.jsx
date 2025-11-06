@@ -11,7 +11,7 @@ import {
 
 const ContactInfo = () => {
   return (
-    <section className="bg-white py-16">
+    <section className="bg-white py-10">
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         {/* Left Side - Image */}
         <div className="flex justify-center md:justify-end">
@@ -24,9 +24,9 @@ const ContactInfo = () => {
         </div>
 
         {/* Right Side - Contact Details */}
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-6">
           {/* Phone */}
-          <div className="bg-[#0DACAF] text-white p-8 rounded-2xl shadow-lg">
+          <div className="bg-[#0DACAF] text-white p-6 rounded-2xl shadow-lg">
             <div className="flex items-center gap-3 mb-3">
               <FaPhone className="w-7 h-7" />
               <h3 className="text-2xl font-semibold">Phone:</h3>
@@ -38,7 +38,7 @@ const ContactInfo = () => {
           </div>
 
           {/* Email */}
-          <div className="bg-[#0DACAF] text-white p-8 rounded-2xl shadow-lg">
+          <div className="bg-[#0DACAF] text-white p-6 rounded-2xl shadow-lg">
             <div className="flex items-center gap-3 mb-3">
               <FaEnvelope className="w-7 h-7" />
               <h3 className="text-2xl font-semibold">Email:</h3>
@@ -51,7 +51,7 @@ const ContactInfo = () => {
           </div>
 
           {/* Social Links */}
-          <div className="bg-white text-gray-900 p-8 rounded-2xl shadow-lg border">
+          <div className="bg-white text-gray-900 p-6 rounded-2xl shadow-lg border">
             <h3 className="text-2xl font-semibold mb-5 text-[#0DACAF]">
               Follow Us:
             </h3>

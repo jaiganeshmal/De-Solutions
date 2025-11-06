@@ -1,34 +1,16 @@
 import React from "react";
-import { assets } from "../assets/global";
+import { perks } from "../assets/global";
 
 const OurPerks = () => {
-  const perks = [
-    {
-      icon: assets.image101,
-      title: "Bonuses",
-      text: "Pay rise, promotions, and top opportunities for professional development.",
-    },
-  
-    {
-      icon: assets.image104,
-      title: "Parental leaves",
-      text: "When it comes to feelings, work isn’t the priority.",
-    },
-    {
-      icon: assets.image106,
-      title: "Training",
-      text: "Mentors to guide and support you. Training programs to polish your skills.",
-    },
-  ];
 
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-10">
       <div className="container mx-auto px-6 text-center">
         {/* Heading */}
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">
           Our Perks
         </h2>
-        <p className="text-gray-600 max-w-2xl mx-auto mb-12">
+        <p className="text-gray-600 max-w-2xl mx-auto mb-6">
           Since loving your job doesn’t pay your expenses, here are some amazing perks offered by De Solutions.
         </p>
 

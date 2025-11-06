@@ -1,33 +1,9 @@
 import React from "react";
-import { assets } from "../assets/global";
-
-const processes = [
-  {
-    id: 1,
-    icon: assets.image86,
-    title: "Application",
-    description:
-      "Submit your application through our website. Your application is being read by real humans.",
-  },
-  {
-    id: 2,
-    icon: assets.image87,
-    title: "Interview",
-    description:
-      "Let us get familiar with your competencies and experience in the field.",
-  },
-  {
-    id: 3,
-    icon: assets.image88,
-    title: "Offer",
-    description:
-      "Congratulations! You have made it. Sign the agreement and you are on-board with us.",
-  },
-];
+import { processes } from "../assets/global";
 
 const RecruitmentProcess = () => {
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-10">
       <div className="container mx-auto px-6 text-center">
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
@@ -35,14 +11,14 @@ const RecruitmentProcess = () => {
         </h2>
 
         {/* Sub text */}
-        <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
+        <p className="mt-3 text-gray-600 max-w-3xl mx-auto">
           De Solutions aims to build high-quality software while also fostering
           an enjoyable work environment that allows everyone the opportunity to
           reach their highest potential.
         </p>
 
         {/* Process Boxes */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
           {processes.map((item) => (
             <div
               key={item.id}

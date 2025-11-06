@@ -9,13 +9,13 @@ const ProjectCTA = ({
   buttonColor = "#0DACAF",
 }) => {
   return (
-    <section className="bg-white py-16">
+    <section className="bg-white py-10">
       <div className="container mx-auto px-12 flex flex-col lg:flex-row justify-around items-center gap-6">
         
         {/* Left Text */}
         <h2 className="text-5xl md:text-5xl lg:text-5xl font-extrabold text-center lg:text-left">
           {heading.split(highlight)[0]}
-          <span className="text-[#0DACAF]">{highlight}</span>
+          <span className="text-[#0DACAF]">{highlight} </span>
           {heading.split(highlight)[1]}
         </h2>
 

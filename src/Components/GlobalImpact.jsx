@@ -1,15 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
-import { assets } from "../assets/global";
+import { assets, stats } from "../assets/global";
+
 
 const GlobalImpact = () => {
-  const stats = [
-    { icon: assets.image2, value: 150, label: "Customers", suffix: "+" },
-    { icon: assets.image3, value: 2, label: "Countries", suffix: "+" },
-    { icon: assets.image4, value: 50, label: "Product Deployments", suffix: "+" },
-    { icon: assets.image5, value: 700, label: "Interactions Everyday", suffix: "M" },
-    { icon: assets.image6, value: 15, label: "Professionals", suffix: "+" },
-  ];
-
   const [startCount, setStartCount] = useState(false);
   const sectionRef = useRef(null);
 
@@ -34,7 +27,7 @@ const GlobalImpact = () => {
   return (
     <section
       ref={sectionRef}
-      className="w-full bg-cover text-white py-20 px-6 relative"
+      className="w-full bg-cover text-white py-10 px-6 relative"
       style={{
         backgroundImage: `url(${assets.image1})`,
       }}
@@ -44,12 +37,12 @@ const GlobalImpact = () => {
 
       <div className="container mx-auto text-center relative z-10">
         {/* Heading */}
-        <h1 className="text-3xl md:text-5xl font-bold mb-6">
+        <h1 className="text-3xl md:text-5xl font-bold mb-3">
           De Solutions Global Impact
         </h1>
 
         {/* Paragraph */}
-        <p className="text-lg md:text-xl leading-relaxed mb-12 max-w-3xl mx-auto">
+        <p className="text-lg md:text-xl leading-relaxed mb-6 max-w-3xl mx-auto">
           For over 20 years, De Solutions has delivered smart ERP and digital solutions, helping global businesses streamline operations and drive innovation.
         </p>
 
