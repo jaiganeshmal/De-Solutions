@@ -1,9 +1,10 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa"; // react-icons se arrow
 import { devIcons } from "../assets/global";
+import { useNavigate } from "react-router-dom";
 
 const HireDevelopers = () => {
- 
+  let navigate = useNavigate()
   return (
     <section className="bg-[#1B1B1B] py-10">
       <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -23,7 +24,9 @@ const HireDevelopers = () => {
             needs.
           </p>
 
-          <button className="inline-flex items-center gap-3 bg-[#0DACAF] hover:bg-[#0c9698] text-white px-6 py-3 rounded-lg font-medium text-lg transition duration-300">
+          <button 
+          onClick={()=> navigate('/contact')}
+          className="inline-flex items-center gap-3 bg-[#0DACAF] hover:bg-[#0c9698] text-white px-6 py-3 rounded-lg font-medium text-lg transition duration-300">
             Get Consultation
             <FaArrowRight className="w-5 h-5" />
           </button>

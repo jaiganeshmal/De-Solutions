@@ -20,7 +20,7 @@ const ExploreProducts = () => {
         {/* Right Side - Button */}
         <div className="md:w-1/3 flex justify-start md:justify-end">
           <Link
-            to="/products"
+            to="/contact"
             className="bg-[#0DACAF] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#0DACAF] transition"
           >
             Explore More

@@ -12,6 +12,7 @@ const ExploreProducts = lazy(() => import("../Components/ExploreProducts"));
 const ContactUs = lazy(() => import("../Components/ContactUs"));
 
 const About = () => {
+  
   useEffect(() => {
     window.scrollTo({
       top: 0,

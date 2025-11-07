@@ -19,15 +19,17 @@ const Home = () => {
   }, []);
 
   return (
-    <Suspense fallback={<Loader />}>
+    <>
       <Header />
-      <DigitalTransformation />
-      <GlobalImpact />
-      <DigitalSuite />
-      <AlliancesCompliances />
-      {/* <NewsEvents /> */}
-      <ContactUs />
-    </Suspense>
+      <Suspense fallback={<Loader />}>
+        <DigitalTransformation />
+        <GlobalImpact />
+        <DigitalSuite />
+        <AlliancesCompliances />
+        {/* <NewsEvents /> */}
+        <ContactUs />
+      </Suspense>
+    </>
   );
 };
 

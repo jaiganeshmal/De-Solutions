@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { products } from "../assets/global";
 
 const DigitalSuite = () => {
- 
 
   return (
     <section className="w-full py-10 bg-gray-50">
@@ -45,13 +44,13 @@ const DigitalSuite = () => {
                 <p className="text-gray-600 text-sm flex-grow">{item.desc}</p>
 
                 {/* Button */}
-                <Link
+                {/* <Link
                   to={item.btnLink}
                   className="mt-5 inline-block bg-[#0DACAF] text-white px-5 py-3 rounded-lg text-sm font-medium hover:bg-[#0c9698] transition"
                   onClick={(e) => e.stopPropagation()}
                 >
                   Read More
-                </Link>
+                </Link> */}
               </div>
             </Link>
           ))}

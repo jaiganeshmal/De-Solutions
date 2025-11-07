@@ -1,6 +1,7 @@
 import React from "react";
 import { assets } from "../assets/global";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -36,10 +37,10 @@ const Header = () => {
         </p>
 
         <div className="mt-6 flex sm:justify-center md:justify-start">
-          <button className="flex items-center gap-2 bg-[#0DACAF] px-6 py-3 rounded-md text-white font-medium hover:bg-[#0c9698] transition">
+          <Link to='/contact' className="flex items-center gap-2 bg-[#0DACAF] px-6 py-3 rounded-md text-white font-medium hover:bg-[#0c9698] transition">
             Let's Work Together
             <MdKeyboardArrowRight className="text-xl" />
-          </button>
+          </Link>
         </div>
       </div>
     </div>
