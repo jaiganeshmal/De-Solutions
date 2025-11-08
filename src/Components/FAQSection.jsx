@@ -16,7 +16,7 @@ const FAQSection = () => {
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-extrabold text-center leading-tight mb-6">
           Frequently Asked <br />
-          <span className="text-[#0DACAF]">Questions</span>
+          <span className="text-[#199dea]">Questions</span>
         </h2>
 
         {/* FAQ Accordion */}
@@ -29,12 +29,12 @@ const FAQSection = () => {
               {/* Question */}
               <button
                 onClick={() => toggleFAQ(idx)}
-                className="w-full flex justify-between items-center px-6 py-4 text-left font-semibold text-lg hover:text-[#0DACAF] transition"
+                className="w-full flex justify-between items-center px-6 py-4 text-left font-semibold text-lg hover:text-[#199dea] transition"
               >
                 {faq.question}
                 <FaChevronDown
                   className={`ml-2 transform transition-transform duration-300 ${
-                    openIndex === idx ? "rotate-180 text-[#0DACAF]" : ""
+                    openIndex === idx ? "rotate-180 text-[#199dea]" : ""
                   }`}
                 />
               </button>

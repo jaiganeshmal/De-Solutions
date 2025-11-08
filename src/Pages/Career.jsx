@@ -26,7 +26,7 @@ const Career = () => {
         heading={
           <>
             Join Our Team & <br />
-            <span className="text-[#0DACAF]">Shape the Future</span>
+            <span className="text-[#199dea]">Shape the Future</span>
           </>
         }
         text="At De Solutions, we believe in empowering talent and building a culture of innovation. Join us to create impactful solutions, grow your skills, and be part of a team that’s shaping tomorrow’s digital world."

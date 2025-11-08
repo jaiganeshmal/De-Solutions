@@ -24,11 +24,11 @@ const Header = () => {
       <div className="relative z-10 flex flex-col md:justify-start justify-end h-full text-white px-4 sm:px-8 md:px-16 pb-16 md:pb-24 pt-24">
         <h1 className="text-3xl sm:text-4xl md:text-5xl  font-bold leading-snug md:leading-[1.2] text-left ">
           Top-Rated <br />
-          <span className="text-[#0DACAF]">
+          <span className="text-[#199dea]">
             ERP & Mobile App Development 
           </span>
           <br />
-          Company Smart Solutions. <br />
+          Company Smart Solutions <br />
           Scalable Results
         </h1>
 
@@ -37,7 +37,7 @@ const Header = () => {
         </p>
 
         <div className="mt-6 flex sm:justify-center md:justify-start">
-          <Link to='/contact' className="flex items-center gap-2 bg-[#0DACAF] px-6 py-3 rounded-md text-white font-medium hover:bg-[#0c9698] transition">
+          <Link to='/contact' className="flex items-center gap-2 bg-[#199dea] px-6 py-3 rounded-md text-white font-medium hover:bg-[#085cc9] transition">
             Let's Work Together
             <MdKeyboardArrowRight className="text-xl" />
           </Link>

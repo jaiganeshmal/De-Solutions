@@ -13,7 +13,7 @@ const OurServicesSection = () => {
             Our Unrivaled Services
           </h2>
           <p className="text-lg md:text-xl text-gray-700">
-            <span className="text-[#0DACAF] font-semibold">
+            <span className="text-[#199dea] font-semibold">
               De Solutions Android App development services
             </span>{" "}
             can be the beacon of hope you need to revitalize your business through increased digital engagement.
@@ -25,7 +25,7 @@ const OurServicesSection = () => {
           {servicesData.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center transition-all duration-300 hover:bg-[#0DACAF] hover:text-white hover:shadow-2xl"
+              className="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center transition-all duration-300 hover:bg-[#199dea] hover:text-white hover:shadow-2xl"
             >
               <img
                 src={service.icon}
@@ -37,7 +37,7 @@ const OurServicesSection = () => {
               <p className="text-gray-700 hover:text-white text-sm md:text-base mb-4 max-w-xs">
                 {service.description}
               </p>
-              <button className="flex items-center gap-2 bg-white text-[#0DACAF] font-semibold px-4 py-2 rounded-full transition-colors duration-300 hover:bg-[#0c9698] hover:text-white">
+              <button className="flex items-center gap-2 bg-white text-[#199dea] font-semibold px-4 py-2 rounded-full transition-colors duration-300 hover:bg-[#085cc9] hover:text-white">
                 Read More
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

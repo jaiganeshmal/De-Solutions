@@ -13,7 +13,7 @@ const TechPartnersSection = () => {
         <div className="text-center space-y-4">
           <h2 className="text-4xl md:text-5xl font-extrabold text-white">
             We Partner With The{" "}
-            <span className="text-[#42BABC]">World's Technology</span> Leaders
+            <span className="text-[#199dea]">World's Technology</span> Leaders
           </h2>
         </div>
 

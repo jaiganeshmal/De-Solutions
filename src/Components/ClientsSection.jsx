@@ -18,8 +18,8 @@ const ClientsSection = () => {
                 <div className="space-y-2">
                     {/* Heading */}
                     <h2 className="text-3xl md:text-5xl font-extrabold text-center leading-snug">
-                        What Our <span className="text-[#0DACAF]">Clients</span> Say About{" "}
-                        <span className="text-[#0DACAF]">De Solutions</span>
+                        What Our <span className="text-[#199dea]">Clients</span> Say About{" "}
+                        <span className="text-[#199dea]">De Solutions</span>
                     </h2>
 
                     {/* Subheading */}

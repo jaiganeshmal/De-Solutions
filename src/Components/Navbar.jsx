@@ -39,7 +39,7 @@ const Navbar = () => {
       <nav className="flex items-center justify-between mx-auto max-w-7xl py-3 px-6">
         {/* Logo */}
         <Link to="/">
-          <h1 className="text-3xl font-bold text-[#0fb5b8]">
+          <h1 className="text-3xl font-bold text-[#199dea]">
             De Solutions
           </h1>
         </Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 `${
                   isActive
-                    ? "underline decoration-2 decoration-[#0DACAF] underline-offset-4"
+                    ? "underline decoration-2 decoration-[#199dea] underline-offset-4"
                     : ""
                 } cursor-pointer text-lg font-semibold text-white`
               }
@@ -86,7 +86,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 `${
                   isActive
-                    ? "underline decoration-2 decoration-red-600 underline-offset-4"
+                    ? "underline decoration-2 decoration-[#199dea] underline-offset-4"
                     : ""
                 } cursor-pointer text-lg font-semibold`
               }

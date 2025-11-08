@@ -2,7 +2,7 @@ import React from "react";
 
 const CareerApplication = () => {
   return (
-    <section className="bg-gradient-to-br from-[#0DACAF] via-[#10cfcf] to-[#0d6eaf] min-h-screen flex items-center justify-center py-10 px-4">
+    <section className="bg-gradient-to-br from-[#03045e] via-[#199dea] to-[#023e8a] min-h-screen flex items-center justify-center py-10 px-4">
       <div className="bg-white shadow-2xl rounded-2xl max-w-2xl w-full p-10">
         {/* Heading */}
         <h2 className="text-3xl font-bold text-gray-800 text-center mb-8">
@@ -18,7 +18,7 @@ const CareerApplication = () => {
             <input
               type="text"
               placeholder="Enter your full name"
-              className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#0DACAF]"
+              className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#199dea]"
             />
           </div>
 
@@ -30,7 +30,7 @@ const CareerApplication = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#0DACAF]"
+              className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#199dea]"
             />
           </div>
 
@@ -42,7 +42,7 @@ const CareerApplication = () => {
             <input
               type="text"
               placeholder="Enter your mobile number"
-              className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#0DACAF]"
+              className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#199dea]"
             />
           </div>
 
@@ -51,7 +51,7 @@ const CareerApplication = () => {
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Job Role Applying for
             </label>
-            <select className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#0DACAF]">
+            <select className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#199dea]">
               <option value="">Select a role</option>
               <option>ERP Development</option>
               <option>Graphic Designer</option>
@@ -79,7 +79,7 @@ const CareerApplication = () => {
                     type="radio"
                     name="position"
                     value={pos.toLowerCase()}
-                    className="text-[#0DACAF] focus:ring-[#0DACAF]"
+                    className="text-[#199dea] focus:ring-[#199dea]"
                   />
                   <span className="text-gray-700">{pos}</span>
                 </label>
@@ -94,14 +94,14 @@ const CareerApplication = () => {
             </label>
             <input
               type="file"
-              className="w-full border border-gray-300 rounded-lg px-4 py-2 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#0DACAF]"
+              className="w-full border border-gray-300 rounded-lg px-4 py-2 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#199dea]"
             />
           </div>
 
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full bg-[#0DACAF] text-white py-3 rounded-lg font-medium text-lg hover:bg-[#0c9698] transition duration-300"
+            className="w-full bg-[#199dea] text-white py-3 rounded-lg font-medium text-lg hover:bg-[#085cc9] transition duration-300"
           >
             Submit Application
           </button>

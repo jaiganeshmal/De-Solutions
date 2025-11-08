@@ -5,19 +5,19 @@ import { FaEnvelope, FaPhoneAlt, FaHandshake } from "react-icons/fa";
 const ContactUs = () => {
   const contactData = [
     {
-      icon: <FaEnvelope className="text-3xl text-[#0DACAF]" />,
+      icon: <FaEnvelope className="text-3xl text-[#199dea]" />,
       title: "Contact Us",
       subtitle: "Reach out to us",
       detail: "For more information",
     },
     {
-      icon: <FaPhoneAlt className="text-3xl text-[#0DACAF]" />,
+      icon: <FaPhoneAlt className="text-3xl text-[#199dea]" />,
       title: "Call Us",
       subtitle: "+92 3009296347",
       detail: "UAN: +92-21-111-282-692",
     },
     {
-      icon: <FaHandshake className="text-3xl text-[#0DACAF]" />,
+      icon: <FaHandshake className="text-3xl text-[#199dea]" />,
       title: "Partner with Us",
       subtitle: "Let’s co-create the future",
       detail: "Together",

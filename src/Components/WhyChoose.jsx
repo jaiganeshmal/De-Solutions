@@ -10,15 +10,15 @@ const WhyChoose = () => {
         <div className="text-gray-800">
           <h2 className="text-3xl md:text-4xl font-bold leading-snug mb-3">
             Why Partner with {" "}
-            <span className="text-[#0DACAF]">De Solutions</span> <br /> for Your {" "}
-            <span className="text-[#0DACAF]">Software Development Needs</span>
+            <span className="text-[#199dea]">De Solutions</span> <br /> for Your {" "}
+            <span className="text-[#199dea]">Software Development Needs</span>
           </h2>
 
           <p className="text-gray-600 text-lg leading-relaxed mb-6 max-w-xl">
             De Solutions has been a trusted name in software development since 2016. With a portfolio of over 300 successful projects, we bring deep industry experience and a results-driven approach. Our unique advantage lies in our proprietary app store, featuring 50+ in-house developed applications—something that sets us apart from other development firms.
           </p>
 
-          <button className="inline-flex items-center gap-3 bg-[#0DACAF] hover:bg-[#0c9698] text-white px-6 py-3 rounded-lg font-medium text-lg transition duration-300 shadow-md">
+          <button className="inline-flex items-center gap-3 bg-[#199dea] hover:bg-[#085cc9] text-white px-6 py-3 rounded-lg font-medium text-lg transition duration-300 shadow-md">
             Download Company Profile
             <FaDownload className="w-5 h-5" />
           </button>

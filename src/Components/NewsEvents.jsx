@@ -74,7 +74,7 @@ const NewsEvents = () => {
         {/* Button */}
         <Link
           to="/"
-          className="inline-block bg-[#0DACAF] text-white font-medium px-8 py-3 rounded-lg shadow-md hover:bg-[#0c9698] transition"
+          className="inline-block bg-[#0DACAF] text-white font-medium px-8 py-3 rounded-lg shadow-md hover:bg-[#085cc9] transition"
         >
           View More
         </Link>

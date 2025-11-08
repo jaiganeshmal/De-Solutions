@@ -38,7 +38,7 @@ const Locations = () => {
                   href={loc.mapLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-block text-center bg-[#0DACAF] text-white px-4 py-2 rounded-lg shadow hover:bg-[#0c9698] transition"
+                  className="mt-4 inline-block text-center bg-[#199dea] text-white px-4 py-2 rounded-lg shadow hover:bg-[#085cc9] transition"
                 >
                   View on Map
                 </a>

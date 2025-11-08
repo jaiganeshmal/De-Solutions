@@ -7,7 +7,7 @@ const ProjectCTA = ({
   heading,
   highlight,
   buttonText,
-  buttonColor = "#0DACAF",
+  buttonColor = "#199dea",
 }) => {
 
   let navigate = useNavigate()
@@ -18,7 +18,7 @@ const ProjectCTA = ({
         {/* Left Text */}
         <h2 className="text-4xl md:text-5xl font-extrabold text-center lg:text-left">
           {heading.split(highlight)[0]}
-          <span className="text-[#0DACAF]">{highlight} </span>
+          <span className="text-[#199dea]">{highlight} </span>
           {heading.split(highlight)[1]}
         </h2>
 
@@ -26,7 +26,7 @@ const ProjectCTA = ({
         <button
           onClick={()=> navigate('/contact')}
           style={{ backgroundColor: buttonColor }}
-          className="flex items-center gap-3 text-white font-semibold px-6 py-4 rounded-xl shadow-lg hover:bg-[#0c9698] transition cursor-pointer"
+          className="flex items-center gap-3 text-white font-semibold px-6 py-4 rounded-xl shadow-lg hover:bg-[#085cc9] transition cursor-pointer"
         >
           {buttonText}
           <FaArrowRight className="text-lg" />

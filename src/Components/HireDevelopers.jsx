@@ -12,7 +12,7 @@ const HireDevelopers = () => {
         <div className="text-white">
           <h2 className="text-4xl md:text-5xl font-bold leading-snug mb-6">
             Hire Developers For{" "}
-            <span className="text-[#0DACAF]">Custom IT Projects</span>
+            <span className="text-[#199dea]">Custom IT Projects</span>
           </h2>
 
           <p className="text-gray-300 text-lg leading-relaxed mb-8 max-w-xl">
@@ -26,7 +26,7 @@ const HireDevelopers = () => {
 
           <button 
           onClick={()=> navigate('/contact')}
-          className="inline-flex items-center gap-3 bg-[#0DACAF] hover:bg-[#0c9698] text-white px-6 py-3 rounded-lg font-medium text-lg transition duration-300">
+          className="inline-flex items-center gap-3 bg-[#199dea] hover:bg-[#085cc9] text-white px-6 py-3 rounded-lg font-medium text-lg transition duration-300">
             Get Consultation
             <FaArrowRight className="w-5 h-5" />
           </button>

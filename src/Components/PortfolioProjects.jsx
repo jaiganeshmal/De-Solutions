@@ -53,14 +53,14 @@ const PortfolioProjects = () => {
                                         key={idx}
                                         className="flex items-center gap-2 text-gray-700 text-base"
                                     >
-                                        <FaCheckCircle className="text-[#0DAAAD]" />
+                                        <FaCheckCircle className="text-[#199dea]" />
                                         {item}
                                     </li>
                                 ))}
                             </ul>
 
                             {/* Button */}
-                            <button className="bg-[#1B1B1B] text-white px-6 py-2 rounded-md mt-4 font-medium hover:bg-[#0c9698] transition">
+                            <button className="bg-[#199dea] text-white px-6 py-2 rounded-md mt-4 font-medium hover:bg-[#085cc9] transition">
                                 Learn More
                             </button>
                         </div>

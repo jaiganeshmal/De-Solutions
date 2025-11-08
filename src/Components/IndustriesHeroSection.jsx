@@ -25,8 +25,8 @@ const IndustriesHeroSection = () => {
           {/* Heading */}
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
             Transform Business <br />
-            <span className="text-[#0DACAF]">Growth with</span> <br />
-            <span className="text-[#0DACAF]">Revolutionary Services</span>
+            <span className="text-[#199dea]">Growth with</span> <br />
+            <span className="text-[#199dea]">Revolutionary Services</span>
           </h1>
 
           {/* Paragraph */}
@@ -45,8 +45,8 @@ const IndustriesHeroSection = () => {
                 key={index}
                 className="flex items-center gap-2 text-base md:text-lg text-gray-200"
               >
-                <FaCheckCircle className="text-[#0DACAF]" />
-                <span className="hover:text-[#0DACAF] transition cursor-pointer">
+                <FaCheckCircle className="text-[#199dea]" />
+                <span className="hover:text-[#199dea] transition cursor-pointer">
                   {service}
                 </span>
               </li>
@@ -58,7 +58,7 @@ const IndustriesHeroSection = () => {
         <div className="lg:w-1/3 max-w-sm bg-white text-gray-900 rounded-xl shadow-lg p-5">
           <h2 className="text-2xl md:text-4xl font-bold mb-4">
             Book a free <br />
-            <span className="text-[#0DACAF]">Consultation</span>
+            <span className="text-[#199dea]">Consultation</span>
           </h2>
 
           <form className="space-y-3">
@@ -67,31 +67,31 @@ const IndustriesHeroSection = () => {
               <input
                 type="text"
                 placeholder="First Name"
-                className="w-1/2 border-b border-gray-500 focus:border-[#0DACAF] outline-none py-1 text-sm"
+                className="w-1/2 border-b border-gray-500 focus:border-[#199dea] outline-none py-1 text-sm"
               />
               <input
                 type="text"
                 placeholder="Last Name"
-                className="w-1/2 border-b border-gray-500 focus:border-[#0DACAF] outline-none py-1 text-sm"
+                className="w-1/2 border-b border-gray-500 focus:border-[#199dea] outline-none py-1 text-sm"
               />
             </div>
 
             <input
               type="email"
               placeholder="Email"
-              className="w-full border-b border-gray-500 focus:border-[#0DACAF] outline-none py-1 text-sm"
+              className="w-full border-b border-gray-500 focus:border-[#199dea] outline-none py-1 text-sm"
             />
 
             <input
               type="text"
               placeholder="Mobile Number"
-              className="w-full border-b border-gray-500 focus:border-[#0DACAF] outline-none py-1 text-sm"
+              className="w-full border-b border-gray-500 focus:border-[#199dea] outline-none py-1 text-sm"
             />
 
             <textarea
               placeholder="Message"
               rows="2"
-              className="w-full border-b border-gray-500 focus:border-[#0DACAF] outline-none py-1 text-sm resize-none"
+              className="w-full border-b border-gray-500 focus:border-[#199dea] outline-none py-1 text-sm resize-none"
             ></textarea>
 
             {/* reCAPTCHA */}
@@ -105,7 +105,7 @@ const IndustriesHeroSection = () => {
             {/* Submit Button */}
             <button
               type="submit"
-              className="w-full bg-[#0DACAF] text-white font-medium py-2 rounded-md shadow hover:bg-[#0c9698] transition text-sm"
+              className="w-full bg-[#199dea] text-white font-medium py-2 rounded-md shadow hover:bg-[#085cc9] transition text-sm"
             >
               Submit
             </button>

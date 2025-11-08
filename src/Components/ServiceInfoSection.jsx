@@ -25,7 +25,7 @@ const ServiceInfoSection = () => {
           <div className="relative">
             <h2 className="text-4xl md:text-5xl lg:text-5xl font-extrabold leading-tight relative z-10">
               Scale-Up With Our <br />
-              <span className="text-[#0DACAF] relative z-10">Services</span>
+              <span className="text-[#199dea] relative z-10">Services</span>
             </h2>
             {/* Shadow text behind */}
             <span className="absolute top-0 left-0 text-[5rem] md:text-[7rem] lg:text-[8rem] font-extrabold text-gray-200 opacity-40 select-none z-0">

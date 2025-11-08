@@ -10,7 +10,7 @@ const WhyChooseUsSection = () => {
         {/* Heading */}
         <div className="text-center space-y-3">
           <h2 className="text-4xl md:text-5xl font-extrabold">
-            Why Choose <span className="text-[#0DACAF]">De Solutions</span>
+            Why Choose <span className="text-[#199dea]">De Solutions</span>
           </h2>
           <p className="text-gray-300 text-base md:text-lg max-w-2xl mx-auto">
             We help you make the most of Android's unique features by combining them with the latest tech like Augmented Reality, Virtual Reality, Mixed Reality, and Blockchain.
@@ -22,7 +22,7 @@ const WhyChooseUsSection = () => {
           {featuresData.map((feature, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl p-6 flex flex-col items-center text-center text-gray-900 transition-all duration-300 hover:bg-[#0c9698] hover:text-white cursor-pointer"
+              className="bg-white rounded-xl p-6 flex flex-col items-center text-center text-gray-900 transition-all duration-300 hover:bg-[#199dea] hover:text-white cursor-pointer"
             >
               <img
                 src={feature.icon}

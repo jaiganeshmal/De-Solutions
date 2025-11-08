@@ -33,7 +33,7 @@ const AtAGlance = () => {
         {/* Button */}
         <button
           onClick={() => setIsOpen(true)}
-          className="bg-[#0DACAF] text-white px-8 py-3 rounded-lg font-medium hover:bg-[#0c9698] shadow-lg transform hover:scale-105 transition duration-300"
+          className="bg-[#199dea] text-white px-8 py-3 rounded-lg font-medium hover:bg-[#085cc9] shadow-lg transform hover:scale-105 transition duration-300"
         >
           Discover De Solutions
         </button>

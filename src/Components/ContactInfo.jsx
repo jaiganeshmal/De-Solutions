@@ -26,7 +26,7 @@ const ContactInfo = () => {
         {/* Right Side - Contact Details */}
         <div className="flex flex-col gap-6">
           {/* Phone */}
-          <div className="bg-[#0DACAF] text-white p-6 rounded-2xl shadow-lg">
+          <div className="bg-[#199dea] text-white p-6 rounded-2xl shadow-lg">
             <div className="flex items-center gap-3 mb-3">
               <FaPhone className="w-7 h-7" />
               <h3 className="text-2xl font-semibold">Phone:</h3>
@@ -38,7 +38,7 @@ const ContactInfo = () => {
           </div>
 
           {/* Email */}
-          <div className="bg-[#0DACAF] text-white p-6 rounded-2xl shadow-lg">
+          <div className="bg-[#199dea] text-white p-6 rounded-2xl shadow-lg">
             <div className="flex items-center gap-3 mb-3">
               <FaEnvelope className="w-7 h-7" />
               <h3 className="text-2xl font-semibold">Email:</h3>
@@ -52,7 +52,7 @@ const ContactInfo = () => {
 
           {/* Social Links */}
           <div className="bg-white text-gray-900 p-6 rounded-2xl shadow-lg border">
-            <h3 className="text-2xl font-semibold mb-5 text-[#0DACAF]">
+            <h3 className="text-2xl font-semibold mb-5 text-[#199dea]">
               Follow Us:
             </h3>
             <div className="flex flex-col gap-4">
@@ -60,7 +60,7 @@ const ContactInfo = () => {
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 bg-[#EAFFFD] px-6 py-5 rounded-lg hover:bg-[#d5f7f4] transition"
+                className="flex items-center gap-3 bg-[#caf0f8] px-6 py-5 rounded-lg hover:bg-[#d5f7f4] transition"
               >
                 <FaFacebook className="text-blue-600 w-7 h-7" />
                 <span className="text-lg font-medium">Facebook</span>
@@ -70,7 +70,7 @@ const ContactInfo = () => {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 bg-[#EAFFFD] px-6 py-5 rounded-lg hover:bg-[#d5f7f4] transition"
+                className="flex items-center gap-3 bg-[#caf0f8] px-6 py-5 rounded-lg hover:bg-[#d5f7f4] transition"
               >
                 <FaInstagram className="text-pink-600 w-7 h-7" />
                 <span className="text-lg font-medium">Instagram</span>
@@ -80,7 +80,7 @@ const ContactInfo = () => {
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 bg-[#EAFFFD] px-6 py-5 rounded-lg hover:bg-[#d5f7f4] transition"
+                className="flex items-center gap-3 bg-[#caf0f8] px-6 py-5 rounded-lg hover:bg-[#d5f7f4] transition"
               >
                 <FaLinkedin className="text-blue-700 w-7 h-7" />
                 <span className="text-lg font-medium">LinkedIn</span>

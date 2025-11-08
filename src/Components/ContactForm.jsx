@@ -26,25 +26,25 @@ const ContactForm = () => {
           <input
             type="text"
             placeholder="Enter your name"
-            className="border-b border-gray-300 focus:border-[#0DACAF] focus:outline-none py-3"
+            className="border-b border-gray-300 focus:border-[#199dea] focus:outline-none py-3"
           />
 
           {/* Email */}
           <input
             type="email"
             placeholder="Enter your email"
-            className="border-b border-gray-300 focus:border-[#0DACAF] focus:outline-none py-3"
+            className="border-b border-gray-300 focus:border-[#199dea] focus:outline-none py-3"
           />
 
           {/* Mobile Number */}
           <input
             type="text"
             placeholder="Enter mobile number"
-            className="border-b border-gray-300 focus:border-[#0DACAF] focus:outline-none py-3"
+            className="border-b border-gray-300 focus:border-[#199dea] focus:outline-none py-3"
           />
 
           {/* Services Dropdown */}
-          <select className="border-b border-gray-300 focus:border-[#0DACAF] focus:outline-none py-3 bg-transparent">
+          <select className="border-b border-gray-300 focus:border-[#199dea] focus:outline-none py-3 bg-transparent">
             <option value="">Choose a service</option>
             <option>Mobile Apps Development</option>
             <option>AR & VR Apps Development</option>
@@ -58,21 +58,21 @@ const ContactForm = () => {
           <input
             type="text"
             placeholder="Enter company name"
-            className="border-b border-gray-300 focus:border-[#0DACAF] focus:outline-none py-3"
+            className="border-b border-gray-300 focus:border-[#199dea] focus:outline-none py-3"
           />
 
           {/* Subject */}
           <input
             type="text"
             placeholder="Enter subject"
-            className="border-b border-gray-300 focus:border-[#0DACAF] focus:outline-none py-3"
+            className="border-b border-gray-300 focus:border-[#199dea] focus:outline-none py-3"
           />
 
           {/* Message (Full Width) */}
           <textarea
             rows="4"
             placeholder="Enter your message"
-            className="border-b border-gray-300 focus:border-[#0DACAF] focus:outline-none py-3 resize-none md:col-span-2"
+            className="border-b border-gray-300 focus:border-[#199dea] focus:outline-none py-3 resize-none md:col-span-2"
           ></textarea>
 
           {/* Captcha */}
@@ -87,7 +87,7 @@ const ContactForm = () => {
           <div className="md:col-span-2 flex justify-start">
             <button
               type="submit"
-              className="flex items-center gap-2 bg-[#0DACAF] text-white px-6 py-3 rounded-lg shadow hover:bg-[#0c9698] transition"
+              className="flex items-center gap-2 bg-[#199dea] text-white px-6 py-3 rounded-lg shadow hover:bg-[#085cc9] transition"
             >
               Submit <FaArrowRight />
             </button>

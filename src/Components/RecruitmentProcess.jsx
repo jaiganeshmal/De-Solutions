@@ -27,19 +27,19 @@ const RecruitmentProcess = () => {
               {/* Animated Border */}
               <span className="absolute inset-0 rounded-md pointer-events-none">
                 {/* Top Line */}
-                <span className="absolute top-0 left-0 h-[2px] w-0 bg-[#0DACAF] 
+                <span className="absolute top-0 left-0 h-[2px] w-0 bg-[#199dea] 
                   transition-none group-hover:w-full  group-hover:transition-all duration-500 "></span>
 
                 {/* Right Line */}
-                <span className="absolute top-0 right-0 w-[2px] h-0 bg-[#0DACAF] 
+                <span className="absolute top-0 right-0 w-[2px] h-0 bg-[#199dea] 
                   transition-none group-hover:h-full group-hover:transition-all duration-500 delay-200"></span>
 
                 {/* Bottom Line */}
-                <span className="absolute bottom-0 right-0 h-[2px] w-0 bg-[#0DACAF] 
+                <span className="absolute bottom-0 right-0 h-[2px] w-0 bg-[#199dea] 
                   transition-none group-hover:w-full group-hover:transition-all duration-500 delay-400"></span>
 
                 {/* Left Line */}
-                <span className="absolute bottom-0 left-0 w-[2px] h-0 bg-[#0DACAF] 
+                <span className="absolute bottom-0 left-0 w-[2px] h-0 bg-[#199dea] 
                   transition-none group-hover:h-full group-hover:transition-all duration-500 delay-600"></span>
               </span>
 

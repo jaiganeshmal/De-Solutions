@@ -23,14 +23,14 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div>
-          <h3 className="text-lg font-semibold text-white mb-5 relative after:content-[''] after:block after:w-12 after:h-1 after:bg-[#0DACAF] after:mt-2">
+          <h3 className="text-lg font-semibold text-white mb-5 relative after:content-[''] after:block after:w-12 after:h-1 after:bg-[#199dea] after:mt-2">
             Quick Links
           </h3>
           <ul className="space-y-3 text-sm">
             <li>
               <Link
                 to="/"
-                className="hover:text-[#0DACAF] transition duration-300"
+                className="hover:text-[#199dea] transition duration-300"
               >
                 Home
               </Link>
@@ -38,7 +38,7 @@ const Footer = () => {
             <li>
               <Link
                 to="/about"
-                className="hover:text-[#0DACAF] transition duration-300"
+                className="hover:text-[#199dea] transition duration-300"
               >
                 About
               </Link>
@@ -46,7 +46,7 @@ const Footer = () => {
             <li>
               <Link
                 to="/services"
-                className="hover:text-[#0DACAF] transition duration-300"
+                className="hover:text-[#199dea] transition duration-300"
               >
                 Services
               </Link>
@@ -54,7 +54,7 @@ const Footer = () => {
             <li>
               <Link
                 to="/industries"
-                className="hover:text-[#0DACAF] transition duration-300"
+                className="hover:text-[#199dea] transition duration-300"
               >
                 Industries
               </Link>
@@ -62,7 +62,7 @@ const Footer = () => {
             <li>
               <Link
                 to="/portfolio"
-                className="hover:text-[#0DACAF] transition duration-300"
+                className="hover:text-[#199dea] transition duration-300"
               >
                 Portfolio
               </Link>
@@ -70,7 +70,7 @@ const Footer = () => {
             <li>
               <Link
                 to="/career"
-                className="hover:text-[#0DACAF] transition duration-300"
+                className="hover:text-[#199dea] transition duration-300"
               >
                 Career
               </Link>
@@ -78,7 +78,7 @@ const Footer = () => {
             <li>
               <Link
                 to="/contact"
-                className="hover:text-[#0DACAF] transition duration-300"
+                className="hover:text-[#199dea] transition duration-300"
               >
                 Contact
               </Link>
@@ -88,7 +88,7 @@ const Footer = () => {
 
         {/* Contact Info */}
         <div>
-          <h3 className="text-lg font-semibold text-white mb-5 relative after:content-[''] after:block after:w-12 after:h-1 after:bg-[#0DACAF] after:mt-2">
+          <h3 className="text-lg font-semibold text-white mb-5 relative after:content-[''] after:block after:w-12 after:h-1 after:bg-[#199dea] after:mt-2">
             Contact
           </h3>
           <ul className="space-y-2 text-sm text-gray-400">
@@ -101,7 +101,7 @@ const Footer = () => {
 
         {/* Social Media */}
         <div>
-          <h3 className="text-lg font-semibold text-white mb-5 relative after:content-[''] after:block after:w-12 after:h-1 after:bg-[#0DACAF] after:mt-2">
+          <h3 className="text-lg font-semibold text-white mb-5 relative after:content-[''] after:block after:w-12 after:h-1 after:bg-[#199dea] after:mt-2">
             Follow Us
           </h3>
           <div className="flex gap-4">
@@ -114,7 +114,7 @@ const Footer = () => {
               <a
                 key={idx}
                 href={link}
-                className="w-11 h-11 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-gray-300 hover:text-white hover:bg-[#0DACAF] hover:border-[#0DACAF] transition duration-300 transform hover:scale-110 shadow-md"
+                className="w-11 h-11 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-gray-300 hover:text-white hover:bg-[#199dea] hover:border-[#199dea] transition duration-300 transform hover:scale-110 shadow-md"
               >
                 <Icon />
               </a>
