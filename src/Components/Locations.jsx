@@ -1,4 +1,3 @@
-// src/components/Locations.jsx
 import React from "react";
 import { locations } from "../assets/global";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { assets } from "../assets/global";
-import { FaDownload } from "react-icons/fa"; // Download icon
+import { FaDownload } from "react-icons/fa";
 
 const WhyChoose = () => {
   return (

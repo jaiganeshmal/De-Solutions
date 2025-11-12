@@ -1,6 +1,5 @@
-// src/components/ServiceInfoSection.jsx
 import React from "react";
-import { assets } from "../assets/global"; // global JS se image import
+import { assets } from "../assets/global";
 
 const ServiceInfoSection = () => {
   return (

@@ -1,4 +1,3 @@
-// src/components/AtAGlance.jsx
 import React, { useState } from "react";
 import { assets } from "../assets/global";
 
@@ -10,7 +9,7 @@ const AtAGlance = () => {
       className="w-full relative flex flex-col items-center justify-center text-center text-white"
       style={{
         height: "60vh",
-        backgroundImage: `url(${assets.image32})`, // ✅ Background image
+        backgroundImage: `url(${assets.image32})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -41,21 +40,21 @@ const AtAGlance = () => {
 
       {/* Modal */}
       {isOpen && (
-        <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
-          <div className="bg-white rounded-lg max-w-3xl w-full relative p-4">
+        <div className="fixed inset-0 bg-black/70  flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg md:h-[60vh] max-w-3xl w-full relative p-5">
             {/* Close Button */}
             <button
-              onClick={() => setIsOpen(false)}
-              className="absolute top-3 right-3 text-gray-700 font-bold text-2xl hover:text-gray-900"
+              onClick={() => setIsOpen(false) }
+              className="absolute top-0 right-1 text-gray-700 font-bold text-3xl hover:text-gray-900"
             >
               &times;
             </button>
 
             {/* YouTube Video */}
-            <div className="aspect-w-16 aspect-h-9">
+            <div className="aspect-w-16 h-full">
               <iframe
                 className="w-full h-full rounded-lg"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ" // Replace with your video link
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
                 title="De Solutions Video"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

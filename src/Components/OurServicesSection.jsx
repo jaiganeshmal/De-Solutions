@@ -1,4 +1,3 @@
-// src/components/OurServicesSection.jsx
 import React from "react";
 import { servicesData } from "../assets/global";
 

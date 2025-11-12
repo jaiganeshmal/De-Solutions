@@ -1,4 +1,3 @@
-// src/components/PortfolioProjects.jsx
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa"; // list icon
 import { projects } from "../assets/global";
@@ -47,7 +46,7 @@ const PortfolioProjects = () => {
                             </p>
 
                             {/* List */}
-                            <ul className="space-y-2">
+                            {/* <ul className="space-y-2">
                                 {project.list.map((item, idx) => (
                                     <li
                                         key={idx}
@@ -57,7 +56,7 @@ const PortfolioProjects = () => {
                                         {item}
                                     </li>
                                 ))}
-                            </ul>
+                            </ul> */}
 
                             {/* Button */}
                             <button className="bg-[#199dea] text-white px-6 py-2 rounded-md mt-4 font-medium hover:bg-[#085cc9] transition">

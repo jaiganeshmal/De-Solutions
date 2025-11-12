@@ -1,4 +1,3 @@
-// src/components/ContactInfo.jsx
 import React from "react";
 import { assets } from "../assets/global";
 import {

@@ -1,4 +1,3 @@
-// src/components/FAQSection.jsx
 import React, { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
 import { faqs } from "../assets/global";

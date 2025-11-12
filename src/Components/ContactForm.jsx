@@ -1,4 +1,3 @@
-// src/components/ContactForm.jsx
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import ReCAPTCHA from "react-google-recaptcha";

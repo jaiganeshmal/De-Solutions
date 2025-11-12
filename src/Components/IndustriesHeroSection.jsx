@@ -1,4 +1,3 @@
-// src/components/IndustriesHeroSection.jsx
 import React from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import { FaCheckCircle } from "react-icons/fa";

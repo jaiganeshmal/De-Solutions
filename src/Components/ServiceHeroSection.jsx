@@ -1,7 +1,6 @@
-// src/components/ServiceHeroSection.jsx
 import React from "react";
 import ReCAPTCHA from "react-google-recaptcha";
-import { FaCheckCircle } from "react-icons/fa"; // react-icons ka use
+import { FaCheckCircle } from "react-icons/fa";
 import { services } from "../assets/global";
 
 const ServiceHeroSection = () => {

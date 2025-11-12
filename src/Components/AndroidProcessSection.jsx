@@ -1,4 +1,3 @@
-// src/components/AndroidProcessSection.jsx
 import React from "react";
 import { processData } from "../assets/global";
 

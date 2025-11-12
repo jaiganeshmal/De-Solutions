@@ -1,4 +1,3 @@
-// src/components/TechPartnersSection.jsx
 import React from "react";
 import { partnersData } from "../assets/global";
 

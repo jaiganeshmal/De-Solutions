@@ -1,220 +1,263 @@
 
 export let assets = {
-    // logo,
-    header_img: 'https://res.cloudinary.com/dy2ddzcoq/video/upload/v1758955816/header_amjqd1.mp4',
-    image1: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img1_bmxbnn.webp',
-    image2: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248267/img2_gnywea.png',
-    image3: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img3_wayzwc.png',
-    image4: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img4_iiodit.png',
-    image5: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img5_yqth2c.png',
-    image6: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img6_hrmxsj.png',
-    image7: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img7_mvq1vh.png',
-    image8: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img8_ltpds6.png',
-    image9: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248267/img9_v3gjos.png',
-    image10: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img10_rxvjoc.png',
-    image11: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img11_cxhabb.png',
-    image12: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img12_uvpocv.png',
-    image13: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img13_jj5nlt.png',
-    image14: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img14_rx8krf.png',
-    image15: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img15_rjp7ra.png',
-    image16: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img16_vet1t9.png',
-    image17: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img17_izb9mb.png',
-    image18: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248271/img18_gpu84r.png',
-    image19: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248273/img19_ezrwbb.png',
-    image20: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248273/img20_v16du7.png',
-    image21: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248274/img21_pqgpjc.png',
-    image22: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248274/img22_jqrufc.png',
-    image23: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248276/img23_yyasxr.png',
-    image24: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248276/img24_ilejqe.png',
-    image25: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248276/img25_nbfapu.png',
-    image26: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248276/img26_r7vscp.png',
-    image27: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248277/img27_uciwix.jpg',
-    image28: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248277/img28_fwt25h.jpg',
-    image29: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248277/img29_stqq5p.jpg',
-    image30: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248278/img30_jghpas.jpg',
-    image31: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img31_mv9hvm.jpg',
-    image32: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img32_d67tpq.jpg',
-    image33: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img33_gauxfk.png',
-    image34: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img34_lef8hq.webp',
-    image35: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img35_buedet.webp',
-    image36: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img36_qqqiam.webp',
-    image37: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img37_ae2lsw.webp',
-    image38: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248282/img38_m3gfau.webp',
-    image39: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248282/img39_gema93.webp',
-    image40: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248282/img40_ly0sd1.jpg',
-    image41: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248282/img41_yjcwoc.webp',
-    image42: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248286/img42_wbs4p7.svg',
-    image43: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248286/img43_cedgbl.svg',
-    image44: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248287/img44_alteje.svg',
-    image45: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248287/img45_qqqrr2.svg',
-    image46: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248287/img46_axhzni.svg',
-    image47: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248287/img47_dlizgk.svg',
-    image48: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248288/img48_oihhzo.svg',
-    image49: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248288/img49_tqeapa.svg',
-    image50: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248288/img50_v68etg.svg',
-    image51: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248288/img51_m4novo.svg',
-    image52: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248289/img52_rs82s8.svg',
-    image53: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248289/img53_eiiynz.webp',
-    image54: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248290/img54_akboux.webp',
-    image55: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248294/img55_ghcrny.webp',
-    image56: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248294/img56_bhhilh.webp',
-    image57: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248294/img57_ra934b.webp',
-    image58: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248294/img58_d2ekes.webp',
-    image59: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248295/img59_icgbmy.webp',
-    image60: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248295/img60_onvfn6.webp',
-    image61: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248295/img61_yhg28b.webp',
-    image62: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248299/img62_k9fhza.webp',
-    image63: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248299/img63_yhxs4p.webp',
-    image64: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248299/img64_ht6qwy.webp',
-    image65: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248300/img65_i501tr.webp',
-    image66: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248300/img66_wugkhe.webp',
-    image67: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248300/img67_szemmk.webp',
-    image68: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248300/img68_emvclg.webp',
-    image69: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248301/img69_oz2exk.webp',
-    image70: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248305/img70_xlkwnd.webp',
-    image71: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248305/img71_oyttb8.webp',
-    image72: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248305/img72_dojeja.webp',
-    image73: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248305/img73_dgo8c1.webp',
-    image74: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img74_yuua5q.webp',
-    image75: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img75_aywqaq.webp',
-    image76: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img76_nidkm4.webp',
-    image77: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img77_ywfex7.webp',
-    image78: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img78_ay8q2r.webp',
-    image79: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img79_nalsje.webp',
-    image80: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img80_so2zx2.webp',
-    image81: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248307/img81_ucciff.webp',
-    image82: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248307/img81_ucciff.webp',
-    image83: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248313/img82_dbxkyb.webp',
-    image84: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248313/img83_qblrpk.webp',
-    image85: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img84_drxgvp.webp',
-    image86: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img85_kdlhdr.svg',
-    image87: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img86_c4i3bx.svg',
-    image88: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img87_aztjso.svg',
-    image89: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img88_uldzyz.webp',
-    image90: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img89_jlrk02.webp',
-    image91: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248319/img90_sjalvu.webp',
-    image92: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248319/img91_w5gmqu.webp',
-    image93: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248319/img92_rbbcux.webp',
-    image94: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248320/img93_sukvnr.webp',
-    image95: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248319/img94_khm3k7.webp',
-    image96: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248320/img95_r4qi02.webp',
-    image97: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248320/img96_liiele.webp',
-    image98: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248320/img97_kzsuae.webp',
-    image99: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248320/img98_iv35nx.webp',
-    image100: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248326/img99_hchhno.webp',
-    image101: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248327/img100_vjoe2g.svg',
-    image102: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248326/img101_flpbsm.svg',
-    image103: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248326/img102_ezbmmd.svg',
-    image104: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248326/img103_gpt36b.svg',
-    image105: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248326/img104_ciguth.svg',
-    image106: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248327/img105_iumgvt.svg',
-    image107: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248327/img106_kq3noa.webp',
-    image108: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248328/img107_qnk72h.webp',
-    image109: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248328/img108_zkfewn.webp',
-    image110: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248328/img109_nmkfig.webp',
-    image111: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248328/img110_u1s3iw.webp',
-    image112: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248335/img112_rqojk9.jpg',
-    image113: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248336/img113_j7ihf2.jpg',
-    image114: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248336/img114_mgo4zm.jpg',
-    image115: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248336/img115_euqhez.jpg',
-    image116: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248338/img116_dekeaw.jpg',
-    image117: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248341/img117_eva2ih.jpg',
-    image118: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248337/img118_c2bzf8.jpg',
-    image119: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248338/img119_rwrv3a.jpg',
-    image120: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248337/img120_n7fu6b.jpg',
-    image121: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248337/img121_j5jp0f.jpg',
-    image122: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248338/img122_dwdj2y.jpg',
-    image123: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248342/img123_wkillc.jpg',
-    image124: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248342/img124_rgzrqs.jpg',
-    image125: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248342/img125_hhslfh.jpg',
-    image126: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248342/img126_cqdmio.jpg',
-    image127: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248343/img127_m7ozt5.jpg',
-    image128: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248345/img128_qpv3kg.jpg',
-    image129: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248350/img129_wpjbq9.jpg',
-    image130: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248350/img130_wbjolw.jpg',
-    image131: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248350/img131_emp2yg.jpg',
-    image132: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248351/img132_oc3f2b.jpg',
-    image133: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248351/img133_clc5au.jpg',
-    image134: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248351/img134_wzfyyy.jpg',
+  // logo,
+  header_img: 'https://res.cloudinary.com/dy2ddzcoq/video/upload/v1758955816/header_amjqd1.mp4',
+  image1: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img1_bmxbnn.webp',
+  image2: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248267/img2_gnywea.png',
+  image3: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img3_wayzwc.png',
+  image4: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img4_iiodit.png',
+  image5: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img5_yqth2c.png',
+  image6: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img6_hrmxsj.png',
+  image7: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img7_mvq1vh.png',
+  image8: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img8_ltpds6.png',
+  image9: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248267/img9_v3gjos.png',
+  image10: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img10_rxvjoc.png',
+  image11: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248268/img11_cxhabb.png',
+  image12: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img12_uvpocv.png',
+  image13: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img13_jj5nlt.png',
+  image14: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img14_rx8krf.png',
+  image15: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img15_rjp7ra.png',
+  image16: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img16_vet1t9.png',
+  image17: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248269/img17_izb9mb.png',
+  image18: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248271/img18_gpu84r.png',
+  image19: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248273/img19_ezrwbb.png',
+  image20: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248273/img20_v16du7.png',
+  image21: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248274/img21_pqgpjc.png',
+  image22: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248274/img22_jqrufc.png',
+  image23: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248276/img23_yyasxr.png',
+  image24: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248276/img24_ilejqe.png',
+  image25: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248276/img25_nbfapu.png',
+  image26: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248276/img26_r7vscp.png',
+  image27: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248277/img27_uciwix.jpg',
+  image28: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248277/img28_fwt25h.jpg',
+  image29: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248277/img29_stqq5p.jpg',
+  image30: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248278/img30_jghpas.jpg',
+  image31: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img31_mv9hvm.jpg',
+  image32: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img32_d67tpq.jpg',
+  image33: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img33_gauxfk.png',
+  image34: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img34_lef8hq.webp',
+  image35: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img35_buedet.webp',
+  image36: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img36_qqqiam.webp',
+  image37: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248281/img37_ae2lsw.webp',
+  image38: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248282/img38_m3gfau.webp',
+  image39: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248282/img39_gema93.webp',
+  image40: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248282/img40_ly0sd1.jpg',
+  image41: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248282/img41_yjcwoc.webp',
+  image42: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248286/img42_wbs4p7.svg',
+  image43: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248286/img43_cedgbl.svg',
+  image44: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248287/img44_alteje.svg',
+  image45: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248287/img45_qqqrr2.svg',
+  image46: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248287/img46_axhzni.svg',
+  image47: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248287/img47_dlizgk.svg',
+  image48: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248288/img48_oihhzo.svg',
+  image49: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248288/img49_tqeapa.svg',
+  image50: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248288/img50_v68etg.svg',
+  image51: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248288/img51_m4novo.svg',
+  image52: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248289/img52_rs82s8.svg',
+  image53: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248289/img53_eiiynz.webp',
+  image54: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248290/img54_akboux.webp',
+  image55: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248294/img55_ghcrny.webp',
+  image56: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248294/img56_bhhilh.webp',
+  image57: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248294/img57_ra934b.webp',
+  image58: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248294/img58_d2ekes.webp',
+  image59: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248295/img59_icgbmy.webp',
+  image60: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248295/img60_onvfn6.webp',
+  image61: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248295/img61_yhg28b.webp',
+  image62: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248299/img62_k9fhza.webp',
+  image63: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248299/img63_yhxs4p.webp',
+  image64: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248299/img64_ht6qwy.webp',
+  image65: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248300/img65_i501tr.webp',
+  image66: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248300/img66_wugkhe.webp',
+  image67: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248300/img67_szemmk.webp',
+  image68: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248300/img68_emvclg.webp',
+  image69: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248301/img69_oz2exk.webp',
+  image70: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248305/img70_xlkwnd.webp',
+  image71: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248305/img71_oyttb8.webp',
+  image72: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248305/img72_dojeja.webp',
+  image73: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248305/img73_dgo8c1.webp',
+  image74: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img74_yuua5q.webp',
+  image75: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img75_aywqaq.webp',
+  image76: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img76_nidkm4.webp',
+  image77: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img77_ywfex7.webp',
+  image78: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img78_ay8q2r.webp',
+  image79: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img79_nalsje.webp',
+  image80: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248306/img80_so2zx2.webp',
+  image81: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248307/img81_ucciff.webp',
+  image82: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248307/img81_ucciff.webp',
+  image83: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762932848/img82_dbxkyb.png',
+  image84: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762932862/img83_qblrpk.png',
+  image85: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762932797/WhatsApp_Image_2025-11-12_at_12.02.22_PM_law6cv.png',
+  image86: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img85_kdlhdr.svg',
+  image87: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img86_c4i3bx.svg',
+  image88: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img87_aztjso.svg',
+  image89: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img88_uldzyz.webp',
+  image90: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248314/img89_jlrk02.webp',
+  image91: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248319/img90_sjalvu.webp',
+  image92: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248319/img91_w5gmqu.webp',
+  image93: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248319/img92_rbbcux.webp',
+  image94: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248320/img93_sukvnr.webp',
+  image95: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248319/img94_khm3k7.webp',
+  image96: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248320/img95_r4qi02.webp',
+  image97: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248320/img96_liiele.webp',
+  image98: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248320/img97_kzsuae.webp',
+  image99: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248320/img98_iv35nx.webp',
+  image100: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248326/img99_hchhno.webp',
+  image101: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248327/img100_vjoe2g.svg',
+  image102: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248326/img101_flpbsm.svg',
+  image103: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248326/img102_ezbmmd.svg',
+  image104: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248326/img103_gpt36b.svg',
+  image105: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248326/img104_ciguth.svg',
+  image106: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248327/img105_iumgvt.svg',
+  image107: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248327/img106_kq3noa.webp',
+  image108: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248328/img107_qnk72h.webp',
+  image109: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248328/img108_zkfewn.webp',
+  image110: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248328/img109_nmkfig.webp',
+  image111: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248328/img110_u1s3iw.webp',
+  image112: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248335/img112_rqojk9.jpg',
+  image113: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248336/img113_j7ihf2.jpg',
+  image114: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248336/img114_mgo4zm.jpg',
+  image115: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248336/img115_euqhez.jpg',
+  image116: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248338/img116_dekeaw.jpg',
+  image117: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248341/img117_eva2ih.jpg',
+  image118: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248337/img118_c2bzf8.jpg',
+  image119: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248338/img119_rwrv3a.jpg',
+  image120: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248337/img120_n7fu6b.jpg',
+  image121: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248337/img121_j5jp0f.jpg',
+  image122: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248338/img122_dwdj2y.jpg',
+  image123: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248342/img123_wkillc.jpg',
+  image124: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248342/img124_rgzrqs.jpg',
+  image125: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248342/img125_hhslfh.jpg',
+  image126: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248342/img126_cqdmio.jpg',
+  image127: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248343/img127_m7ozt5.jpg',
+  image128: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248345/img128_qpv3kg.jpg',
+  image129: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248350/img129_wpjbq9.jpg',
+  image130: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248350/img130_wbjolw.jpg',
+  image131: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248350/img131_emp2yg.jpg',
+  image132: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248351/img132_oc3f2b.jpg',
+  image133: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248351/img133_clc5au.jpg',
+  image134: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248351/img134_wzfyyy.jpg',
+  image135: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941328/img135_jp6prl.png',
+  image136: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762943083/img136_pwqapm.gif',
+  image137: '',
+  image138: '',
+  image139: '',
+  image140: '',
+  image141: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941329/img141_gynqeu.png',
+  image142: '',
+  image143: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941354/img143_l91tr8.png',
+  image144: '',
+  image145: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941366/img145_ksxw6h.png',
+  image146: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941368/img146_x8jspz.png',
+  image147: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941370/img147_tvv0ib.png',
+  image148: '',
+  image149: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941372/img149_nuserk.png',
+  image150: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941373/img150_fajxae.png',
+  image151: '',
+  image152: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941375/img152_kntqei.png',
+  image153: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941377/img153_gps6wj.png',
+  image154: '',
+  image155: '',
+  image156: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941378/img157_fjc57r.png',
+  image157: '',
+  image158: '',
+  image159: '',
+  image160: '',
+  image161: '',
+  image162: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941381/img163_utqawz.png',
+  image163: '',
+  image164: '',
+  image165: '',
+  image166: '',
+  image167: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941382/img168_ks3ztn.png',
+  image168: '',
+  image169: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941383/img170_afzeio.png',
+  image170: '',
+  image171: '',
+  image172: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941386/img173_grhlbi.png',
+  image173: '',
+  image174: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941387/img175_npo9l9.png',
+  image175: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941389/img176_svzfpg.png',
+  image176: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941391/img177_lnsert.png',
+  image177: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941392/img178_fe3fyg.png',
 }
 
 // Home Page Component Data 
 
-   // GlobalImpact
+// GlobalImpact
 export const stats = [
-    { icon: assets.image2, value: 150, label: "Customers", suffix: "+" },
-    { icon: assets.image3, value: 2, label: "Countries", suffix: "+" },
-    { icon: assets.image4, value: 50, label: "Product Deployments", suffix: "+" },
-    { icon: assets.image5, value: 700, label: "Interactions Everyday", suffix: "M" },
-    { icon: assets.image6, value: 15, label: "Professionals", suffix: "+" },
+  { icon: assets.image2, value: 150, label: "Customers", suffix: "+" },
+  { icon: assets.image3, value: 2, label: "Countries", suffix: "+" },
+  { icon: assets.image4, value: 50, label: "Product Deployments", suffix: "+" },
+  { icon: assets.image5, value: 700, label: "Interactions Everyday", suffix: "M" },
+  { icon: assets.image6, value: 15, label: "Professionals", suffix: "+" },
 ];
 
 // DigitalSuite
-export  const products = [
-    {
-      image: assets.image7,
-      title: "Digital Banking Platform",
-      desc: "It is a combination of internet, mobile, corporate, and digital banking that, through emerging technologies, revolutionizes the whole banking experience.",
-      link: "/products/digital-banking",
-      btnLink: "/learn/digital-banking",
-    },
-    {
-      image: assets.image8,
-      title: "A CRM/CEM Platform",
-      desc: "An AI-powered platform that creates an e-interactive customer journey and provides diverse business development opportunities while embracing a paperless environment.",
-      link: "/products/crm-cem",
-      btnLink: "/learn/crm-cem",
-    },
-    {
-      image: assets.image9,
-      title: "Enterprise Middleware",
-      desc: "A centralized platform that seamlessly integrates between applications and handles all communications, requests, and operations while providing extensive customizable opportunities.",
-      link: "/products/middleware",
-      btnLink: "/learn/middleware",
-    },
-    {
-      image: assets.image10,
-      title: "Internet & Mobile Banking Platform",
-      desc: "Automating your banking experiences from all customer touchpoints via a flexible and interactive user journey that digitalizes your interbank processes and functions.",
-      link: "/products/internet-mobile-banking",
-      btnLink: "/learn/internet-mobile-banking",
-    },
-    {
-      image: assets.image11,
-      title: "Multichannel Switch",
-      desc: "A switch that administers multiple transactions and operations by connecting to POS, CDM, ATM, and other terminals/controllers faultlessly in a secured environment.",
-      link: "/products/multichannel-switch",
-      btnLink: "/learn/multichannel-switch",
-    },
-    {
-      image: assets.image12,
-      title: "Card Production System",
-      desc: "A platform that facilitates and produces Debit cards, Prepaid cards, Virtual cards, EMV cards, Loyalty cards, along with many others while maintaining security and customer loyalty.",
-      link: "/products/card-production",
-      btnLink: "/learn/card-production",
-    },
-  ];
+export const products = [
+  {
+    image: assets.image7,
+    title: "Digital Banking Platform",
+    desc: "It is a combination of internet, mobile, corporate, and digital banking that, through emerging technologies, revolutionizes the whole banking experience.",
+    link: "/products/digital-banking",
+    btnLink: "/learn/digital-banking",
+  },
+  {
+    image: assets.image8,
+    title: "A CRM/CEM Platform",
+    desc: "An AI-powered platform that creates an e-interactive customer journey and provides diverse business development opportunities while embracing a paperless environment.",
+    link: "/products/crm-cem",
+    btnLink: "/learn/crm-cem",
+  },
+  {
+    image: assets.image9,
+    title: "Enterprise Middleware",
+    desc: "A centralized platform that seamlessly integrates between applications and handles all communications, requests, and operations while providing extensive customizable opportunities.",
+    link: "/products/middleware",
+    btnLink: "/learn/middleware",
+  },
+  {
+    image: assets.image10,
+    title: "Internet & Mobile Banking Platform",
+    desc: "Automating your banking experiences from all customer touchpoints via a flexible and interactive user journey that digitalizes your interbank processes and functions.",
+    link: "/products/internet-mobile-banking",
+    btnLink: "/learn/internet-mobile-banking",
+  },
+  {
+    image: assets.image11,
+    title: "Multichannel Switch",
+    desc: "A switch that administers multiple transactions and operations by connecting to POS, CDM, ATM, and other terminals/controllers faultlessly in a secured environment.",
+    link: "/products/multichannel-switch",
+    btnLink: "/learn/multichannel-switch",
+  },
+  {
+    image: assets.image12,
+    title: "Card Production System",
+    desc: "A platform that facilitates and produces Debit cards, Prepaid cards, Virtual cards, EMV cards, Loyalty cards, along with many others while maintaining security and customer loyalty.",
+    link: "/products/card-production",
+    btnLink: "/learn/card-production",
+  },
+];
 
 // AlliancesCompliances
 export const allianceImages = [
-    assets.image13, assets.image14, assets.image15,
-    assets.image16, assets.image17, assets.image18,
-    assets.image19, assets.image20, assets.image21,
-    assets.image22, assets.image23, assets.image24,
-    assets.image25, assets.image26,
-  ];
+  assets.image13, assets.image14, assets.image15,
+  assets.image16, assets.image17, assets.image18,
+  assets.image19, assets.image20, assets.image21,
+  assets.image22, assets.image23, assets.image24,
+  assets.image25, assets.image26,
+];
 
 // Services Page Component Data 
 
 // ServiceHeroSection
-export  const services = [
-    "ERP System Development",
-    "Custom Web Application Development",
-    "Android & iOS App Development",
-    "Cross-Platform & Hybrid App Solutions",
-    "E-Commerce Solutions",
-    "Business Process Automation",
-  ];
+export const services = [
+  "ERP System Development",
+  "Custom Web Application Development",
+  "Android & iOS App Development",
+  "Cross-Platform & Hybrid App Solutions",
+  "E-Commerce Solutions",
+  "Business Process Automation",
+];
 
 // OurServicesSection
 export const servicesData = [
@@ -339,221 +382,263 @@ export const sliderData = [
 
 // ClientsSection
 export const testimonials = [
-    {
-        text: "De Solutions provided us with a powerful ERP system that optimized our event management and supply chain operations. Their deep understanding of business workflows helped us achieve greater efficiency and accuracy across departments.",
-        name: "United Catering",
-        location: "United States",
-    },
-    {
-        text: "The ERP solution developed by De Solutions transformed our daily operations. From inventory management to financial tracking, the system has brought transparency and precision to our entire workflow.",
-        name: "Anwar and Sons",
-        location: "Los Angeles",
-    },
-    {
-        text: "De Solutions delivered a customized ERP solution perfectly aligned with our healthcare operations. The system ensures accurate record-keeping and streamlined administrative management, enhancing our overall productivity.",
-        name: "KMED",
-        location: "USA",
-    },
-    {
-        text: "Our distribution processes became seamless after implementing the ERP system designed by De Solutions. Their professional team provided exceptional support and ensured flawless system integration.",
-        name: "Kunhar Distribution",
-        location: "Nigeria",
-    },
-    {
-        text: "We appreciate De Solutions for providing an ERP platform that enhanced our production tracking and reporting efficiency. Their professional team ensured smooth implementation and excellent post-deployment support.",
-        name: "Fatima Board And Paper Mill",
-        location: "Infinity Works",
-    },
-    {
-        text: "De Solutions’ ERP solution helped us manage our consultancy workflows more effectively. The system’s flexibility and data insights have improved our client handling and resource management capabilities.",
-        name: "Techno Consultant",
-        location: "Sun Life",
-    },
-    {
-        text: "Partnering with De Solutions for ERP development has been a game changer. Their robust software enhanced our operations, reduced manual errors, and offered real-time visibility into our business performance.",
-        name: "Dcan Company",
-        location: "USA",
-    },
-    {
-        text: "De Solutions built a tailored ERP system that optimized our food processing operations. The solution provided better control over inventory and ensured smoother coordination between departments.",
-        name: "Ashi Food",
-        location: "USA",
-    },
-    {
-        text: "The ERP platform by De Solutions perfectly fits our manufacturing and sales workflow. It brought precision and automation, helping us scale our operations with ease.",
-        name: "Salani Spice and Food",
-        location: "USA",
-    },
-    {
-        text: "De Solutions implemented an intelligent ERP system that simplified our entire management process. Their professionalism and after-sale support are highly commendable.",
-        name: "Maria Enterprises",
-        location: "USA",
-    },
-    {
-        text: "Our production and supply operations became more efficient with the ERP solution from De Solutions. The system’s detailed reporting and automation have reduced delays and improved decision-making.",
-        name: "Kausar Masla",
-        location: "USA",
-    },
-    {
-        text: "De Solutions designed a reliable ERP system that connected all our departments under one unified platform. The solution enhanced coordination and improved production efficiency remarkably.",
-        name: "KKS Food Private Limited",
-        location: "USA",
-    },
-    {
-        text: "The ERP solution provided by De Solutions streamlined our booking and client management system. Their work has enhanced our operational accuracy and overall service delivery.",
-        name: "Alboshi Travel",
-        location: "USA",
-    },
-    {
-        text: "De Solutions developed an ERP system tailored to our travel business needs. The solution simplified scheduling, customer data management, and reporting, improving overall workflow efficiency.",
-        name: "Imam Travel",
-        location: "USA",
-    },
-    {
-        text: "With De Solutions’ ERP implementation, we achieved better production tracking and financial control. Their professional team delivered quality results with precision and reliability.",
-        name: "Stylo Plastic",
-        location: "USA",
-    },
-    {
-        text: "De Solutions provided us with a scalable ERP system that optimized our manufacturing processes. Their commitment to quality and innovation is truly impressive.",
-        name: "Ava Plastic",
-        location: "USA",
-    },
-    {
-        text: "The ERP solution by De Solutions has enhanced our trading operations through better inventory and sales management. Their system ensures transparency and real-time insights.",
-        name: "Atco Traders",
-        location: "USA",
-    },
-    {
-        text: "De Solutions implemented a sophisticated ERP platform that allowed us to manage operations more effectively. Their professional approach ensured smooth execution and user satisfaction.",
-        name: "Rox Centers",
-        location: "USA",
-    },
-    {
-        text: "Our collaboration with De Solutions resulted in a high-performing ERP solution that supports our trading and distribution functions seamlessly. Excellent service and timely delivery.",
-        name: "Ahad Traders",
-        location: "USA",
-    },
-    {
-        text: "The ERP system built by De Solutions helped us manage sales, inventory, and financial data under one platform. Their technical expertise truly enhanced our business operations.",
-        name: "Friends Electronics",
-        location: "USA",
-    },
-    {
-        text: "De Solutions implemented an ERP solution that streamlined our production planning and order tracking. Their professionalism and innovation brought great results.",
-        name: "Famous Embroidery",
-        location: "USA",
-    },
-    {
-        text: "De Solutions provided a comprehensive ERP solution that enhanced our accounting and operations management. Their professional support ensured a smooth transition to automation.",
-        name: "Ziauddin Ahmed & Company Pvt Ltd",
-        location: "USA",
-    },
-    {
-        text: "Our project management became more efficient with De Solutions’ ERP system. It improved resource allocation, budgeting, and progress tracking across our construction sites.",
-        name: "Asra Construction",
-        location: "USA",
-    },
-    {
-        text: "De Solutions developed an ERP platform that helped us centralize our operations. Their expert team delivered a system that improved workflow and operational control.",
-        name: "UCRAVE",
-        location: "USA",
-    },
-    {
-        text: "We appreciate De Solutions for designing a strong ERP system that supports our trading processes. The solution has enhanced visibility, accuracy, and overall productivity.",
-        name: "National Trading Company",
-        location: "USA",
-    },
-    {
-        text: "De Solutions implemented an ERP solution that streamlined our corporate operations. Their professional handling and post-launch support were exceptional.",
-        name: "SCANZS Pvt Limited",
-        location: "USA",
-    },
-    {
-        text: "The ERP software by De Solutions revolutionized how we manage inventory and finances. Their professionalism and timely delivery made the entire process seamless.",
-        name: "Ramzan Trading",
-        location: "USA",
-    },
-    {
-        text: "Our collaboration with De Solutions resulted in an ERP system that enhanced transparency and control over our business processes. Their technical excellence is commendable.",
-        name: "Redox",
-        location: "USA",
-    },
-    {
-        text: "De Solutions delivered a robust ERP system that improved project tracking and overall workflow. Their team showed great dedication and technical expertise.",
-        name: "Buildamatic Pvt Limited",
-        location: "USA",
-    },
-    {
-        text: "De Solutions implemented a well-structured ERP solution that improved our production monitoring and order tracking processes. Excellent service and continuous support.",
-        name: "Nordic Cable Pvt Limited",
-        location: "USA",
-    },
-    {
-        text: "We are highly satisfied with De Solutions’ ERP software. It streamlined our inventory management and order processing, enabling smoother operations.",
-        name: "Muslim Trading Company",
-        location: "USA",
-    },
-    {
-        text: "De Solutions developed a customized ERP system that optimized our production and delivery processes. Their expertise helped us maintain high efficiency and accuracy.",
-        name: "Frozen Halal Foods",
-        location: "USA",
-    },
-    {
-        text: "The ERP system delivered by De Solutions provided complete visibility across our departments. Their professional approach ensured high-quality implementation.",
-        name: "NCB International",
-        location: "USA",
-    },
-    {
-        text: "De Solutions designed a reliable ERP platform that strengthened our accounting and operational management. Their commitment to excellence truly stands out.",
-        name: "M. Ashraf & Co.",
-        location: "USA",
-    },
-    {
-        text: "We appreciate De Solutions for providing an efficient ERP system tailored to our travel business. Their solution has enhanced booking management and customer service processes.",
-        name: "MGM Travel",
-        location: "USA",
-    },
-    {
-        text: "The ERP platform by De Solutions helped us manage events, reservations, and billing with great ease. Their professionalism and attention to detail were remarkable.",
-        name: "Redisson Banquets",
-        location: "USA",
-    },
-    {
-        text: "De Solutions provided us with a high-performing ERP system that simplified event coordination and client management. Their solutions are both efficient and user-friendly.",
-        name: "Skyloft Banquets",
-        location: "USA",
-    },
-    {
-        text: "De Solutions delivered a robust ERP system that improved our internal management processes. Their technical expertise and dedication made implementation effortless.",
-        name: "Capri International Pvt Limited",
-        location: "USA",
-    },
-    {
-        text: "Our industrial operations became more efficient thanks to the ERP software developed by De Solutions. Their expert team ensured seamless system integration.",
-        name: "ERCON Industries Pvt Limited",
-        location: "USA",
-    },
-    {
-        text: "De Solutions’ ERP solution helped us gain better control over our production and supply chain. Their professionalism and attention to quality are highly commendable.",
-        name: "Hiba Food",
-        location: "USA",
-    },
-    {
-        text: "De Solutions implemented an ERP platform that optimized our agricultural data management and operations. Their work has significantly improved our decision-making process.",
-        name: "M/S Neelum Seeds",
-        location: "USA",
-    },
-    {
-        text: "De Solutions developed an ERP solution that helped us streamline our business workflows. Their commitment to innovation and professionalism is impressive.",
-        name: " Zarie",
-        location: "USA",
-    },
-    {
-        text: "The ERP system delivered by De Solutions enhanced our organizational efficiency and reporting accuracy. Their team’s performance and dedication are exceptional.",
-        name: "Landmark",
-        location: "USA",
-    },
+  {
+    text: "De Solutions provided us with a powerful ERP system that optimized our event management and supply chain operations. Their deep understanding of business workflows helped us achieve greater efficiency and accuracy across departments.",
+    name: "United Catering",
+    location: "United States",
+    img: assets.image135
+  },
+  {
+    text: "The ERP solution developed by De Solutions transformed our daily operations. From inventory management to financial tracking, the system has brought transparency and precision to our entire workflow.",
+    name: "Anwar and Sons",
+    location: "Los Angeles",
+    img: assets.image136
+  },
+  {
+    text: "De Solutions delivered a customized ERP solution perfectly aligned with our healthcare operations. The system ensures accurate record-keeping and streamlined administrative management, enhancing our overall productivity.",
+    name: "KMED",
+    location: "USA",
+    img: assets.image137
+  },
+  {
+    text: "Our distribution processes became seamless after implementing the ERP system designed by De Solutions. Their professional team provided exceptional support and ensured flawless system integration.",
+    name: "Kunhar Distribution",
+    location: "Nigeria",
+    img: assets.image138
+  },
+  {
+    text: "We appreciate De Solutions for providing an ERP platform that enhanced our production tracking and reporting efficiency. Their professional team ensured smooth implementation and excellent post-deployment support.",
+    name: "Fatima Board And Paper Mill",
+    location: "Infinity Works",
+    img: assets.image139
+  },
+  {
+    text: "De Solutions’ ERP solution helped us manage our consultancy workflows more effectively. The system’s flexibility and data insights have improved our client handling and resource management capabilities.",
+    name: "Techno Consultant",
+    location: "Sun Life",
+    img: assets.image140
+  },
+  {
+    text: "Partnering with De Solutions for ERP development has been a game changer. Their robust software enhanced our operations, reduced manual errors, and offered real-time visibility into our business performance.",
+    name: "Dcan Company",
+    location: "USA",
+    img: assets.image141
+  },
+  {
+    text: "De Solutions built a tailored ERP system that optimized our food processing operations. The solution provided better control over inventory and ensured smoother coordination between departments.",
+    name: "Ashi Food",
+    location: "USA",
+    img: assets.image142
+  },
+  {
+    text: "The ERP platform by De Solutions perfectly fits our manufacturing and sales workflow. It brought precision and automation, helping us scale our operations with ease.",
+    name: "Salani Spice and Food",
+    location: "USA",
+    img: assets.image143
+  },
+  {
+    text: "De Solutions implemented an intelligent ERP system that simplified our entire management process. Their professionalism and after-sale support are highly commendable.",
+    name: "Maria Enterprises",
+    location: "USA",
+    img: assets.image144
+  },
+  {
+    text: "Our production and supply operations became more efficient with the ERP solution from De Solutions. The system’s detailed reporting and automation have reduced delays and improved decision-making.",
+    name: "Kausar Masla",
+    location: "USA",
+    img: assets.image145
+  },
+  {
+    text: "De Solutions designed a reliable ERP system that connected all our departments under one unified platform. The solution enhanced coordination and improved production efficiency remarkably.",
+    name: "KKS Food Private Limited",
+    location: "USA",
+    img: assets.image146
+  },
+  {
+    text: "The ERP solution provided by De Solutions streamlined our booking and client management system. Their work has enhanced our operational accuracy and overall service delivery.",
+    name: "Alboshi Travel",
+    location: "USA",
+    img: assets.image147
+  },
+  {
+    text: "De Solutions developed an ERP system tailored to our travel business needs. The solution simplified scheduling, customer data management, and reporting, improving overall workflow efficiency.",
+    name: "Imam Travel",
+    location: "USA",
+    img: assets.image148
+  },
+  {
+    text: "With De Solutions’ ERP implementation, we achieved better production tracking and financial control. Their professional team delivered quality results with precision and reliability.",
+    name: "Stylo Plastic",
+    location: "USA",
+    img: assets.image149
+  },
+  {
+    text: "De Solutions provided us with a scalable ERP system that optimized our manufacturing processes. Their commitment to quality and innovation is truly impressive.",
+    name: "Ava Plastic",
+    location: "USA",
+    img: assets.image150
+  },
+  {
+    text: "The ERP solution by De Solutions has enhanced our trading operations through better inventory and sales management. Their system ensures transparency and real-time insights.",
+    name: "Atco Traders",
+    location: "USA",
+    img : assets.image151
+  },
+  {
+    text: "De Solutions implemented a sophisticated ERP platform that allowed us to manage operations more effectively. Their professional approach ensured smooth execution and user satisfaction.",
+    name: "Rox Centers",
+    location: "USA",
+    img : assets.image152
+  },
+  {
+    text: "Our collaboration with De Solutions resulted in a high-performing ERP solution that supports our trading and distribution functions seamlessly. Excellent service and timely delivery.",
+    name: "Ahad Traders",
+    location: "USA",
+    img : assets.image153
+  },
+  {
+    text: "The ERP system built by De Solutions helped us manage sales, inventory, and financial data under one platform. Their technical expertise truly enhanced our business operations.",
+    name: "Friends Electronics",
+    location: "USA",
+    img : assets.image154
+  },
+  {
+    text: "De Solutions implemented an ERP solution that streamlined our production planning and order tracking. Their professionalism and innovation brought great results.",
+    name: "Famous Embroidery",
+    location: "USA",
+    img : assets.image155
+  },
+  {
+    text: "De Solutions provided a comprehensive ERP solution that enhanced our accounting and operations management. Their professional support ensured a smooth transition to automation.",
+    name: "Ziauddin Ahmed & Company Pvt Ltd",
+    location: "USA",
+    img : assets.image156
+  },
+  {
+    text: "Our project management became more efficient with De Solutions’ ERP system. It improved resource allocation, budgeting, and progress tracking across our construction sites.",
+    name: "Asra Construction",
+    location: "USA",
+    img : assets.image157
+  },
+  {
+    text: "De Solutions developed an ERP platform that helped us centralize our operations. Their expert team delivered a system that improved workflow and operational control.",
+    name: "UCRAVE",
+    location: "USA",
+    img : assets.image158
+  },
+  {
+    text: "We appreciate De Solutions for designing a strong ERP system that supports our trading processes. The solution has enhanced visibility, accuracy, and overall productivity.",
+    name: "National Trading Company",
+    location: "USA",
+    img : assets.image159
+  },
+  {
+    text: "De Solutions implemented an ERP solution that streamlined our corporate operations. Their professional handling and post-launch support were exceptional.",
+    name: "SCANZS Pvt Limited",
+    location: "USA",
+    img : assets.image160
+  },
+  {
+    text: "The ERP software by De Solutions revolutionized how we manage inventory and finances. Their professionalism and timely delivery made the entire process seamless.",
+    name: "Ramzan Trading",
+    location: "USA",
+    img : assets.image161
+  },
+  {
+    text: "Our collaboration with De Solutions resulted in an ERP system that enhanced transparency and control over our business processes. Their technical excellence is commendable.",
+    name: "Redox",
+    location: "USA",
+    img : assets.image162
+  },
+  {
+    text: "De Solutions delivered a robust ERP system that improved project tracking and overall workflow. Their team showed great dedication and technical expertise.",
+    name: "Buildamatic Pvt Limited",
+    location: "USA",
+    img : assets.image163
+  },
+  {
+    text: "De Solutions implemented a well-structured ERP solution that improved our production monitoring and order tracking processes. Excellent service and continuous support.",
+    name: "Nordic Cable Pvt Limited",
+    location: "USA",
+    img : assets.image164
+  },
+  {
+    text: "We are highly satisfied with De Solutions’ ERP software. It streamlined our inventory management and order processing, enabling smoother operations.",
+    name: "Muslim Trading Company",
+    location: "USA",
+    img : assets.image165
+  },
+  {
+    text: "De Solutions developed a customized ERP system that optimized our production and delivery processes. Their expertise helped us maintain high efficiency and accuracy.",
+    name: "Frozen Halal Foods",
+    location: "USA",
+    img : assets.image166
+  },
+  {
+    text: "The ERP system delivered by De Solutions provided complete visibility across our departments. Their professional approach ensured high-quality implementation.",
+    name: "NCB International",
+    location: "USA",
+    img : assets.image167
+  },
+  {
+    text: "De Solutions designed a reliable ERP platform that strengthened our accounting and operational management. Their commitment to excellence truly stands out.",
+    name: "M. Ashraf & Co.",
+    location: "USA",
+    img : assets.image168
+  },
+  {
+    text: "We appreciate De Solutions for providing an efficient ERP system tailored to our travel business. Their solution has enhanced booking management and customer service processes.",
+    name: "MGM Travel",
+    location: "USA",
+    img : assets.image169
+  },
+  {
+    text: "The ERP platform by De Solutions helped us manage events, reservations, and billing with great ease. Their professionalism and attention to detail were remarkable.",
+    name: "Redisson Banquets",
+    location: "USA",
+    img : assets.image170
+  },
+  {
+    text: "De Solutions provided us with a high-performing ERP system that simplified event coordination and client management. Their solutions are both efficient and user-friendly.",
+    name: "Skyloft Banquets",
+    location: "USA",
+    img : assets.image171},
+  {
+    text: "De Solutions delivered a robust ERP system that improved our internal management processes. Their technical expertise and dedication made implementation effortless.",
+    name: "Capri International Pvt Limited",
+    location: "USA",
+    img : assets.image172
+  },
+  {
+    text: "Our industrial operations became more efficient thanks to the ERP software developed by De Solutions. Their expert team ensured seamless system integration.",
+    name: "ERCON Industries Pvt Limited",
+    location: "USA",
+    img : assets.image173
+  },
+  {
+    text: "De Solutions’ ERP solution helped us gain better control over our production and supply chain. Their professionalism and attention to quality are highly commendable.",
+    name: "Hiba Food",
+    location: "USA",
+    img : assets.image174
+  },
+  {
+    text: "De Solutions implemented an ERP platform that optimized our agricultural data management and operations. Their work has significantly improved our decision-making process.",
+    name: "M/S Neelum Seeds",
+    location: "USA",
+    img : assets.image175
+  },
+  {
+    text: "De Solutions developed an ERP solution that helped us streamline our business workflows. Their commitment to innovation and professionalism is impressive.",
+    name: " Zarie",
+    location: "USA",
+    img : assets.image176
+  },
+  {
+    text: "The ERP system delivered by De Solutions enhanced our organizational efficiency and reporting accuracy. Their team’s performance and dedication are exceptional.",
+    name: "Landmark",
+    location: "USA",
+    img : assets.image177
+  },
 ];
 
 // FAQSection
@@ -711,43 +796,43 @@ export const processes = [
 ];
 
 // HireDevelopers
-export  const devIcons = [
-    assets.image89,
-    assets.image90,
-    assets.image91,
-    assets.image92,
-    assets.image93,
-    assets.image94,
-    assets.image95,
-    assets.image96,
-    assets.image97,
-    assets.image98,
-    assets.image99,
-    assets.image100,
-  ];
+export const devIcons = [
+  assets.image89,
+  assets.image90,
+  assets.image91,
+  assets.image92,
+  assets.image93,
+  assets.image94,
+  assets.image95,
+  assets.image96,
+  assets.image97,
+  assets.image98,
+  assets.image99,
+  assets.image100,
+];
 
-  // OurPerks
-  export const perks = [
-    {
-      icon: assets.image101,
-      title: "Bonuses",
-      text: "Pay rise, promotions, and top opportunities for professional development.",
-    },
-  
-    {
-      icon: assets.image104,
-      title: "Parental leaves",
-      text: "When it comes to feelings, work isn’t the priority.",
-    },
-    {
-      icon: assets.image106,
-      title: "Training",
-      text: "Mentors to guide and support you. Training programs to polish your skills.",
-    },
-  ];
+// OurPerks
+export const perks = [
+  {
+    icon: assets.image101,
+    title: "Bonuses",
+    text: "Pay rise, promotions, and top opportunities for professional development.",
+  },
 
-  // FeaturesSection
-  export const features = [
+  {
+    icon: assets.image104,
+    title: "Parental leaves",
+    text: "When it comes to feelings, work isn’t the priority.",
+  },
+  {
+    icon: assets.image106,
+    title: "Training",
+    text: "Mentors to guide and support you. Training programs to polish your skills.",
+  },
+];
+
+// FeaturesSection
+export const features = [
   {
     id: 1,
     img: assets.image108,
@@ -778,41 +863,43 @@ export  const devIcons = [
 
 // PortfolioProjects
 export const projects = [
-    {
-        id: 1,
-        logo: assets.image80,
-        tags: ["UI/UX Design", "Mobile App Development"],
-        title: "Mover Web",
-        description:
-            "At Mover App, our mission is clear, revolutionize the moving experience. With a steadfast commitment to innovation, we've crafted a seamless platform that bridges the gap between customers and reliable moving professionals. Our dedication to excellence ensures that every interaction, from booking to the final move-in, is smooth, efficient, and stress-free. Join us as we transform the way people move, one seamless connection at a time.",
-        list: ["Riders Management", "Promotions", "Nearby Courier", "Track Order"],
-        image: assets.image83,
-    },
-    {
-        id: 2,
-        logo: assets.image81,
-        tags: ["UI/UX Design", "Mobile App Development"],
-        title: "Mover App",
-        description:
-            "Develop a comprehensive mobile application designed to optimize the moving experience by facilitating efficient order management and customer engagement. The app aims to provide seamless real-time tracking of movers, an intuitive interface for profile customization, and direct feedback channels to improve service quality. Additionally, it seeks to incorporate membership and subscription features to offer value-added services and promotions, thereby enhancing customer loyalty and operational transparency in the moving industry.",
-        list: ["Order Management", "Track Order", "Membership &", "Nearby Courier"],
-        image: assets.image84,
-    },
-    {
-        id: 3,
-        logo: assets.image82,
-        tags: ["UI/UX Design", "Mobile App Development"],
-        title: "Gym Web",
-        description:
-            "Gymnasium emerges as the definitive application dedicated to offering a comprehensive guide for enhancing physical health and overall well-being. This platform excels by integrating innovative tools and expert insights designed to empower users on their journey toward optimal fitness and wellness. Engage with Gymnasium to transform your health through structured guidance and supportive community features. Whether you're starting your fitness journey or aiming to reach new goals, Gymnasium provides the tools and support you need to succeed. From personalized workout plans to expert nutritional advice and real-time progress tracking, it's your all-in-one companion for achieving and maintaining a healthier lifestyle.",
-        list: [
-            "Content Management",
-            "User Management",
-            "Promotions",
-            "Bookings Management",
-        ],
-        image: assets.image85,
-    },
+  {
+    id: 1,
+    logo: assets.image80,
+    tags: ["UI/UX Design", "Mobile App Development"],
+    title: "ERP SOFTWARE ",
+    description:
+      "Our ERP system is a next-generation business management platform designed to simplify operations, boost productivity, and deliver real-time insights across every department. From sales, purchases, and inventory to HR, payroll, and finance — everything is integrated into one powerful, easy-to-use solution. With modern dashboards, intelligent analytics, and automated reporting, you can make faster, smarter decisions that drive growth. Scalable, secure, and mobile-ready — this ERP empowers businesses to stay ahead in today’s fast-moving digital world.",
+    // list: ["Riders Management", "Promotions", "Nearby Courier", "Track Order"],
+    image: assets.image83,
+  },
+  {
+    id: 2,
+    logo: assets.image81,
+    tags: ["UI/UX Design", "Mobile App Development"],
+    title: "DEGITAL INVOICE SOFTWARE ",
+    description:
+      "Our Digital Invoicing System is a complete, smart, and compliant solution designed to automate your billing and tax operations with accuracy and ease. Integrated with FBR portal standards, it allows businesses to create, manage, and track invoices in real time — reducing manual errors and ensuring transparency. With secure login access, customer management, and detailed sales ledger tracking, every transaction becomes effortless. Whether you're managing multiple clients or monitoring production and sales, this system delivers speed, security, and seamless efficiency for modern businesses.",
+    image: assets.image84,
+  },
+  {
+    id: 3,
+    logo: assets.image82,
+    tags: ["UI/UX Design", "Mobile App Development"],
+    title: "CRM SOFTWARE ",
+    description:
+      "Our CRM (Customer Relationship Management) Software is designed to streamline client interactions, sales processes, and data management — all in one smart platform. It allows businesses to efficiently manage leads, hospitals, and contacts while tracking every opportunity and approval in real time. With modules for Requests, Approvals, and Reporting, users can monitor business growth and customer engagement with accuracy. The intuitive interface ensures easy navigation, while data analytics and filtering options help in making informed decisions. Whether for healthcare, sales, or corporate management, this CRM provides a complete 360° view of your customers and operations.",
+    image: assets.image85,
+  },
+  {
+    id: 3,
+    logo: assets.image82,
+    tags: ["UI/UX Design", "Mobile App Development"],
+    title: "MOBILE APPLICATION ",
+    description:
+      "Our Mobile Application Development services focus on creating smart, secure, and high-performance apps tailored to your business goals. We design both Android and iOS applications with user-friendly interfaces, smooth navigation, and modern UI/UX trends. From concept to deployment, every app is built to deliver speed, reliability, and scalability — ensuring a seamless experience for users. Whether it’s an eCommerce platform, hospital management app, or enterprise solution, we provide complete end-to-end development with real-time synchronization, API integration, and cloud support. Our mission is to bring your ideas to life through innovative mobile experiences that drive growth and customer engagement.",
+    image: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762933479/img84_drxgvp.png',
+  },
 ];
 
 
@@ -820,7 +907,7 @@ export const projects = [
 
 // Locations
 export const locations = [
- 
+
   {
     image: assets.image37,
     title: "Riyadh, KSA",

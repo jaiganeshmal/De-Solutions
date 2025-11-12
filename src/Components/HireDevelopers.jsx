@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa"; // react-icons se arrow
+import { FaArrowRight } from "react-icons/fa";
 import { devIcons } from "../assets/global";
 import { useNavigate } from "react-router-dom";
 

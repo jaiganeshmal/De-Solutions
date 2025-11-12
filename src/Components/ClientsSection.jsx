@@ -1,7 +1,7 @@
-// src/components/ClientsSection.jsx
 import React from "react";
 import { FaQuoteRight } from "react-icons/fa";
 // import img1 from "../assets/img/logo1.png"
+
 // Swiper imports
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
@@ -42,7 +42,7 @@ const ClientsSection = () => {
                         }}
                         loop={true}
                         speed={600}
-                        className="pb-12" // ✅ dots ke liye neeche space
+                        className="pb-12"
                     >
                         {testimonials.map((item, idx) => (
                             <SwiperSlide key={idx}>
@@ -62,7 +62,12 @@ const ClientsSection = () => {
                                             <h4 className="font-bold text-gray-900">{item.name}</h4>
                                             <p className="text-sm text-gray-600">{item.location}</p>
                                         </div>
-                                        <img src='https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248355/logo_zzuyxp.png' alt="" className="w-20" />
+                                        {item?.img ? (
+                                            <img src={item.img} alt="" className="w-20" />
+                                        ) : (
+                                            <span>NAN</span>
+                                        )}
+
                                     </div>
                                 </div>
                             </SwiperSlide>

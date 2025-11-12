@@ -9,7 +9,7 @@ const SocialLinks = () => {
     {
       icon: <FaFacebookMessenger size={20} />,
       label: "Message",
-      to: "/contact", // <-- navigate to contact page
+      to: "/contact",
       type: "internal",
       bg: "bg-[#199dea] hover:bg-[#006FD6]",
     },

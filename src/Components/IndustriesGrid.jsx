@@ -1,4 +1,3 @@
-// src/components/IndustriesGrid.jsx
 import React from "react";
 import { industries } from "../assets/global";
 
