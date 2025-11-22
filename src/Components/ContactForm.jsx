@@ -1,11 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import ReCAPTCHA from "react-google-recaptcha";
+import toast from "react-hot-toast";
 
 const ContactForm = () => {
-  // captcha ke response ko handle karne ke liye
+  const [captcha, setCaptcha] = useState(null);
+
   const handleCaptcha = (value) => {
-    console.log("Captcha value:", value);
+    setCaptcha(value);
+    toast.success("reCAPTCHA verified ✅");
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (!captcha) {
+      toast.error("Please verify reCAPTCHA before submitting ❌");
+      return;
+    }
+
+    toast.success("Form submitted successfully 🎉");
+
+    // Reset form
+    e.target.reset();
+    setCaptcha(null);
   };
 
   return (
@@ -20,11 +38,15 @@ const ContactForm = () => {
         </p>
 
         {/* Form */}
-        <form className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <form
+          onSubmit={handleSubmit}
+          className="grid grid-cols-1 md:grid-cols-2 gap-8"
+        >
           {/* Name */}
           <input
             type="text"
             placeholder="Enter your name"
+            required
             className="border-b border-gray-300 focus:border-[#199dea] focus:outline-none py-3"
           />
 
@@ -32,6 +54,7 @@ const ContactForm = () => {
           <input
             type="email"
             placeholder="Enter your email"
+            required
             className="border-b border-gray-300 focus:border-[#199dea] focus:outline-none py-3"
           />
 
@@ -43,8 +66,13 @@ const ContactForm = () => {
           />
 
           {/* Services Dropdown */}
-          <select className="border-b border-gray-300 focus:border-[#199dea] focus:outline-none py-3 bg-transparent">
-            <option value="">Choose a service</option>
+          <select
+            className="border-b border-gray-300 focus:border-[#199dea] focus:outline-none py-3 bg-transparent"
+            defaultValue=""
+          >
+            <option value="" disabled>
+              Choose a service
+            </option>
             <option>Mobile Apps Development</option>
             <option>AR & VR Apps Development</option>
             <option>Strategic Design Consultancy</option>
@@ -77,7 +105,7 @@ const ContactForm = () => {
           {/* Captcha */}
           <div className="md:col-span-2 flex justify-start">
             <ReCAPTCHA
-              sitekey="YOUR_SITE_KEY" // 👈 apna Google reCAPTCHA site key dalna hoga
+              sitekey="6LeYEgssAAAAAIMqF8McOSdGIODrDbpqGfoM-ZY7" // ✅ your working v2 site key
               onChange={handleCaptcha}
             />
           </div>

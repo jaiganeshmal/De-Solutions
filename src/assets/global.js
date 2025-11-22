@@ -138,43 +138,20 @@ export let assets = {
   image134: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762248351/img134_wzfyyy.jpg',
   image135: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941328/img135_jp6prl.png',
   image136: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762943083/img136_pwqapm.gif',
-  image137: '',
-  image138: '',
-  image139: '',
-  image140: '',
   image141: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941329/img141_gynqeu.png',
-  image142: '',
   image143: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941354/img143_l91tr8.png',
-  image144: '',
   image145: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941366/img145_ksxw6h.png',
   image146: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941368/img146_x8jspz.png',
   image147: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941370/img147_tvv0ib.png',
-  image148: '',
   image149: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941372/img149_nuserk.png',
   image150: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941373/img150_fajxae.png',
-  image151: '',
   image152: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941375/img152_kntqei.png',
   image153: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941377/img153_gps6wj.png',
-  image154: '',
-  image155: '',
   image156: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941378/img157_fjc57r.png',
-  image157: '',
-  image158: '',
-  image159: '',
-  image160: '',
-  image161: '',
   image162: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941381/img163_utqawz.png',
-  image163: '',
-  image164: '',
-  image165: '',
-  image166: '',
   image167: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941382/img168_ks3ztn.png',
-  image168: '',
   image169: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941383/img170_afzeio.png',
-  image170: '',
-  image171: '',
   image172: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941386/img173_grhlbi.png',
-  image173: '',
   image174: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941387/img175_npo9l9.png',
   image175: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941389/img176_svzfpg.png',
   image176: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941391/img177_lnsert.png',
@@ -395,52 +372,16 @@ export const testimonials = [
     img: assets.image136
   },
   {
-    text: "De Solutions delivered a customized ERP solution perfectly aligned with our healthcare operations. The system ensures accurate record-keeping and streamlined administrative management, enhancing our overall productivity.",
-    name: "KMED",
-    location: "USA",
-    img: assets.image137
-  },
-  {
-    text: "Our distribution processes became seamless after implementing the ERP system designed by De Solutions. Their professional team provided exceptional support and ensured flawless system integration.",
-    name: "Kunhar Distribution",
-    location: "Nigeria",
-    img: assets.image138
-  },
-  {
-    text: "We appreciate De Solutions for providing an ERP platform that enhanced our production tracking and reporting efficiency. Their professional team ensured smooth implementation and excellent post-deployment support.",
-    name: "Fatima Board And Paper Mill",
-    location: "Infinity Works",
-    img: assets.image139
-  },
-  {
-    text: "De Solutions’ ERP solution helped us manage our consultancy workflows more effectively. The system’s flexibility and data insights have improved our client handling and resource management capabilities.",
-    name: "Techno Consultant",
-    location: "Sun Life",
-    img: assets.image140
-  },
-  {
     text: "Partnering with De Solutions for ERP development has been a game changer. Their robust software enhanced our operations, reduced manual errors, and offered real-time visibility into our business performance.",
     name: "Dcan Company",
     location: "USA",
     img: assets.image141
   },
   {
-    text: "De Solutions built a tailored ERP system that optimized our food processing operations. The solution provided better control over inventory and ensured smoother coordination between departments.",
-    name: "Ashi Food",
-    location: "USA",
-    img: assets.image142
-  },
-  {
     text: "The ERP platform by De Solutions perfectly fits our manufacturing and sales workflow. It brought precision and automation, helping us scale our operations with ease.",
     name: "Salani Spice and Food",
     location: "USA",
     img: assets.image143
-  },
-  {
-    text: "De Solutions implemented an intelligent ERP system that simplified our entire management process. Their professionalism and after-sale support are highly commendable.",
-    name: "Maria Enterprises",
-    location: "USA",
-    img: assets.image144
   },
   {
     text: "Our production and supply operations became more efficient with the ERP solution from De Solutions. The system’s detailed reporting and automation have reduced delays and improved decision-making.",
@@ -461,12 +402,6 @@ export const testimonials = [
     img: assets.image147
   },
   {
-    text: "De Solutions developed an ERP system tailored to our travel business needs. The solution simplified scheduling, customer data management, and reporting, improving overall workflow efficiency.",
-    name: "Imam Travel",
-    location: "USA",
-    img: assets.image148
-  },
-  {
     text: "With De Solutions’ ERP implementation, we achieved better production tracking and financial control. Their professional team delivered quality results with precision and reliability.",
     name: "Stylo Plastic",
     location: "USA",
@@ -477,12 +412,6 @@ export const testimonials = [
     name: "Ava Plastic",
     location: "USA",
     img: assets.image150
-  },
-  {
-    text: "The ERP solution by De Solutions has enhanced our trading operations through better inventory and sales management. Their system ensures transparency and real-time insights.",
-    name: "Atco Traders",
-    location: "USA",
-    img : assets.image151
   },
   {
     text: "De Solutions implemented a sophisticated ERP platform that allowed us to manage operations more effectively. Their professional approach ensured smooth execution and user satisfaction.",
@@ -497,52 +426,10 @@ export const testimonials = [
     img : assets.image153
   },
   {
-    text: "The ERP system built by De Solutions helped us manage sales, inventory, and financial data under one platform. Their technical expertise truly enhanced our business operations.",
-    name: "Friends Electronics",
-    location: "USA",
-    img : assets.image154
-  },
-  {
-    text: "De Solutions implemented an ERP solution that streamlined our production planning and order tracking. Their professionalism and innovation brought great results.",
-    name: "Famous Embroidery",
-    location: "USA",
-    img : assets.image155
-  },
-  {
     text: "De Solutions provided a comprehensive ERP solution that enhanced our accounting and operations management. Their professional support ensured a smooth transition to automation.",
     name: "Ziauddin Ahmed & Company Pvt Ltd",
     location: "USA",
     img : assets.image156
-  },
-  {
-    text: "Our project management became more efficient with De Solutions’ ERP system. It improved resource allocation, budgeting, and progress tracking across our construction sites.",
-    name: "Asra Construction",
-    location: "USA",
-    img : assets.image157
-  },
-  {
-    text: "De Solutions developed an ERP platform that helped us centralize our operations. Their expert team delivered a system that improved workflow and operational control.",
-    name: "UCRAVE",
-    location: "USA",
-    img : assets.image158
-  },
-  {
-    text: "We appreciate De Solutions for designing a strong ERP system that supports our trading processes. The solution has enhanced visibility, accuracy, and overall productivity.",
-    name: "National Trading Company",
-    location: "USA",
-    img : assets.image159
-  },
-  {
-    text: "De Solutions implemented an ERP solution that streamlined our corporate operations. Their professional handling and post-launch support were exceptional.",
-    name: "SCANZS Pvt Limited",
-    location: "USA",
-    img : assets.image160
-  },
-  {
-    text: "The ERP software by De Solutions revolutionized how we manage inventory and finances. Their professionalism and timely delivery made the entire process seamless.",
-    name: "Ramzan Trading",
-    location: "USA",
-    img : assets.image161
   },
   {
     text: "Our collaboration with De Solutions resulted in an ERP system that enhanced transparency and control over our business processes. Their technical excellence is commendable.",
@@ -551,58 +438,17 @@ export const testimonials = [
     img : assets.image162
   },
   {
-    text: "De Solutions delivered a robust ERP system that improved project tracking and overall workflow. Their team showed great dedication and technical expertise.",
-    name: "Buildamatic Pvt Limited",
-    location: "USA",
-    img : assets.image163
-  },
-  {
-    text: "De Solutions implemented a well-structured ERP solution that improved our production monitoring and order tracking processes. Excellent service and continuous support.",
-    name: "Nordic Cable Pvt Limited",
-    location: "USA",
-    img : assets.image164
-  },
-  {
-    text: "We are highly satisfied with De Solutions’ ERP software. It streamlined our inventory management and order processing, enabling smoother operations.",
-    name: "Muslim Trading Company",
-    location: "USA",
-    img : assets.image165
-  },
-  {
-    text: "De Solutions developed a customized ERP system that optimized our production and delivery processes. Their expertise helped us maintain high efficiency and accuracy.",
-    name: "Frozen Halal Foods",
-    location: "USA",
-    img : assets.image166
-  },
-  {
     text: "The ERP system delivered by De Solutions provided complete visibility across our departments. Their professional approach ensured high-quality implementation.",
     name: "NCB International",
     location: "USA",
     img : assets.image167
   },
-  {
-    text: "De Solutions designed a reliable ERP platform that strengthened our accounting and operational management. Their commitment to excellence truly stands out.",
-    name: "M. Ashraf & Co.",
-    location: "USA",
-    img : assets.image168
-  },
-  {
+ {
     text: "We appreciate De Solutions for providing an efficient ERP system tailored to our travel business. Their solution has enhanced booking management and customer service processes.",
     name: "MGM Travel",
     location: "USA",
     img : assets.image169
   },
-  {
-    text: "The ERP platform by De Solutions helped us manage events, reservations, and billing with great ease. Their professionalism and attention to detail were remarkable.",
-    name: "Redisson Banquets",
-    location: "USA",
-    img : assets.image170
-  },
-  {
-    text: "De Solutions provided us with a high-performing ERP system that simplified event coordination and client management. Their solutions are both efficient and user-friendly.",
-    name: "Skyloft Banquets",
-    location: "USA",
-    img : assets.image171},
   {
     text: "De Solutions delivered a robust ERP system that improved our internal management processes. Their technical expertise and dedication made implementation effortless.",
     name: "Capri International Pvt Limited",

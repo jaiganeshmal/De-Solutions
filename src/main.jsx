@@ -3,10 +3,12 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import ScrollToTop from "./Components/scrollToTop.jsx";
+import { Toaster } from "react-hot-toast";
 
 createRoot(document.getElementById("root")).render(
   <>
     <App />
     <ScrollToTop /> 
+    <Toaster position="top-right" reverseOrder={false} />
   </>
 );
