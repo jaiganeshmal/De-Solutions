@@ -5,7 +5,7 @@ import { allianceImages } from "../assets/global";
 
 
 const AlliancesCompliances = () => {
-  
+
   return (
     <section className="w-full py-10" style={{ backgroundColor: "#2E2E2E" }}>
       <div className="container mx-auto text-center px-4">

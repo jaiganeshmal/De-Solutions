@@ -7,7 +7,7 @@ const TechPartnersSection = () => {
   return (
     <section className="bg-[#1B1B1B] py-10">
       <div className="container mx-auto px-6 flex flex-col space-y-8">
-        
+
         {/* Heading */}
         <div className="text-center space-y-4">
           <h2 className="text-4xl md:text-5xl font-extrabold text-white">

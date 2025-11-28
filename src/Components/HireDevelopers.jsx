@@ -24,9 +24,9 @@ const HireDevelopers = () => {
             needs.
           </p>
 
-          <button 
-          onClick={()=> navigate('/contact')}
-          className="inline-flex items-center gap-3 bg-[#199dea] hover:bg-[#085cc9] text-white px-6 py-3 rounded-lg font-medium text-lg transition duration-300">
+          <button
+            onClick={() => navigate('/contact')}
+            className="inline-flex items-center gap-3 bg-[#199dea] hover:bg-[#085cc9] text-white px-6 py-3 rounded-lg font-medium text-lg transition duration-300">
             Get Consultation
             <FaArrowRight className="w-5 h-5" />
           </button>

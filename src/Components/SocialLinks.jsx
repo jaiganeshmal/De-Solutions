@@ -4,7 +4,7 @@ import { FaFacebookMessenger } from "react-icons/fa6";
 import { FaPhoneAlt, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 const SocialLinks = () => {
-  
+
   const items = [
     {
       icon: <FaFacebookMessenger size={20} />,

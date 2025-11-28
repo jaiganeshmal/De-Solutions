@@ -8,7 +8,7 @@ import { Toaster } from "react-hot-toast";
 createRoot(document.getElementById("root")).render(
   <>
     <App />
-    <ScrollToTop /> 
+    <ScrollToTop />
     <Toaster position="top-right" reverseOrder={false} />
   </>
 );

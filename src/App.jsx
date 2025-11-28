@@ -6,8 +6,9 @@ const Home = React.lazy(() => import("./Pages/Home"));
 const About = React.lazy(() => import("./Pages/About"));
 const Services = React.lazy(() => import("./Pages/Services"));
 const Industries = React.lazy(() => import("./Pages/Industries"));
-const Career = React.lazy(() => import("./Pages/Career"));
 const Portfolio = React.lazy(() => import("./Pages/Portfolio"));
+const Clientle = React.lazy(() => import("./Pages/Clientle"));
+const Career = React.lazy(() => import("./Pages/Career"));
 const Contact = React.lazy(() => import("./Pages/Contact"));
 const SocialLinks = React.lazy(() => import("./Components/SocialLinks"));
 const Footer = React.lazy(() => import("./Components/Footer"));
@@ -23,8 +24,9 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/industries" element={<Industries />} />
-            <Route path="/career" element={<Career />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/clientle" element={<Clientle />} />
+            <Route path="/career" element={<Career />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Suspense>

@@ -1,20 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { navItems } from "../assets/global";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-
-  const navItems = [
-    { to: "/", label: "Home" },
-    { to: "/about", label: "About" },
-    { to: "/services", label: "Services" },
-    { to: "/industries", label: "Industries" },
-    { to: "/portfolio", label: "Portfolio" },
-    { to: "/career", label: "Career" },
-    { to: "/contact", label: "Contact" },
-  ];
 
   // 👇 Scroll event listener
   useEffect(() => {
@@ -32,9 +23,8 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed top-0 w-full z-50 transition-colors duration-300 ${
-        scrolled ? "bg-black/70 backdrop-blur-md" : "bg-transparent"
-      }`}
+      className={`fixed top-0 w-full z-50 transition-colors duration-300 ${scrolled ? "bg-black/70 backdrop-blur-md" : "bg-transparent"
+        }`}
     >
       <nav className="flex items-center justify-between mx-auto max-w-7xl py-3 px-6">
         {/* Logo */}
@@ -51,10 +41,9 @@ const Navbar = () => {
               key={i}
               to={item.to}
               className={({ isActive }) =>
-                `${
-                  isActive
-                    ? "underline decoration-2 decoration-[#199dea] underline-offset-4"
-                    : ""
+                `${isActive
+                  ? "underline decoration-2 decoration-[#199dea] underline-offset-4"
+                  : ""
                 } cursor-pointer text-lg font-semibold text-white`
               }
             >
@@ -84,10 +73,9 @@ const Navbar = () => {
               to={item.to}
               onClick={() => setMenuOpen(false)}
               className={({ isActive }) =>
-                `${
-                  isActive
-                    ? "underline decoration-2 decoration-[#199dea] underline-offset-4"
-                    : ""
+                `${isActive
+                  ? "underline decoration-2 decoration-[#199dea] underline-offset-4"
+                  : ""
                 } cursor-pointer text-lg font-semibold`
               }
             >

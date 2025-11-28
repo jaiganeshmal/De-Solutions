@@ -63,7 +63,7 @@ const ClientsSection = () => {
                                             <p className="text-sm text-gray-600">{item.location}</p>
                                         </div>
                                         {item?.img ? (
-                                            <img src={item.img} alt="" className="w-20" />
+                                            <img src={item.img} alt="" className="w-20 " />
                                         ) : (
                                             <span>NAN</span>
                                         )}

@@ -6,7 +6,7 @@ const DigitalTransformation = () => {
   return (
     <section className="w-full min-h-[75vh] px-6 py-10 bg-gray-50 flex items-center">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
-        
+
         {/* Left Side: Heading + Paragraph */}
         <div className="flex-1">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
@@ -20,8 +20,8 @@ const DigitalTransformation = () => {
         {/* Right Side: Button */}
         <div className="flex-shrink-0">
           <button
-          onClick={()=> navigate('/services')} 
-          className="bg-[#199dea] text-white font-semibold text-lg md:text-xl px-8 py-4 rounded-xl shadow-md hover:bg-[#085cc9] transition-all duration-300">
+            onClick={() => navigate('/services')}
+            className="bg-[#199dea] text-white font-semibold text-lg md:text-xl px-8 py-4 rounded-xl shadow-md hover:bg-[#085cc9] transition-all duration-300">
             Learn More
           </button>
         </div>

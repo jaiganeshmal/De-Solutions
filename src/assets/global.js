@@ -158,6 +158,17 @@ export let assets = {
   image177: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1762941392/img178_fe3fyg.png',
 }
 
+export  const navItems = [
+    { to: "/", label: "Home" },
+    { to: "/about", label: "About" },
+    { to: "/services", label: "Services" },
+    { to: "/industries", label: "Industries" },
+    { to: "/portfolio", label: "Portfolio" },
+    { to: "/clientle", label: "Clientle" },
+    { to: "/career", label: "Career" },
+    { to: "/contact", label: "Contact" },
+  ];
+
 // Home Page Component Data 
 
 // GlobalImpact

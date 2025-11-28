@@ -5,7 +5,7 @@ const ExploreProducts = () => {
   return (
     <section className="w-full py-14" style={{ backgroundColor: "#EEEEEE" }}>
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
-        
+
         {/* Left Side - Heading & Paragraph */}
         <div className="md:w-2/3">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
@@ -20,7 +20,7 @@ const ExploreProducts = () => {
         <div className="md:w-1/3 flex justify-start md:justify-end">
           <Link
             to="/contact"
-            className="bg-[#199dea] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#0DACAF] transition"
+            className="bg-[#199dea] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#085cc9] transition"
           >
             Explore More
           </Link>

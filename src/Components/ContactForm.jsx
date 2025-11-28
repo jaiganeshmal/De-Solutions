@@ -105,7 +105,7 @@ const ContactForm = () => {
           {/* Captcha */}
           <div className="md:col-span-2 flex justify-start">
             <ReCAPTCHA
-              sitekey="6LeYEgssAAAAAIMqF8McOSdGIODrDbpqGfoM-ZY7" // ✅ your working v2 site key
+              sitekey="6LfdlBcsAAAAAH2Oh-nq1koWgLHKutCRBTZS4Blz" // ✅ your working v2 site key
               onChange={handleCaptcha}
             />
           </div>

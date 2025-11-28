@@ -5,7 +5,7 @@ const OurServicesSection = () => {
   return (
     <section className="bg-gray-50 py-10">
       <div className="container mx-auto px-6 flex flex-col space-y-6">
-        
+
         {/* Heading */}
         <div className="text-center space-y-3 max-w-3xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-extrabold">

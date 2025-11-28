@@ -5,10 +5,10 @@ const CeoMessage = () => {
   return (
     <section className="bg-white py-10">
       <div className="container mx-auto px-6 flex flex-col md:flex-row gap-10 md:items-start items-center">
-        
+
         {/* Left Side - Image & Info */}
         <div className="flex flex-col items-center md:items-start md:w-2/5">
-          <div className="w-full md:size-80 h-auto border border-black shadow-lg rounded overflow-hidden mb-4">
+          <div className="w-full md:size-80 h-auto shadow-md rounded overflow-hidden mb-4">
             <img
               src={assets.image33}
               alt="CEO"

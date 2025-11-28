@@ -9,7 +9,7 @@ const TopRankedSection = () => {
   return (
     <section className="bg-[#1B1B1B] py-10 text-white">
       <div className="container mx-auto px-6 flex flex-col items-center space-y-8">
-        
+
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-extrabold text-center leading-snug">
           Ranked As #1 <span className="text-[#199dea]">Android App</span> Development Company

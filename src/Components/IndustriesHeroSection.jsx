@@ -110,7 +110,8 @@ const IndustriesHeroSection = () => {
             {/* reCAPTCHA */}
             <div className="scale-90 origin-left">
               <ReCAPTCHA
-                sitekey="6LeYEgssAAAAAIMqF8McOSdGIODrDbpqGfoM-ZY7" // ✅ your working v2 key
+                // sitekey="6LeYEgssAAAAAIMqF8McOSdGIODrDbpqGfoM-ZY7" // ✅ your working v2 key
+                sitekey="6LfdlBcsAAAAAH2Oh-nq1koWgLHKutCRBTZS4Blz"
                 onChange={handleCaptchaChange}
               />
             </div>

@@ -13,7 +13,7 @@ const ProjectCTA = ({
   return (
     <section className="bg-white py-10">
       <div className="container mx-auto px-12 flex flex-col lg:flex-row justify-around items-center gap-8">
-        
+
         {/* Left Text */}
         <h2 className="text-4xl md:text-5xl font-extrabold text-center lg:text-left">
           {heading.split(highlight)[0]}
@@ -23,7 +23,7 @@ const ProjectCTA = ({
 
         {/* Right Button */}
         <button
-          onClick={()=> navigate('/contact')}
+          onClick={() => navigate('/contact')}
           style={{ backgroundColor: buttonColor }}
           className="flex items-center gap-3 text-white font-semibold px-6 py-4 rounded-xl shadow-lg hover:bg-[#085cc9] transition cursor-pointer"
         >

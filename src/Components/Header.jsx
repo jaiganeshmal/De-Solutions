@@ -25,7 +25,7 @@ const Header = () => {
         <h1 className="text-3xl sm:text-4xl md:text-5xl  font-bold leading-snug md:leading-[1.2] text-left ">
           Top-Rated <br />
           <span className="text-[#199dea]">
-            ERP & Mobile App Development 
+            ERP & Mobile App Development
           </span>
           <br />
           Company Smart Solutions <br />

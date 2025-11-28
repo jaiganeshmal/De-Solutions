@@ -44,8 +44,8 @@ const AtAGlance = () => {
           <div className="bg-white rounded-lg md:h-[60vh] max-w-3xl w-full relative p-5">
             {/* Close Button */}
             <button
-              onClick={() => setIsOpen(false) }
-              className="absolute top-0 right-1 text-gray-700 font-bold text-3xl hover:text-gray-900"
+              onClick={() => setIsOpen(false)}
+              className="absolute -top-1 right-1 text-gray-700 font-bold text-3xl hover:text-gray-900"
             >
               &times;
             </button>
