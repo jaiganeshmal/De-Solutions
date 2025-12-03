@@ -1,5 +1,5 @@
-// src/Components/ClientCTA.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ClientCTA = () => {
   return (
@@ -12,12 +12,11 @@ const ClientCTA = () => {
         Let’s build something amazing for your business.
       </p>
 
-      <a
-        href="/contact"
+      <Link to='/contact'
         className="bg-white text-[#199dea] px-8 py-3 rounded-full font-semibold shadow hover:bg-gray-200 transition"
       >
         Contact Us
-      </a>
+      </Link>
     </section>
   );
 };

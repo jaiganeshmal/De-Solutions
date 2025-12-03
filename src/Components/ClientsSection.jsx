@@ -1,11 +1,5 @@
-import React from "react";
-import { FaQuoteRight } from "react-icons/fa";
-// import img1 from "../assets/img/logo1.png"
-
-// Swiper imports
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
-
 // Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";

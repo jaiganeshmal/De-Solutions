@@ -1,4 +1,3 @@
-// src/Components/ClientLogosSection.jsx
 import React from "react";
 import { assets } from "../assets/global";
 
@@ -51,8 +50,6 @@ const ClientLogosSection = () => {
                         </div>
                     ))}
                 </div>
-
-
             </div>
         </section>
     );
